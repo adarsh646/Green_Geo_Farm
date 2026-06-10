@@ -1,0 +1,29 @@
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Datasets
+data_sets/
+*.zip
+*.tar.gz
+
+# Python Caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# IDE & Editor folders
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Log files
+*.log
+training_log.txt
+
+# (Optional) If your model is larger than 50MB, Git might reject it unless you use Git LFS. 
+# Our ResNet18 is ~44MB so it will push fine, but if you change models later, be careful!
