@@ -1,0 +1,13 @@
+train: ./train/images
+val: ./valid/images
+test: ./test/images
+
+nc: 3
+names: ['cow-feeding', 'cow-resting', 'cow-standing']
+
+roboflow:
+  workspace: new-workspace-wkk7o
+  project: cattle-detection-jl1pc
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/new-workspace-wkk7o/cattle-detection-jl1pc/dataset/1

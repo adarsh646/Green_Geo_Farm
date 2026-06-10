@@ -1,0 +1,2500 @@
+
+--- Page 16 ---
+ 
+Draft - VM0041, v3.0 
+ 
+15 
+EMAi 
+= 
+Total emissions associated with manure decomposition for farm i 
+during the monitoring period (t CO2e) 
+ 
+8.2.1 Enteric Methane Emissions Reduction Factor (ERFEnteric_i,j) 
+There are two options for calculating the enteric methane emissions reduction factor. 
+𝑬𝑹𝑭𝑬𝒏𝒕𝒆𝒓𝒊𝒄𝒊,𝒋 Option 1 
+Directly measure enteric methane to estimate methane production per animal group per day 
+while consuming the feed ingredient during the monitoring period. The project proponent 
+directly measures enteric methane (following the guidelines in Appendix 2) during the first 
+monitoring period. The project proponent must provide the scientific protocol and the 
+measurement data. This value is validated and then eligible for use during the entire project 
+crediting period, provided no significant project parameters (e.g., feeding regime, animal type, 
+weight, production phase, conditions) have changed. The enteric emission reduction factor of 
+the feed ingredient is quantified using Equation (7), by comparing actual project performance to 
+baseline enteric emission (Option 1 in Section 8.1). 
+𝐸𝑅𝐹𝐸𝑛𝑡𝑒𝑟𝑖𝑐𝑖,𝑗= 
+𝐸𝐹𝐸𝑛𝑡𝑒𝑟𝑖𝑐𝑖,𝑗−(𝑃𝐸𝐹𝑖,𝑗× 𝑁𝑖,𝑗× 𝐷𝑎𝑦𝑠𝑖,𝑗)
+𝐸𝐹𝐸𝑛𝑡𝑒𝑟𝑖𝑐𝑖,𝑗
+× 100 
+(7) 
+Where: 
+𝐸𝑅𝐹𝐸𝑛𝑡𝑒𝑟𝑖𝑐𝑖,𝑗 
+= 
+Reduction in enteric CH4 emissions per animal in group j on farm i 
+due to the feed ingredient during the monitoring period (%) 
+𝐸𝐹𝐸𝑛𝑡𝑒𝑟𝑖𝑐𝑖,𝑗 
+= 
+Enteric CH4 emissions for each animal group j on farm i during the 
+monitoring period, determined using Equations (2), (3), or (4) (kg CH4) 
+PEFi,j 
+= 
+Average enteric emissions production factor for animal group j on 
+farm i during the monitoring period (on-site direct measurement by 
+chosen technology) (kg CH4/head/d) 
+Ni,j 
+= 
+Mean number of head in animal group j on farm i consuming a feed 
+ingredient in the monitoring period (head) 
+Daysi,j 
+= 
+Number of days spent on farm i by each animal in group j during the 
+monitoring period (d) 
+ 
+𝑬𝑹𝑭𝑬𝒏𝒕𝒆𝒓𝒊𝒄𝒊,𝒋 Option 2 
+Apply the enteric emission reduction factor (%) of the feed ingredient and calculate emissions 
+using Equation (5). The enteric emission reduction factor must be established through a meta-
+analysis of at least three peer-reviewed publications in journals that are listed in the Web of 
+Science: Science Citation Index.6 Project proponents must report the underlying information 
+ 
+6 Available at: https://mjl.clarivate.com 
+
+--- Page 17 ---
+ 
+Draft - VM0041, v3.0 
+ 
+16 
+related to the data selected from peer-reviewed literature for the meta-analysis and used to 
+estimate emission reduction factors.7 
+The meta-analysis must consider dose, diet, production system, type of animal, and random 
+variation, all of which influence the efficacy of feed additives. The conditions of the project 
+must not deviate greatly from the conditions under which the enteric methane emissions 
+reduction factor is determined in the meta-analysis of published results. This applies to both 
+the categorical parameters (e.g., animal type) and variable parameters (e.g., DMI, digestible 
+energy, neutral detergent fiber, housing). In the meta-analysis, meta-regressions for ERF may be 
+derived to correct for measured variables within a project that are outside the 95% confidence 
+interval (e.g., ERF = a × DMI + b). Where there are significant differences in the project 
+parameters that cannot be adjusted for in the meta-analysis, the project proponent must use 
+Option 1 to obtain ERFEnteric_i,j. 
+8.2.2 GHG Emissions from Feed Ingredient Manufacturing and Transport 
+Emissions from the feed ingredient are estimated by including all GHG sources from 
+manufacturing and transport. Accounting for these GHG sources is not required for a project 
+where such emissions are shown to be de minimis.8 Otherwise, these emissions must be 
+estimated as follows: 
+𝐸𝐹𝑀𝐸 𝑖= 𝐹𝑀𝑖× (𝐸𝐹𝑃+ 𝐸𝐹𝑁𝑂3) 
+1000
++ 𝐸𝐹𝑇𝑖 
+(8) 
+Where: 
+EFMEi 
+= 
+Total emissions associated with manufacturing and transport of the 
+feed ingredient for farm i during the monitoring period (t CO2e) 
+FMi 
+= 
+Amount of feed ingredient purchased by farm i during the monitoring 
+period (kg) 
+EFP 
+= 
+Emission factor for production of feed ingredient (kg CO2e/kg) 
+EFNO3 
+= 
+Emission factor for production of nitrate-based products (kg CO2e/kg) 
+𝐸𝐹𝑇𝑖 
+= 
+Emissions from transport to farm i of total feed ingredient consumed 
+during the monitoring period (t CO2e) 
+ 
+Project emissions from the production of the feed ingredient at the manufacturer’s production 
+facility are calculated as follows: 
+𝐸𝐹𝑃= (𝑄𝑒𝑙𝑒𝑐× 𝐸𝐹𝑒𝑙𝑒𝑐) + (𝑄𝑓𝑓𝑎× 𝐹𝐶𝑎× 𝐸𝐹𝑎) 
+(9) 
+ 
+7 For example, data must be representative of the project activity (i.e., equivalent geographic location, feed ingredient, 
+herd structure, and feed regime). Otherwise, a justification for the data selection must be provided and approved. 
+8 The pool or source may be excluded only where it is determined to be insignificant using appropriate approved tools 
+for significance testing (e.g., the CDM Tool for Testing Significance of GHG Emissions in A/R CDM Project Activities, v01. 
+Available at: https://cdm.unfccc.int/methodologies/ARmethodologies/tools/ar-am-tool-04-v1.pdf). 
+
+--- Page 18 ---
+ 
+Draft - VM0041, v3.0 
+ 
+17 
+Where: 
+EFP 
+= 
+Emission factor for production of feed ingredient (kg CO2e/kg) 
+QElec 
+= 
+Quantity of grid electricity used by production facility per kilogram of 
+feed ingredient produced during the monitoring period (MWh/kg) 
+EFElec 
+= 
+Electricity emission factor (kg CO2/MWh) 
+𝑄𝑓𝑓𝑎 
+= 
+Quantity of fossil fuel type a used at the production facility per 
+kilogram of feed ingredient produced during the monitoring period 
+(volume fuel/kg feed ingredient or kg fuel/kg feed ingredient) 
+FCa 
+= 
+Energy content per unit of combusted fuel type a (TJ/volume or TJ/kg 
+fuel) 
+EFa 
+= 
+Emission factor for fuel type a (kg CO2e/TJ) 
+Where values for the parameters in Equation (9) are not available, EFP should be developed 
+from one of the databases listed in Table 1 in the FAO Environmental Performance of Feed 
+Additives in Livestock Supply Chains.9  
+Project emissions from transport of the feed ingredient to the project site are calculated as 
+follows: 
+𝐸𝐹𝑇𝑖= 𝑇𝐸𝐹𝑖,𝑚× 𝐷𝑖,𝑚× 𝐹𝑀𝑖   
+(10) 
+Where: 
+𝐸𝐹𝑇𝑖 
+= 
+Emissions from transport to farm i of total feed ingredient consumed 
+during the monitoring period (t CO2e) 
+TEFi,m 
+= 
+CO2 emitted by transport mode m per kilogram of feed ingredient 
+delivered to and consumed on farm i during the monitoring period 
+(t CO2/kg/km) 
+Di,m 
+= 
+Distance traveled by transport mode m delivering feed ingredient 
+consumed on farm i during the monitoring period (km) 
+FMi 
+= 
+Amount of feed ingredient purchased by farm i during the monitoring 
+period (kg) 
+Where values for the parameters in Equation (10) are not available, they should be developed 
+using Section 6.5 of the FAO Environmental Performance of Feed Additives in Livestock Supply 
+Chains.  
+8.2.3 GHG Emissions from Shifts in Manure Decomposition Due to Application of Feed 
+Ingredient 
+Emissions from the feed ingredient are estimated by including all GHG sources from manure 
+decomposition. Accounting for these GHG sources is not required for a project where such 
+ 
+9 Available at: https://doi.org/10.4060/ca9744en 
+
+--- Page 19 ---
+ 
+Draft - VM0041, v3.0 
+ 
+18 
+emissions are shown to be de minimis.10 Otherwise, these emissions must be estimated as 
+follows: 
+𝐸𝑀𝐴 𝑖= (𝐶𝐻4𝑖× 𝐺𝑊𝑃𝐶𝐻4
+1000 ) + (𝑁2𝑂𝑖× 𝐺𝑊𝑃𝑁2𝑂
+1000 )  
+(11) 
+Where: 
+EMAi 
+= 
+Total emissions associated with manure decomposition for farm i during 
+the monitoring period (t CO2e) 
+CH4i 
+= 
+Methane emissions from manure decomposition on farm i during the 
+monitoring period (kg CH4) 
+GWPCH4 
+= 
+Global warming potential for methane (dimensionless) 
+N2Oi 
+= 
+Direct N2O emissions from manure decomposition on farm i during the 
+monitoring period (kg N2O) 
+GWPN2O 
+= 
+Global warming potential for nitrous oxide (dimensionless) 
+ 
+Where the feed ingredient is documented to significantly impact manure nutrient composition 
+and related methane emissions from manure decomposition (p ≤ 0.05), project emissions must 
+be calculated as follows: 
+𝐶𝐻4𝑖= ∑
+(𝑁𝑖,𝑗× 𝑉𝑆𝑖,𝑗× 𝐴𝑊𝑀𝑆𝑖,𝑗,𝑆× 𝐸𝐹𝑖,𝑗,𝑆) × 0.001
+𝑗,𝑆
+  
+(12) 
+Where: 
+CH4i 
+= 
+Methane emissions from manure decomposition on farm i during the 
+monitoring period (kg CH4) 
+Ni,j 
+= 
+Mean number of head in animal group j on farm i consuming a feed 
+ingredient in the monitoring period (head) 
+VSi,j 
+= 
+Annual average excretion of volatile solids by animal group j on farm i 
+during the monitoring period (kg/head) 
+AWMSi,j,S 
+= 
+Fraction of total annual volatile solids from animal group j that is 
+managed in manure system S on farm i (dimensionless) 
+EFi,j,S 
+= 
+Emission factor for direct methane emissions from management system 
+S of manure from animal group j on farm i (g CH4/kg volatile solids) 
+ 
+Where the feed ingredient is documented to significantly impact manure nutrient composition 
+and related nitrous oxide emissions from manure decomposition, project emissions must be 
+calculated as follows: 
+ 
+10 The pool or source may be excluded only where it is determined to be insignificant using appropriate approved tools 
+for significance testing (e.g., the CDM Tool for Testing Significance of GHG Emissions in A/R CDM Project Activities, v01. 
+Available at: https://cdm.unfccc.int/methodologies/ARmethodologies/tools/ar-am-tool-04-v1.pdf). 
+
+--- Page 20 ---
+ 
+Draft - VM0041, v3.0 
+ 
+19 
+𝑁2𝑂𝑖= (∑(∑(𝑁𝑖,𝑗× 𝑁𝑒𝑥𝑗× 𝐴𝑊𝑀𝑆𝑖,𝑗,𝑆)
+𝑗
++ 𝑁𝑐𝑑𝑔(𝑆)) × 𝐸𝐹3,𝑆
+𝑆
+) × 44
+28  
+(13) 
+Where: 
+N2O i 
+= 
+Direct N2O emissions from manure decomposition in farm i during the 
+monitoring period (kg N2O) 
+Ni,j 
+= 
+Mean number of head in animal group j on farm i consuming a feed 
+ingredient in the monitoring period (head) 
+Nexj 
+= 
+Annual average nitrogen excretion per head in animal group j (kg 
+N/head) 
+AWMSi,j,S 
+= 
+Fraction of total annual volatile solids from animal group j managed 
+in manure system S on farm i (dimensionless) 
+Ncdg(S) 
+= 
+Annual nitrogen input via co-digestate, where S is anaerobic digestion 
+(kg N) 
+EF3,S 
+= 
+Emission factor for direct N2O emissions from manure management 
+system S (kg N2O-N/kg N) 
+44/28 
+= 
+Conversion of N2O-N emissions to N2O emissions 
+ 
+8.3 
+Leakage 
+Leakage may occur due to a change in the number of animals in the livestock operation 
+resulting from impacts on livestock performance from introducing the feed ingredient. This 
+necessitates changes in livestock populations in non-project operations to fulfill market 
+demand. While feed ingredients are generally expected to have an insignificant impact on 
+livestock performance, some studies demonstrate enhancements (e.g., Kinley et al. 2020). 
+However, any resulting productivity improvements are not expected to impact GHG emission 
+reductions and thus do not need to be accounted for. Due to the economics of livestock 
+production, it is unlikely that the costs and risks associated with increasing or decreasing the 
+number of animals in the operation is justified from the minimal expected changes in animal 
+performance alone. Therefore, leakage is considered to be zero. 
+8.4 
+Net Reductions and Removals 
+Net GHG emission reductions (“reductions”) are calculated as follows: 
+𝐸𝑅𝐸𝑛𝑡𝑒𝑟𝑖𝑐= ∑ 𝐵𝐸𝐸𝑛𝑡𝑒𝑟𝑖𝑐𝑖−𝑃𝐸𝐸𝑛𝑡𝑒𝑟𝑖𝑐𝑖
+𝑖
+ 
+(14) 
+Where: 
+EREnteric 
+= 
+Total GHG emission reductions due to project activities during the 
+monitoring period (t СО2e) 
+ BEEnterici 
+= 
+Total baseline CH4 emissions from livestock enteric fermentation on 
+farm i during the monitoring period (t CO2e) 
+
+--- Page 21 ---
+ 
+Draft - VM0041, v3.0 
+ 
+20 
+PEEnterici 
+= 
+Total project CH4 emissions from livestock enteric fermentation on 
+farm i, and from the production and transport of the ingredient used 
+during the monitoring period (t CO2e) 
+ 
+9 MONITORING 
+9.1 
+Data and Parameters Available at Validation 
+ 
+Data/Parameter 
+NDFj 
+Data unit 
+Percentage dry matter 
+Description 
+Neutral Detergent Fiber. Forage quality index. 
+Equations 
+None 
+Source of data 
+Records and data from livestock operator or associated partners for 
+three continuous years of historical data prior to the initiation of the 
+project or from national/regional statistics  
+Value applied 
+N/A 
+Justification of choice of 
+data or description of 
+measurement methods 
+and procedures applied 
+Data must be provided for each animal group by the livestock operator 
+or associated partners. Assessment of the quality of forage is typically 
+provided by the farmer’s nutritionist when formulating rations for the 
+animals. 
+NDF values are used to determine Ym. Detailed information can be 
+found in Appendix 3. 
+Purpose of data 
+Calculation of baseline emissions 
+Comments 
+None 
+ 
+Data/Parameter 
+𝐺𝑊𝑃𝐶𝐻4 
+Data unit 
+dimensionless 
+Description 
+Global warming potential of methane  
+Equations 
+(1), (6), (11) 
+Source of data 
+100-year time horizon IPCC defaults to be taken from the most recent 
+IPCC report 
+
+--- Page 22 ---
+ 
+Draft - VM0041, v3.0 
+ 
+21 
+Value applied 
+N/A 
+Justification of choice of 
+data or description of 
+measurement methods 
+and procedures applied 
+The IPCC Guidelines for National Greenhouse Gas Inventories is 
+internationally recognized and the data provided in the guidelines are 
+peer-reviewed. 
+To be updated for each crediting period where new data exist. 
+Purpose of data 
+Calculation of baseline and project emissions 
+Comments 
+None 
+ 
+Data/Parameter 
+GWP𝑁2𝑂 
+Data unit 
+dimensionless 
+Description 
+Global warming potential of nitrous oxide 
+Equations 
+(1), (6), (11) 
+Source of data 
+100-year time horizon IPCC defaults to be taken from the most recent 
+IPCC report 
+Value applied 
+N/A 
+Justification of choice of 
+data or description of 
+measurement methods 
+and procedures applied 
+The IPCC Guidelines for National Greenhouse Gas Inventories is 
+internationally recognized and the data provided in the guidelines are 
+peer-reviewed. 
+To be updated for each crediting period where new data exist. 
+Purpose of data 
+Calculation of baseline and project emissions 
+Comments 
+None 
+ 
+Data/Parameter 
+𝐸𝐹𝑃𝑟𝑜𝑑𝑢𝑐𝑡𝑖𝑜𝑛𝑖,𝑗 
+Data unit 
+kg CH4/head/d 
+Description 
+Mean enteric emissions production factor for animal group j on farm i 
+during the baseline or monitoring period (on-site direct measurement by 
+chosen technology) 
+Equations 
+(2) 
+Source of data 
+Data records and farm operations report 
+
+--- Page 23 ---
+ 
+Draft - VM0041, v3.0 
+ 
+22 
+Value applied 
+N/A 
+Justification of choice of 
+data or description of 
+measurement methods 
+and procedures applied 
+To quantify project enteric CH4 production per animal, samples for each 
+group are selected to be directly measured. The project proponent must 
+describe the required sampling protocols relevant to the project 
+context. Sampling protocols must include sufficient numbers and 
+sampling times to account for diurnal and postprandial variation in CH4 
+emissions. In animal studies, the preferred scientific method is the 
+calculation of sample size by power analysis (Charan and Kantharia 
+2013). More detail is provided in Appendix 2. 
+All CH4 measurement techniques are subject to experimental variation 
+and random errors, which must be considered when reporting the final 
+value.  
+Parameter to be reassessed for each crediting period. Where the value 
+is no longer representative, it must be updated.  
+New data must be collected where the value is no longer representative 
+due to changes in geographic location or material changes in the 
+following management practices: 
+• 
+Feeding regime (e.g., type and quality resulting in changes to 
+total DMI intake and nutritional value) 
+• 
+Animal group (e.g., species, breed) 
+• 
+Weight (i.e., variations on weight of more than 5%)  
+• 
+Number of animals 
+• 
+Production phase (i.e., resulting in any changes in the number 
+of days that an animal remains in the feed dock receiving the 
+feed ingredient) 
+Where the change in value is due to changes in the experimental design 
+and sample size of the population, project proponents must: 
+1) use appropriate significance tests (e.g., paired or unpaired t-
+test) to demonstrate that EFProduction_i,j changes by less than 5% 
+from the value in the previous monitoring period. 
+2)  Update the parameter by increasing it as per the results of the 
+test. In case of no clear results, 50% uncertainty must be 
+added. 
+3) report and justify the test used, and report sample sizes and 
+standard variations, p-values and confidence intervals, and 
+interpretation of significance. 
+Purpose of data 
+Calculation of baseline and project emissions 
+Comments 
+As direct measurements of methane emissions are required, the project 
+proponent or associated partner must demonstrate experience in 
+methane measurement technologies (i.e., at least one team member 
+must be a professional in the area of animal science, livestock health, 
+or nutrition with an MSc or PhD and professional/research experience 
+in the relevant discipline). 
+
+--- Page 24 ---
+ 
+Draft - VM0041, v3.0 
+ 
+23 
+ 
+Data/Parameter 
+Ymj 
+Data unit 
+dimensionless 
+Description 
+Conversion factor indicating the proportion of gross energy intake 
+converted to enteric CH4 energy by animal group j 
+Equations 
+(3) 
+Source of data 
+National or regional and population-specific Ym values should be used 
+where available, to better reflect ruminant population characteristics. 
+Default values provided in Table 5 (Appendix 3) may be used where 
+regional values are not available. 
+Value applied 
+N/A 
+Justification of choice of 
+data or description of 
+measurement methods 
+and procedures applied 
+Most national environmental agencies or similar government and 
+research institutions have accurate peer-reviewed studies that provide 
+Ym values. These values must be used where direct applicability is 
+demonstrated. IPCC default values for Ym (Table 5 in Appendix 3) are 
+provided for different animal categories and may be used where values 
+from country-specific research are not available. 
+Table 5 provides Ym values derived from cattle with diets containing 
+various levels of neutral detergent fiber (NDF) and digestible energy 
+(DE). The NDF values of the feed used in the project must be available 
+in order to use Table 5. 
+The IPCC Guidelines for National Greenhouse Gas Inventories is 
+internationally recognized and the data provided in the guidelines are 
+peer-reviewed. 
+Parameters from any source (e.g., IPCC or national agencies) must 
+apply the most conservative value of any uncertainty component.  
+Where using data from Table 5,  adjusted Ym values must be applied 
+and no further uncertainty deduction is required. Since a 20% 
+uncertainty discount for dairy and nondairy cows, buffalo, sheep and 
+goats have been applied 
+Where using data from other sources, the most conservative 
+uncertainty value of the data sources must be applied. Where 
+uncertainty values are not available, a 50% default uncertainty must be 
+applied.  
+Parameters to be updated for each crediting period where new data 
+exists. Any shift in animal group to those with different enteric 
+fermentation profiles must be reported. 
+Purpose of data 
+Calculation of baseline emissions 
+Comments 
+None 
+ 
+
+--- Page 25 ---
+ 
+Draft - VM0041, v3.0 
+ 
+24 
+Data/Parameter 
+EC 
+Data unit 
+MJ/kg  
+Description 
+Energy content of methane 
+Equations 
+(3) 
+Source of data 
+Default value taken from 2006 IPCC Guidelines for National 
+Greenhouse Gas Inventories11 
+Value applied 
+55.65 
+Justification of choice of 
+data or description of 
+measurement methods 
+and procedures applied 
+This is a standard property of methane (at 101.3 kPa, 15 °C). The IPCC 
+Guidelines for National Greenhouse Gas Inventories is internationally 
+recognized and the data provided in the guidelines are peer-reviewed. 
+Parameters to be updated for each crediting period where new data 
+exist. 
+Purpose of data 
+Calculation of baseline emissions 
+Comments 
+N/A 
+ 
+Data/Parameter 
+ED 
+Data unit 
+MJ/kg  
+Description 
+Average energy density of dry matter 
+Equations 
+(4) 
+Source of data 
+Default value or farm-specific data 
+Value applied 
+N/A 
+Justification of choice of 
+data or description of 
+measurement methods 
+and procedures applied 
+Farm-specific values should be used where available. Otherwise, use 
+the following typical energy density values: 
+• 
+19.10 MJ/kg for diets including edible oils with 4–6% fat content 
+• 
+18.45 MJ/kg for diets including edible oils with fat content below 
+4% 
+Parameters to be updated for each crediting period where new data 
+exist. 
+Purpose of data 
+Calculation of baseline emissions 
+ 
+11 Volume 4, Chapter 10, Section 10.3.2. Available at: https://www.ipcc-nggip.iges.or.jp/public/2019rf/vol4.html 
+
+--- Page 26 ---
+ 
+Draft - VM0041, v3.0 
+ 
+25 
+Comments 
+None 
+ 
+Data/Parameter 
+EFi,j 
+Data unit 
+kg CH4/head/d 
+Description 
+Average enteric CH4 emissions factor for each animal in group j on farm 
+i during the monitoring period 
+Equations 
+(5), (12) 
+Source of data 
+National or regional and population-specific factors should be used 
+where available, to better reflect population characteristics of the 
+ruminants. Default values provided in Appendix 4 may be used where 
+regional values are not available. 
+Value applied 
+N/A 
+Justification of choice of 
+data or description of 
+measurement methods 
+and procedures applied 
+Where using peer-reviewed literature to obtain values, data must be 
+published in journals on the Web of Science: Science Citation Index.  
+Parameters from any source (e.g., IPCC, national agencies) must apply 
+the most conservative value of the uncertainty component (i.e., a 50% 
+reduction must be applied to values taken from Appendix 4), in order to 
+account for uncertainty. 
+Parameter to be updated for each crediting period for which new data 
+exist. 
+Purpose of data 
+Calculation of baseline emissions 
+Comments 
+None 
+ 
+Data/Parameter 
+PEFi,j 
+Data unit 
+kg CH4/head/d 
+Description 
+Average enteric emissions production factor for animal group j on 
+farm i during the monitoring period (on-site direct measurement by 
+chosen technology) 
+Equations 
+ 
+𝐸𝑅𝐹𝐸𝑛𝑡𝑒𝑟𝑖𝑐𝑖,𝑗= 
+𝐸𝐹𝐸𝑛𝑡𝑒𝑟𝑖𝑐𝑖,𝑗−(𝑃𝐸𝐹𝑖,𝑗× 𝑁𝑖,𝑗× 𝐷𝑎𝑦𝑠𝑖,𝑗)
+𝐸𝐹𝐸𝑛𝑡𝑒𝑟𝑖𝑐𝑖,𝑗
+×
+ 
+Source of data 
+Data records and farm operations report 
+
+--- Page 27 ---
+ 
+Draft - VM0041, v3.0 
+ 
+26 
+Value applied 
+N/A 
+Justification of choice of 
+data or description of 
+measurement methods 
+and procedures applied 
+A sample for each animal group is selected for direct measurement. 
+The project proponent must describe the required sampling protocols 
+against objective conditions. Sampling protocols must include 
+sufficient numbers and sampling times to account for diurnal and 
+postprandial variation in CH4, as outlined in Appendix 2. 
+All CH4 measurement techniques are subject to experimental 
+variation and random errors, which must be considered when 
+reporting the final value. 
+Parameter to be reassessed for each crediting period. Where the 
+value is no longer representative, it must be updated.  
+New data must be collected where the value is no longer 
+representative due to changes in geographic location or material 
+changes in the following management practices: 
+• 
+Feeding regime (e.g., type and quality resulting in changes to 
+total DMI intake and nutritional value) 
+• 
+Animal group (e.g., species, breed)  
+• 
+Weight (i.e., variations of more than 5%)  
+• 
+Number of animals 
+• 
+Production phase (i.e., changes in the number of days that 
+an animal remains in the feed dock receiving the feed 
+ingredient) 
+Where the value is no longer representative due to changes in the 
+experimental design and sample size of the population, project 
+proponents must: 
+1) use appropriate significance tests (e.g., paired or unpaired t-
+test) to demonstrate that the change in PEFi,j is below 5%.  
+OR 
+2) Update the parameter by increasing it as per the results of 
+the test. In case of no clear results, 50% uncertainty must be 
+applied. 
+Report and justify the test used, and report sample sizes and 
+standard variations, p-values and confidence intervals, and 
+interpretation of significance. 
+Purpose of data 
+Calculation of project emissions 
+Comments 
+As direct measurements of methane emissions are required, the 
+project proponent or associated partner must demonstrate 
+experience in methane measurement technologies (i.e., at least one 
+team member must be a professional in animal science, livestock 
+health, or nutrition with an MSc or PhD and professional/research 
+experience in the relevant discipline). 
+ 
+
+--- Page 28 ---
+ 
+Draft - VM0041, v3.0 
+ 
+27 
+Data/Parameter 
+EFNO3 
+Data unit 
+kg CO2e/kg 
+Description 
+Emission factor for production of nitrate-based products 
+Equations 
+(8)) 
+Source of data 
+Feng and Kebreab (2020); Menegat et al. (2022)  
+Value applied 
+2.0 
+Justification of choice of 
+data or description of 
+measurement methods 
+and procedures applied 
+LCA studies estimate that calcium nitrate production emissions vary 
+from 0.67 to 1.76 kg CO2e/kg. The value applied in the methodology is 
+conservative. 
+Purpose of data 
+Calculation of project emissions 
+Comments 
+Includes all activities involved at the manufacturer’s facility to produce 
+the feed ingredient.  
+ 
+9.2 
+Data and Parameters Monitored 
+Data/Parameter 
+j 
+Data unit 
+Count 
+Description 
+Animal group  
+Equations 
+(1)(2), (2), (3), (4), (5), (6), (7), (12), (13) 
+Source of data 
+Data records of livestock operations using project feed ingredient 
+Description of 
+measurement methods 
+and procedures to be 
+applied 
+Ruminant populations at each farm i must be grouped based on a 
+homogeneous characteristic. Methane emissions from ruminants vary 
+by animal type, weight, production phase (e.g., pregnant or lactating), 
+feed type, and seasonal conditions. Accounting for these variations in a 
+ruminant population throughout the year is important to accurately 
+characterize annual emissions. 
+Project proponents must provide evidence at validation and each 
+verification that emissions estimates are based on a homogeneous 
+population and that herd size and individual animal characteristics 
+remain constant for a given period. An example of the detailed 
+characterization required for each livestock species is given in the 
+
+--- Page 29 ---
+ 
+Draft - VM0041, v3.0 
+ 
+28 
+2019 Refinement to the 2006 IPCC Guidelines for National 
+Greenhouse Gas Inventories.12 
+Frequency of 
+monitoring/recording 
+Once for validation and at least once per monitoring period 
+QA/QC procedures to be 
+applied 
+Management and quality control system to be established by the 
+project proponent at the start of the project. System may include data 
+recording and verification procedures. 
+Purpose of data 
+Calculation of baseline emissions 
+Calculation method 
+N/A 
+Comments 
+None 
+ 
+Data/Parameter 
+Ni,j 
+Data unit 
+Head 
+Description 
+Mean number of head in each animal group j on farm i consuming a 
+feed ingredient in the monitoring period 
+Equations 
+(2), (2)(3), (5), (7), (12), (13) 
+Source of data 
+Data records of livestock operations using the feed ingredient; farm 
+records 
+Description of 
+measurement methods 
+and procedures to be 
+applied 
+Farm inventory data must be calculated as the average number of 
+animals in each group, considering animal entry to and exit from the 
+group. This is a weighted average approach using the animal head × 
+days factor, as demonstrated in the example below.  
+ 
+Days on feed 
+Days x head 
+Number of head 
+1 
+(1 x 100) 
+1 x 100 
+2 
+(1 x 98) 
+1 x 98 
+3 
+(1 x 103) 
+1 x 103 
+Total = 3 
+Total = 301 
+Mean = 100 
+Frequency of 
+monitoring/recording 
+Single value depending on the number of head consuming the feed 
+ingredient in each animal group. Measured by averages calculated from 
+annual records. 
+ 
+12 Volume 4, Chapter 10, Table 10.1. Available at https://www.ipcc-nggip.iges.or.jp/public/2019rf/vol4.html 
+
+--- Page 30 ---
+ 
+Draft - VM0041, v3.0 
+ 
+29 
+QA/QC procedures to be 
+applied 
+Each farm record must list the number of animals in each group. 
+Management and monitoring system to be established by the project 
+proponent at the start of project. System may include data recording 
+and verification procedures. 
+Purpose of data 
+Calculation of baseline and project emissions 
+Calculation method 
+N/A 
+Comments 
+Monitoring is established at the feed purchaser level. An appropriate 
+and unique identification system for the purchasers (e.g., including 
+project proponent name, tax identification number, number of animals 
+in each group, unique invoice number and date) avoids double counting 
+of emissions reductions claimed. 
+At the time of reporting, baseline and project emissions must be 
+calculated based on livestock population, climatic conditions, and other 
+factors specific to the project and time period. 
+ 
+Data/Parameter 
+Daysi,j 
+Data unit 
+days 
+Description 
+Number of days spent on farm i by each animal in group j during the 
+monitoring period 
+Equations 
+(2), (3), (5), (7) 
+Source of data 
+Data records of livestock operations using project feed ingredient 
+Description of 
+measurement methods 
+and procedures to be 
+applied 
+None 
+Frequency of 
+monitoring/recording 
+Once for start date of ingredient feeding and once for end date of 
+ingredient feeding, for each animal group j 
+QA/QC procedures to be 
+applied 
+Management and quality control system to be established by the 
+project proponent at the start of the project. System may include data 
+recording and verification procedures. 
+Purpose of data 
+Calculation of baseline emissions 
+Calculation method 
+N/A 
+Comments 
+The number of days may be less than 365 (e.g., for young cattle, the 
+number of days represents the length of stay in specific animal group j). 
+ 
+
+--- Page 31 ---
+ 
+Draft - VM0041, v3.0 
+ 
+30 
+Data/Parameter 
+DMIj  
+Data unit 
+kg dry matter/head/d 
+Description 
+Average dry mass of feed consumed by animal group j in a given day 
+Equations 
+(4) 
+Source of data 
+Records and data from livestock operator or associated partners for 
+three continuous years of historical data prior to the initiation of the 
+project or from national/regional statistics  
+Description of 
+measurement methods 
+and procedures to be 
+applied 
+Data must be provided by the livestock operator or associated partners 
+for each animal group. Farm records must document the average daily 
+dry matter intake for each animal group in the project.  
+Frequency of 
+monitoring/recording 
+Parameter to be updated when any material changes in feeding regime 
+(e.g., average dry mass of feed consumed by the animal group) occur. 
+QA/QC procedures to be 
+applied 
+Management and quality control system to be established by the 
+project proponent at the start of the project. System may include data 
+recording and verification procedures. 
+Purpose of data 
+Calculation of baseline emissions 
+Calculation method 
+N/A 
+Comments 
+None 
+ 
+Data/Parameter 
+FMi 
+Data unit 
+kg 
+Description 
+Amount of feed ingredient purchased by farm i during the monitoring 
+period 
+Equations 
+(8), (10) 
+Source of data 
+Data records of livestock operations purchasing project feed ingredient 
+Description of 
+measurement methods 
+and procedures to be 
+applied 
+Monitoring is established at the feed purchaser level. An appropriate 
+and unique identification system for the purchasers is required (e.g., 
+including client name, unique invoice number and date, feed purchase 
+receipts, weights, and/or feed delivery records).  
+Delivery notes, invoices, and sales records must be cross-checked 
+between buyer and seller to verify the integrity of records. 
+
+--- Page 32 ---
+ 
+Draft - VM0041, v3.0 
+ 
+31 
+Frequency of 
+monitoring/recording 
+Annual 
+QA/QC procedures to be 
+applied 
+Management and quality control system to be established by the 
+project proponent at the start of the project. System may include data 
+recording and verification procedures. 
+Farm records or data managed by a third party showing both complete 
+feed purchased monthly and manufactured complete feed delivered to 
+each group. 
+Purpose of data 
+Calculation of project emissions 
+Calculation method 
+N/A 
+Comments 
+None 
+ 
+Data/Parameter 
+QElec  
+Data unit 
+MWh/kg 
+Description 
+Quantity of grid electricity used by production facility per kilogram of 
+feed ingredient produced during the monitoring period 
+Equations 
+(9) 
+Source of data 
+Documentation and date provided by the feed manufacturer 
+Description of 
+measurement methods 
+and procedures to be 
+applied 
+Electric utility bills provided by the manufacturer. 
+For production of the feed ingredient, the manufacturer must provide 
+the electricity consumption at the specific production line used to 
+manufacture the monthly quantity of feed ingredient. 
+Where product line-level data are not available, the manufacturer may 
+use a ratio based on the percentage of the total volume produced by 
+the facility that is represented by the feed ingredient. 
+Frequency of 
+monitoring/recording 
+Monthly 
+QA/QC procedures to be 
+applied 
+To confirm the production of feed ingredient, monthly production output 
+data must be available to the manufacturer. 
+Purpose of data 
+Calculation of project emissions 
+Calculation method 
+N/A 
+Comments 
+None 
+ 
+
+--- Page 33 ---
+ 
+Draft - VM0041, v3.0 
+ 
+32 
+Data/Parameter 
+𝑄𝑓𝑓𝑎 
+Data unit 
+Volume fuel/kg feed ingedient or kg fuel/kg feed ingredient 
+Description 
+Quantity of fossil fuel type a used at the production facility per kilogram 
+of feed ingredient produced during the monitoring period 
+Equations 
+(9) 
+Source of data 
+Report provided by the feed manufacturer 
+Description of 
+measurement methods 
+and procedures to be 
+applied 
+Fossil fuel invoices provided by the manufacturer. 
+For production of the feed ingredient, the manufacturer must provide 
+the quantity of fossil fuel used at the specific production line to 
+manufacture the monthly quantity of feed ingredient. 
+Where product line-level data are not available, the manufacturer may 
+use a ratio based on the percentage of the total volume produced by 
+the facility that is represented by the feed ingredient. 
+Frequency of 
+monitoring/recording 
+Monthly 
+QA/QC procedures to be 
+applied 
+To confirm the production of the feed ingredient, monthly production 
+output data must be available to the manufacturer. 
+Purpose of data 
+Calculation of project emissions 
+Calculation method 
+N/A 
+Comments 
+None 
+ 
+Data/Parameter 
+EFelec 
+Data unit 
+kg CO2/MWh 
+Description 
+Electricity emission factor 
+Equations 
+(9) 
+Source of data 
+Country-specific emission factors for grid electricity from a reputable 
+regional or national source. Otherwise, from an international 
+organization such as the International Energy Agency (IEA). 
+Description of 
+measurement methods 
+and procedures to be 
+applied 
+Default values must be sourced from recognized, credible sources and 
+be geographically and temporally relevant to the project context.  
+Estimation and reference values must be obtained from the relevant 
+national GHG inventory. The value used must be consistent with the 
+source of generation. In the absence of local or regional data, reference 
+
+--- Page 34 ---
+ 
+Draft - VM0041, v3.0 
+ 
+33 
+values may be obtained from the most recent version of the IPCC 
+Guidelines for National Greenhouse Gas Inventories. 
+Frequency of 
+monitoring/recording 
+Annual 
+QA/QC procedures to be 
+applied 
+N/A 
+Purpose of data 
+Calculation of project emissions 
+Calculation method 
+N/A 
+Comments 
+The most recent version of VCS tool VT0011 Electricity System 
+Emission Factors may be used to determine EFelec where national or 
+state/province data are not available.  
+ 
+Data/Parameter 
+FCa 
+Data unit 
+TJ/volume or TJ/kg fuel 
+Description 
+Energy content per unit of combusted fuel type a 
+Equations 
+(9) 
+Source of data 
+Regional or national default values from recognized sources or IPCC 
+reports 
+Description of 
+measurement methods 
+and procedures to be 
+applied 
+Where more than one recognized source is available, the most 
+appropriate source must be selected, based on data quality indicators 
+including technological appropriateness, regional specificity, and 
+vintage of the data. 
+These values must be based on well-documented, reliable sources (e.g., 
+national energy balances, government publications, industry 
+associations, World Resources Institute (WRI)/World Business Council 
+for Sustainable Development (WBCSD) GHG Protocol). 
+In the absence of local or regional data, reference values must be 
+obtained from the most recent version of the IPCC Guidelines for 
+National Greenhouse Gas Inventories. 
+Frequency of 
+monitoring/recording 
+Annual 
+QA/QC procedures to be 
+applied 
+N/A 
+Purpose of data 
+Calculation of project emissions 
+
+--- Page 35 ---
+ 
+Draft - VM0041, v3.0 
+ 
+34 
+Calculation method 
+N/A 
+Comments 
+None 
+ 
+Data/Parameter 
+EFa 
+Data unit 
+kg CO2e/TJ 
+Description 
+Emission factor for fuel type a 
+Equations 
+(9) 
+Source of data 
+Regional or national default values from recognized sources or IPCC 
+reports 
+Description of 
+measurement methods 
+and procedures to be 
+applied 
+Where more than one recognized source is available, the most 
+appropriate source must be selected, based on data quality indicators 
+including technological appropriateness, regional specificity, and 
+vintage of the data. 
+Frequency of 
+monitoring/recording 
+Annual 
+QA/QC procedures to be 
+applied 
+Default values must be sourced from recognized, credible sources and 
+be geographically and temporally relevant to the project context. 
+These values must be based on well-documented, reliable sources (e.g., 
+national energy balances, government publications, industry 
+associations, WRI/WBCSD GHG Protocol). 
+In the absence of local or regional data, reference values must be 
+obtained from the most recent version of the IPCC Guidelines for 
+National Greenhouse Gas Inventories. 
+Purpose of data 
+Calculation of project emissions 
+Calculation method 
+N/A 
+Comments 
+This parameter may be updated during the crediting period (using a 
+project description deviation) where more recent information becomes 
+available. 
+ 
+Data/Parameter 
+TEFi,m 
+Data unit 
+t CO2/kg/km 
+Description 
+CO2 emitted by transport mode m per kilogram of feed ingredient 
+delivered to and consumed on farm i during the monitoring period 
+
+--- Page 36 ---
+ 
+Draft - VM0041, v3.0 
+ 
+35 
+Equations 
+(10) 
+Source of data 
+Regional or national default values from recognized sources 
+Description of 
+measurement methods 
+and procedures to be 
+applied 
+Default values must be sourced from recognized, credible sources and 
+be geographically and temporally relevant to the project context. 
+These values must be based on well-documented, reliable sources. The 
+range of appropriate data must be documented, and the chosen data 
+must be justified, using criteria that include data source (recognized 
+and authoritative sources); geographic, temporal, and technological 
+specificity; conservativeness (i.e., does not overestimate reductions); 
+and the process by which the data have been peer-reviewed (preferred). 
+Frequency of 
+monitoring/recording 
+Monthly 
+QA/QC procedures to be 
+applied 
+Where more than one recognized source is available, the most 
+appropriate source must be selected, based on data quality indicators 
+including technological appropriateness, regional specificity, and 
+vintage of the data. 
+Purpose of data 
+Calculation of project emissions 
+Calculation method 
+N/A 
+Comments 
+None 
+ 
+Data/Parameter 
+Di,m 
+Data unit 
+km 
+Description 
+Distance traveled by transport mode m delivering feed ingredient 
+consumed on farm i during the monitoring period 
+Equations 
+(10) 
+Source of data 
+Data provided by the project proponent or manufacturer 
+Description of 
+measurement methods 
+and procedures to be 
+applied 
+Where the feed ingredient goes through a feedmill, the distance to the 
+feedmill rather than to the farm must be measured. 
+Frequency of 
+monitoring/recording 
+Monthly 
+
+--- Page 37 ---
+ 
+Draft - VM0041, v3.0 
+ 
+36 
+QA/QC procedures to be 
+applied 
+N/A 
+Purpose of data 
+Calculation of project emissions 
+Calculation method 
+N/A 
+Comments 
+Where there is a reliable, published life cycle analysis (LCA) for the 
+production and transport of the feed ingredient, this parameter may not 
+be needed, as it is assumed it is embedded into the LCA calculations. 
+ 
+Data/Parameter 
+VSi,j 
+Data unit 
+kg/head/yr 
+Description 
+Annual average excretion of volatile solids by animal group j on farm i  
+Equations 
+(12) 
+Source of data 
+Regional or national default values from recognized sources 
+Description of 
+measurement methods 
+and procedures to be 
+applied 
+Default values must be sourced from recognized, credible sources and 
+be geographically and temporally relevant to the project context. 
+These values must be based on well-documented, reliable sources. The 
+range of appropriate data must be documented, and the chosen data 
+must be justified, using criteria that include data source (recognized 
+and authoritative sources); geographic, temporal, and technological 
+specificity; conservativeness (i.e., does not overestimate reductions); 
+and the process by which the data have been peer-reviewed (preferred) 
+or proposed by national recommendations for cattle nutrient 
+requirements. Where regionally specific data cannot be collected or 
+derived, default volatile solid excretion rates from the 2019 Refinement 
+to the 2006 IPCC Guidelines for National Greenhouse Gas Inventories13 
+may be used. 
+Frequency of 
+monitoring/recording 
+Annual 
+QA/QC procedures to be 
+applied 
+Where more than one recognized source is available, the most 
+appropriate source must be selected, based on data quality indicators 
+including technological appropriateness, regional specificity, and 
+vintage of the data. 
+Purpose of data 
+Calculation of project emissions 
+ 
+13 Volume 4, Chapter 10, Table 10.13a. Available at: https://www.ipcc-nggip.iges.or.jp/public/2019rf/vol4.html 
+ 
+
+--- Page 38 ---
+ 
+Draft - VM0041, v3.0 
+ 
+37 
+Calculation method 
+N/A 
+Comments 
+None 
+ 
+Data/Parameter 
+AWMSi,j,S  
+Data unit 
+dimensionless 
+Description 
+Fraction of total annual volatile solids from animal group j that is 
+managed in manure management system S on farm i 
+Equations 
+(12), (13) 
+Source of data 
+Regional or national default values from recognized sources 
+Description of 
+measurement methods 
+and procedures to be 
+applied 
+Default values must be sourced from recognized, credible sources and 
+be geographically and temporally relevant to the project context. 
+These values must be based on well-documented, reliable sources. The 
+range of appropriate data must be documented, and the chosen data 
+must be justified, using criteria that include data source (recognized 
+and authoritative sources); geographic, temporal, and technological 
+specificity; conservativeness (i.e., does not overestimate reductions); 
+and the process by which the data have been peer-reviewed (preferred). 
+Where regionally specific data cannot be collected or derived, default 
+regionally specific AWMS fractions can be found in the 2019 
+Refinement to the 2006 IPCC Guidelines for National Greenhouse Gas 
+Inventories.14 
+Frequency of 
+monitoring/recording 
+Annual 
+QA/QC procedures to be 
+applied 
+Where more than one recognized source is available, the most 
+appropriate source must be selected, based on data quality indicators 
+including technological appropriateness, regional specificity, and 
+vintage of the data. 
+Purpose of data 
+Calculation of project emissions 
+Calculation method 
+N/A 
+Comments 
+None 
+ 
+Data/Parameter 
+EFi,j,S 
+ 
+ 
+14 Volume 4, Chapter 10, Annex 10A.2, Tables 10A.6 through 10A.9. Available at: https://www.ipcc-
+nggip.iges.or.jp/public/2019rf/vol4.html 
+
+--- Page 39 ---
+ 
+Draft - VM0041, v3.0 
+ 
+38 
+Data unit 
+g CH4/kg 
+Description 
+Emission factor for direct CH4 emissions from management system S of 
+manure from animal group j on farm i 
+Equations 
+(12) 
+Source of data 
+Regional or national default values from recognized sources 
+Description of 
+measurement methods 
+and procedures to be 
+applied 
+Default values must be sourced from recognized, credible sources and 
+be geographically and temporally relevant to the project context. 
+These values must be based on well-documented, reliable sources. The 
+range of appropriate data must be documented, and the chosen data 
+must be justified, using criteria that include data source (recognized 
+and authoritative sources); geographic, temporal, and technological 
+specificity; conservativeness (i.e., does not overestimate reductions); 
+and the process by which the data have been peer-reviewed (preferred). 
+Where regionally specific data cannot be collected or derived, default 
+values may be derived from the 2019 Refinement to the 2006 IPCC 
+Guidelines for National Greenhouse Gas Inventories.15 
+Frequency of 
+monitoring/recording 
+Annual 
+QA/QC procedures to be 
+applied 
+Where more than one recognized source is available, the most 
+appropriate source must be selected, based on data quality indicators 
+including technological appropriateness, regional specificity, and 
+vintage of the data. 
+Purpose of data 
+Calculation of project emissions 
+Calculation method 
+N/A 
+Comments 
+None 
+ 
+Data/Parameter 
+Nexj 
+Data unit 
+kg N/head/yr 
+Description 
+Annual average nitrogen excretion per head in animal group j  
+Equations 
+(13) 
+Source of data 
+Regional or national default values from recognized sources 
+ 
+15 Volume 4, Chapter 10, Table 10.14. Available at: https://www.ipcc-nggip.iges.or.jp/public/2019rf/vol4.html 
+
+--- Page 40 ---
+ 
+Draft - VM0041, v3.0 
+ 
+39 
+Description of 
+measurement methods 
+and procedures to be 
+applied 
+Default values must be sourced from recognized, credible sources and 
+be geographically and temporally relevant to the project context. 
+These values must be based on well-documented, reliable sources. The 
+range of appropriate data must be documented and the chosen data 
+must be justified, using criteria that include data source (recognized 
+and authoritative sources); geographic, temporal, and technological 
+specificity; conservativeness (i.e., does not overestimate reductions); 
+and the process by which the data have been peer-reviewed (preferred). 
+Where regionally specific data cannot be collected or derived, default 
+nitrogen excretion rates from the 2019 Refinement to the 2006 IPCC 
+Guidelines for National Greenhouse Gas Inventories16 may be used. 
+Frequency of 
+monitoring/recording 
+Annual 
+QA/QC procedures to be 
+applied 
+Where more than one recognized source is available, the most 
+appropriate source must be selected, based on data quality indicators 
+including technological appropriateness, regional specificity, and 
+vintage of the data. 
+Purpose of data 
+Calculation of project emissions 
+Calculation method 
+N/A 
+Comments 
+None 
+ 
+Data/Parameter 
+EF3,S 
+Data unit 
+kg N2O-N/kg N 
+Description 
+Emission factor for direct N2O emissions from manure management 
+system S 
+Equations 
+(13) 
+Source of data 
+Regional or national default values from recognized sources 
+Description of 
+measurement methods 
+and procedures to be 
+applied 
+Default values must be sourced from recognized, credible sources and 
+be geographically and temporally relevant to the project context. 
+These values must be based on well-documented, reliable sources. The 
+range of appropriate data must be documented and the chosen data 
+must be justified, using criteria that include data source (recognized 
+and authoritative sources); geographic, temporal, and technological 
+specificity; conservativeness (i.e., does not overestimate reductions); 
+and the process by which the data have been peer-reviewed (preferred). 
+ 
+16 Volume 4, Chapter 10, Table 10.19. Available at: https://www.ipcc-nggip.iges.or.jp/public/2019rf/vol4.html 
+ 
+
+--- Page 41 ---
+ 
+Draft - VM0041, v3.0 
+ 
+40 
+Where regionally specific data cannot be collected or derived, default 
+N2O emission factors from the 2019 Refinement to the 2006 IPCC 
+Guidelines for National Greenhouse Gas Inventories17 may be used. 
+Frequency of 
+monitoring/recording 
+Annual 
+QA/QC procedures to be 
+applied 
+Where more than one recognized source is available, the most 
+appropriate source must be selected, based on data quality indicators 
+including technological appropriateness, regional specificity, and 
+vintage of the data. 
+Purpose of data 
+Calculation of project emissions 
+Calculation method 
+N/A 
+Comments 
+None 
+ 
+9.3 
+Description of the Monitoring Plan 
+The project proponent must establish, maintain, and apply a monitoring plan and GHG 
+information system that includes criteria and procedures for obtaining, recording, compiling, 
+and analyzing data, parameters, and other information important for quantifying and reporting 
+GHG emissions. Where measurement and monitoring equipment is used, the project proponent 
+must ensure that the equipment is calibrated according to current good practice (e.g., relevant 
+industry standards). 
+The project proponent must be able to demonstrate that the ruminants for which it is claiming 
+reductions have been fed with the appropriate quantity of feed ingredient. Thus, project 
+proponents must provide detailed feeding records as per manufacturer instructions for each 
+farm as well as proof of purchase of an appropriate quantity of the feed ingredient. Proof of 
+purchase may be provided through delivery receipts and invoices, which must contain batch 
+information or other identification information, that trace the feed ingredient back to the 
+manufacturer. 
+Direct enteric methane emissions must be measured using state-of-the-art technologies, which 
+are well-documented in peer-reviewed publications. See Table 4 in Appendix 2 for examples. 
+All necessary documents must be collected and centrally stored by the project proponent and 
+be available for verification at any time. The data subject to monitoring and required for 
+verification must be archived and stored in electronic format by the project proponent for at 
+least two years after initial verification. 
+ 
+17 Volume 4, Chapter 10, Table 10.21. Available at https://www.ipcc-nggip.iges.or.jp/public/2019rf/vol4.html 
+
+--- Page 42 ---
+ 
+Draft - VM0041, v3.0 
+ 
+41 
+10 REFERENCES 
+Agriculture and Agri-Food Canada. 2022. “Government of Canada Announces up to $182.7 
+Million to Partner Organizations to Help Farmers Lower Emissions and Improve Resiliency to 
+Climate Change.” Accessed 8 September 2025. https://www.canada.ca/en/agriculture-agri-
+food/news/2022/02/government-of-canada-announces-up-to-1827-million-to-partner-
+organizations-to-help-farmers-lower-emissions-and-improve-resiliency-to-climate-change.html 
+Aguerre, M. J., M. A. Wattiaux, and J. M Powell. 2012. “Emissions of Ammonia, Nitrous Oxide, 
+Methane, and Carbon Dioxide During Storage of Dairy Cow Manure as Affected by Dietary 
+Forage-to-Concentrate Ratio and Crust Formation.” Journal of Dairy Science 95 (12): 7409–16. 
+https://doi.org/10.3168/jds.2012-5340 
+Aguerre, M. J., M. A. Wattiaux, J. M. Powell, G. A. Broderick, and C. Arndt. 2011. “Effect of 
+Forage-to-Concentrate Ratio in Dairy Cow Diets on Emission of Methane, Carbon Dioxide, and 
+Ammonia, Lactation Performance, and Manure Excretion.” Journal of Dairy Science 94 (6): 
+3081–93. https://doi.org/10.3168/jds.2010-4011 
+American Carbon Registry. 2014. Methodology for Grazing Land and Livestock Management, 
+v1.0. https://acrcarbon.org/methodology/inactive-grazing-land-and-livestock-management/ 
+Arndt, C., A. N. Hristov, W. J. Price, and Z. Yu. 2022. “Full Adoption of the Most Effective 
+Strategies to Mitigate Methane Emissions by Ruminants Can Help Meet the 1.5 °C Target by 
+2030 but not 2050.” Proceedings of the National Academy of Science 119 (20): 
+e2111294119. https://doi.org/10.1073/pnas.2111294119 
+Australian Department of Climate Change, Energy, the Environment and Water (DCCEEW). 
+2024. “$9 Million for Research Trials to Help Farmers Lower Livestock Emissions.” Accessed 8 
+September 2025. https://www.dcceew.gov.au/about/news/9-million-research-trials-help-
+farmers-lower-livestock-
+emissions#:~:text=Building%20on%20previous%20successes%2C%20this,and%20resources%
+20and%20waste%20sectors 
+Boadi, D., C. Benchaar, J. Chiquette, and D. Massé. 2004. “Mitigation Strategies to Reduce 
+Enteric Methane Emissions from Dairy Cows: Update Review.” Canadian Journal of Animal 
+Science 84 (3): 319–35. https://doi.org/10.4141/A03-109 
+Broucek, J. 2014. “Production of Methane Emissions from Ruminant Husbandry: A Review.” 
+Journal of Environmental Protection 5 (15): 1482–93. 
+https://doi.org/10.4236/jep.2014.515141 
+Chagunda, M. G. G. 2013. “Opportunities and Challenges in the Use of the Laser Methane 
+Detector to Monitor Enteric Methane Emissions from Ruminants.” Animal 7 (2): 394–400. 
+https://doi.org/10.1017/S1751731113000724 
+
+--- Page 43 ---
+ 
+Draft - VM0041, v3.0 
+ 
+42 
+Charan, J., and N. D. Kantharia. 2013. “How to Calculate Sample Size in Animal Studies?” 
+Journal of Pharmacology and Pharmacotherapeutics 4 (4): 303–6. 
+https://doi.org/10.4103/0976-500X.119726 
+DSM-Firmenich. 2023. “Large Scale Pilot Proves Methane-reducing Feed Additive Boaver® is 
+Ready for Roll-out in the Netherlands.” Accessed 8 September 2025. https://our-company.dsm-
+firmenich.com/en/our-company/news/press-releases/legacy-archive/2023/bovaer-is-ready-
+for-roll-out-in-the-netherlands.html 
+EFSA Panel on Additives and Products or Substances used in Animal Feed (FEEDAP), V. 
+Bampidis, G. Azimonti, et al. 2021. “Safety and Efficacy of a Feed Additive Consisting of 3-
+nitrooxypropanol (Boaver® 10) for Ruminants for Milk Production and Reproduction (DSM 
+Nutritional Products Ltd). EFSA Journal 19 (11): e06905. 
+https://doi.org/10.2903/j.efsa.2021.6905  
+Eger, M., M. Graz, S. Riede, and G. Breves. 2018. “Application of MootralTM Reduces Methane 
+Production by Altering the Archaea Community in the Rumen Simulation Technique.” Frontiers 
+in Microbiology 9: 2094. https://doi.org/10.3389/fmicb.2018.02094 
+Elanco. 2024. “Elanco Announces FDA has Completed Review of Boaver®, First-in-class 
+Methane-reducing.” Accessed 28 May 2024. https://www.elanco.com/en-us/insights/elanco-
+announces-fda-has-completed-review-of-bovaer-first-in-class-methane-reducing-feed-ingredient-
+for-u-s-dairy-industry 
+Farmonaut. 2025. “Breaking News: Alberta’s Dairy Farms Lead Sustainable Livestock 
+Revolution with Methane-reducing Feed Additives.” Accessed 8 September 2025. 
+https://farmonaut.com/canada/alberta-dairy-farms-cut-methane-with-feed-
+additives#:~:text=Impact%20on%20Dairy%20Farm%20Emissions%20The%20implementation,
+been%20at%20the%20forefront%20of%20this%20technology 
+Feng, X., and E. Kebreab. 2020. “Net Reductions in Greenhouse Gas Emissions from Feed 
+Additive Use in California Dairy Cattle.” PLoS ONE 15 (9): e0234289. 
+https://doi.org/10.1371/journal.pone.0234289 
+FontAgro. 2022. “Innovations for Reducing Methane Emissions in Ruminants.” 
+https://fontagro.org/en/proyectos/rumiantes 
+Fonterra. 2023. Sustainability Report. https://view.publitas.com/fonterra/2023-sustainability-
+report/page/1 
+Food and Agriculture Organization. 2023. Methane Emissions in Livestock and Rice Systems—
+Sources, Quantifications, Mitigation and Metrics. https://doi.org/10.4060/cc7607en 
+Food and Agriculture Organization. 2020. Environmental Performance of Feed Additives in 
+Livestock Supply Chains – Guidelines for Assessment – Version 1. Livestock Environmental 
+Assessment and Performance Partnership (FAO LEAP). https://doi.org/10.4060/ca9744en 
+
+--- Page 44 ---
+ 
+Draft - VM0041, v3.0 
+ 
+43 
+Food and Agriculture Organization. 2018. Shaping the Future of Livestock. The 10th Global 
+Forum for Food and Agriculture (GFFA), Berlin, January 18–20, 2018. 
+http://www.fao.org/3/i8384en/I8384EN.pdf 
+Gerber, P. J., H. Steinfeld, B. Henderson, et al. 2013. Tackling Climate Change Through 
+Livestock — A Global Assessment of Emissions and Mitigation Opportunities. Food and 
+Agriculture Organization of the United Nations (FAO). 
+https://www.fao.org/3/i3437e/i3437e.pdf 
+Gibbs, M., D. Conneely, D. Johnson, K. R. Lasse, and M. J. Ulyatt. 2000. “CH4 Emissions from 
+Enteric Fermentation in Domestic Livestock.” In Good Practice Guidance and Uncertainty 
+Management in National Greenhouse Gas Inventories, edited by Penman, J., D. Kruger, I. 
+Galbally, et al. Institute for Global Environmental Strategies (IGES). 
+https://www.ipcc.ch/site/assets/uploads/2018/03/4_Agriculture-1.pdf 
+Global Dairy Farmers. 2025. “Fonterra: 30 Percent Less Emissions by 2030. News.” Accessed 8 
+September 2025. https://globaldairyfarmers.com/news/fonterra-30-percent-less-emissions-by-
+2030 
+Government of Alberta. 2016. Quantification Protocol for Reducing Greenhouse Gas Emissions 
+from Fed Cattle, v3.0. Alberta Government. https://open.alberta.ca/dataset/ec8dce85-297c-
+45d2-82a6-58bbfed85a00/resource/2cd6e6a7-fd63-41c3-8a61-
+8f0567f90b0b/download/reducingghgemissionsfedcattle-feb25-2016.pdf 
+Grainger, C., and K. A. Beauchemin. 2011. “Can Enteric Methane Emissions from Ruminants be 
+Lowered Without Lowering Their Production?” Animal Feed Science and Technology 166–167, 
+308–20. https://doi.org/10.1016/j.anifeedsci.2011.04.021 
+Hammond, K. J., Crompton, L. A., Bannink, A., et al. 2016. “Review of Current In Vivo 
+Measurement Techniques for Quantifying Enteric Methane Emission from Ruminants. Animal 
+Feed Science and Technology, 219: 13–30. https://doi.org/10.1016/j.anifeedsci.2016.05.018 
+Hardy, L. 2024. “English Farmers are at Risk of Being Left Behind in Tackling Methane 
+Emissions.” GreenAlliance Brief. Accessed 8 September 2025. https://green-
+alliance.org.uk/wp-content/uploads/2024/08/English-farmers-at-risk-of-being-left-behind-in-
+tackling-methane-emissions-briefing.pdf 
+Hegarty, R. S. 1999. “Reducing Rumen Methane Emissions Through Elimination of Rumen 
+Protozoa.” Australian Journal of Agricultural Research 50 (8): 1321–8. 
+https://doi.org/10.1071/ar99008 
+Hewitt, J. 2025. “Fungi to the Rescue in Aussie Livestock Methane Reduction.” The Nightly. 
+Accessed 8 September 2025. https://thenightly.com.au/business/fungi-to-the-rescue-in-
+aussie-livestock-methane-reduction-c-18864584 
+
+--- Page 45 ---
+ 
+Draft - VM0041, v3.0 
+ 
+44 
+Hobson, P. N., Mann, S. O., and Stewart, C. S. 1981. “Growth and Rumen Function of 
+Gnotobiotic Lambs Fed on Starchy Diets.” Microbiology 126 (1): 219–30. 
+https://doi.org/10.1099/00221287-126-1-219 
+Hristov, A. N., J. Oh, F. Giallongo, et al. 2015. “An Inhibitor Persistently Decreased Enteric 
+Methane Emission from Dairy Cows With No Negative Effect on Milk Production.” Proceedings 
+of the National Academy of Sciences 112 (34): 10663–8. 
+https://doi.org/10.1073/pnas.1504124112 
+Hristov, A. N., C. Lee, T. Cassidy, et al. 2013. “Effect of Origanum vulgare L. Leaves On Rumen 
+Fermentation, Production, and Milk Fatty Acid Composition in Lactating Dairy Cows.” Journal of 
+Dairy Science 96 (2): 1189–202. https://doi.org/10.3168/jds.2012-5975 
+Indian Council of Agricultural Research (ICAR). 2025. “ICAR-NIANP, Bengaluru inks MoU with 
+M/s Radiant Chem Industries, Chennai for Collaborative Research.” Accessed 8 September 
+2025. 
+https://icar.org.in/en/node/13680#:~:text=Enteric%20fermentation%20with%20an%20annua
+l,s%20Radiant%20Chem%20Industries%2C%20Chennai. And 
+http://nianp.res.in/news#:~:text=ICAR%2DNIANP%20Licenced%20Two%20Methane,Shabarish 
+International Livestock Research Institute (ILRI). 2025. “Enteric Methane Research.” Accessed 
+8 September 2025. https://www.ilri.org/research/facilities/mazingira-centre/enteric-methane-
+research 
+Inter-American Development Bank (IDB). 2022. Options to Achieve Net-zero Emissions from 
+Agriculture and Land Use Change in Latin America and the Caribbean. 
+https://publications.iadb.org/publications/english/document/Options-to-achieve-net-zero-
+emissions-from-agriculture-and-land-use-changes-in-Latin-America-and-the-Caribbean.pdf 
+Johnson, K. A., and D. E. Johnson. 1995. “Methane Emissions from Cattle.” Journal of Animal 
+Science 73 (8): 2483–92. https://doi.org/10.2527/1995.7382483x 
+Kinley, R. D., G. Martinez-Fernandez, M. K. Matthews, R. de Nys, M. Magnusson, and N. W. 
+Tomkins. 2020. “Mitigating the Carbon Footprint and Improving Productivity of Ruminant 
+Livestock Agriculture Using a Red Seaweed.” Journal of Cleaner Production 259: 120836. 
+https://doi.org/10.1016/j.jclepro.2020.120836 
+Knapp, J. R., G. L. Laur, P. A. Vadas, W. P. Weiss, and J. M. Tricarico. 2014. “Enteric Methane in 
+Dairy Cattle Production: Quantifying the Opportunities and Impact of Reducing Emissions.” 
+Journal of Dairy Science 97 (6): 3231–61. https://doi.org/10.3168/jds.2013-7234 
+Kreuzer, M. 2025. “Feed Additives for Methane Mitigation: Introduction—Special Issue on 
+Technical Guidelines to Develop Feed Additives to Reduce Enteric Methane.” Journal of Dairy 
+Science 108 (1): 298–301. https://doi.org/10.3168/jds.2024-25669 
+
+--- Page 46 ---
+ 
+Draft - VM0041, v3.0 
+ 
+45 
+Kreuzer, M., and I. K. Hindrichsen. 2006. “Methane Mitigation in Ruminants by Dietary Means: 
+The Role of Their Methane Emission from Manure.” International Congress Series 1293: 199–
+208. https://doi.org/10.1016/j.ics.2006.01.015 
+Loevinsohn, M., J. Sumberg, A. Diagne, and S. Whitfield. 2013. Under What Circumstances and 
+Conditions Does Adoption of Technology Result in Increased Agricultural Productivity? A 
+Systematic Review. Institute of Development Studies. 
+https://opendocs.ids.ac.uk/opendocs/handle/20.500.12413/3208 
+Moate, P. J., S. R. O. Williams, C. Grainger, M. C., Hannah, E. N. Ponnampalam, and R. J. Eckard. 
+2011. “Influence of Cold-pressed Canola, Brewers Grains and Hominy Meal as Dietary 
+Supplements Suitable for Reducing Enteric Methane Emissions from Lactating Dairy Cows.” 
+Animal Feed Science and Technology 166–167: 254–64. 
+https://doi.org/10.1016/j.anifeedsci.2011.04.069 
+Morgavi, D. P., E. Forano, C. Martin, and C. J. Newbold. 2010. “Microbial Ecosystem and 
+Methanogenesis in Ruminants.” Animal 4 (7): 1024–36. 
+https://doi.org/10.1017/S1751731110000546 
+Moss, A. R., J. P. Jouany, and J. Newbold. 2000. “Methane Production by Ruminants: Its 
+Contribution to Global Warming.” Annales de Zootechnie 49 (3): 231–53. 
+https://doi.org/10.1051/animres:2000119 
+Murray, R. M., A. M. Bryant, and R. A. Leng. 1976. “Rates of Production of Methane in the 
+Rumen and Large Intestine of Sheep.” British Journal of Nutrition 36 (1): 1–14. 
+https://doi.org/10.1079/BJN19760053 
+Nampoothiri, V. M., M. Mohini, S. S. Thakur, and G. Mondal. 2015. “Influence of Diet on 
+Methane and Nitrous Oxide Emissions from Cattle Manure.” Asian Journal of Atmospheric 
+Environment 9 (3): 187–93. https://doi.org/10.5572/ajae.2015.9.3.187 
+Niu, M., E. Kebreab, A. N. Hristov, et al. 2018. “Prediction of Enteric Methane Production, Yield, 
+and Intensity in Dairy Cattle Using an Intercontinental Database.” Global Change Biology 24 (8): 
+3368–89. https://doi.org/10.1111/gcb.14094 
+O’Brien, D., L. Shalloo, C. Grainger, F. Buckley, B. Horan, and M. Wallace. 2010. “The Influence 
+of Strain of Holstein-Friesian Cow and Feeding System on Greenhouse Gas Emissions from 
+Pastoral Dairy Farms.” Journal of Dairy Science 93 (7): 3390–402. 
+https://doi.org/10.3168/jds.2009-2790 
+Paarlberg, R. 2025. Controlling Methane from Beef and Dairy: Facing Realities in the Global 
+South. Discussion Paper. The Salata Institute for Climate and Sustainability at Harvard 
+University. https://salatainstitute.harvard.edu/wp-
+content/uploads/2025/06/250600_Salata_Paarlberg_DP2_vers2.pdf  
+
+--- Page 47 ---
+ 
+Draft - VM0041, v3.0 
+ 
+46 
+Prado, A. del, R. E. Vibart, F. M. Bilotto, et al. 2025. “Feed Additives for Methane Mitigation: 
+Assessment of Feed Additives as a Strategy to Mitigate Enteric Methane from Ruminants—
+Accounting; How to Quantify the Mitigating Potential of Using Antimethanogenic Feed Additives. 
+Journal of Dairy Science 108 (1): 411–29. https://doi.org/10.3168/jds.2024-25044  
+Toensmeier, E. 2024. “Are Livestock Feed Additives the Future or Folly?” Project Drawdown. 
+Accessed 7 September 2025. https://drawdown.org/insights/are-livestock-feed-additives-the-
+future-or-
+folly#:~:text=3%2DNOP%20(marketed%20as%20Bovaer,the%20problem%20of%20ruminant%
+20methane 
+Weber, T. L., X. Hao, C. D. Gross, K. A. Beauchemin, and S. X. Chang. 2021. “Effect of Manure 
+from Cattle Fed 3-nitrooxypropanol on Anthropogenic Greenhouse Gas Emissions Depends on 
+Soil Type.” Agronomy 11 (2): 371. https://doi.org/10.3390/agronomy11020371 
+Whitford, M. F., R. M. Teather, and R. J. Forster. 2001. “Phylogenetic Analysis of Methanogens 
+from the Bovine Rumen.” BMC Microbiology 1: 5. https://doi.org/10.1186/1471-2180-1-5 
+Zimmerman, P. R., and R. S. Zimmerman. 2012. “Method and System for Monitoring and 
+Reducing Ruminant Methane Production.” United States Patent US8307785B2. 
+https://patents.google.com/patent/US8307785B2/en 
+ 
+ 
+
+--- Page 48 ---
+ 
+Draft - VM0041, v3.0 
+ 
+47 
+APPENDIX 1: ACTIVITY METHOD 
+Initial assessment indicates that there is not enough activity globally that would put activity penetration 
+above the 5% threshold required under the VCS Program. Several barriers limit the widespread 
+adoption of feed ingredients that inhibit or suppress enteric methane (Paarlberg 2025; Toensmeier 
+2024). However, in some areas (Europe, United States, Canada, Australia, and New Zealand), policies 
+have been implemented to expedite the adoption of feed ingredients to reduce GHG emissions from 
+livestock production systems (Table 2). This, combined with the commercial availability of specific feed 
+ingredients (e.g., 3-NOP), may promote the use of such products. Table 2 provides a summary of the 
+current estimated activity penetration by region and product and lists the sources of information.  
+Table 2. Estimated penetration rate of feed ingredients by region and product 
+Country/
+Region 
+Estimated 
+Activity 
+Penetration (%) 
+Product 
+Sources 
+Europe 
+>5–10% 
+3-NOP (Bovaer®) uptake in dairy farm 
+growing via CAP and ESG reporting 
+incentives 
+Hardy (2024); DSM-Firmenich 
+(2023); EFSA Panel on 
+Additives and Product 
+Substances used in Animal 
+Feed et al. (2021) 
+United 
+States 
+>5% 
+3-NOP (Bovaer®) approved in 2023 in 
+dairy; limited use due to costs and lack of 
+regulatory frameworks 
+Elanco (2024); FAO (2023) 
+Canada 
+~10–15% 
+Adoption is rising under OFCAF, especially 
+in Alberta and Quebec. 
+Agriculture and Agri-Food 
+Canada (2022); Farmonaut 
+(2025) 
+Australia 
+~5% 
+Seaweed-based additives in pilot and 
+precommercial phases 
+Commonwealth of Australia 
+(2024); Hewitt (2025) 
+New 
+Zealand 
+~10–15% 
+Full rollout by 2026. Current use is pilot 
+phase. 
+Fonterra (2023); Global Dairy 
+Farmers (2025) 
+Latin 
+America 
+<2% 
+Regulatory access and supply chains are 
+still nascent. 
+Fontagro (2022); IDB (2022) 
+India and 
+South Asia 
+<1% 
+No commercial use; research and 
+development stage only. 
+ICAR (2025) 
+
+--- Page 49 ---
+ 
+Draft - VM0041, v3.0 
+ 
+48 
+Country/
+Region 
+Estimated 
+Activity 
+Penetration (%) 
+Product 
+Sources 
+Sub-
+Saharan 
+Africa 
+<1% 
+No structured application; academic trials 
+only. 
+ILRI (2025) 
+A1.1 Positive List 
+This project activity is a relatively new field with few, if any, fully commercial technologies. Thus, the 
+methodology uses an activity method for demonstrating additionality, with the technology (the feed 
+ingredient) as the basis for a positive list. The total number of ruminants fed with a feed ingredient that 
+inhibits methanogenesis must not amount to 5% or more of the total number of ruminants in 
+agricultural settings worldwide. Five percent is the activity penetration threshold set by the VCS 
+Methodology Requirements, v4.4 and is determined by taking the observed activity (OA) divided by the 
+maximum adoption potential (MAP). Where this is less than 5%, the project activity may be considered 
+additional. 
+𝐴𝑃𝑦= 𝑂𝐴𝑦
+𝑀𝐴𝑃𝑦
+ ×  100 
+Where: 
+APy = Activity penetration of the project activity in year y (%) 
+OAy = Observed adoption of the project activity in year y (head) 
+MAPy = Maximum adoption potential of the project activity in year y (head) 
+A1.1.1 Maximum Adoption Potential of the Project Activity in Year y 
+The VCS Methodology Requirements, v4.4 defines MAP as “the total adoption of a project activity that 
+could currently be achieved given current resource availability, technological capability, level of service, 
+implementation potential, total demand, market access, and other relevant factors within the 
+methodology’s applicable geographically defined market.” In this case, given the early stage of 
+development of feed ingredients for reducing enteric methane emissions, it is difficult to determine 
+whether there are any resource (or other) constraints that would limit adoption of this technology. 
+However, the maximum adoption potential of this activity may be limited to ruminants that have been 
+reared for meat and dairy production worldwide, due to market access and implementation constraints 
+(e.g., necessary infrastructure for transporting the feed ingredient to the farm, appropriate facilities to 
+administer the feed ingredient to the animal on a regular basis). 
+In 2019, the global ruminant livestock population was roughly 4.44 billion,18 of which approximately 
+2.67 billion were used for meat and dairy products (Table 3).  
+ 
+18 The global population of cattle, sheep, goat, and buffalo in 2019 was estimated to be 4 438 416 429 (data retrieved 
+in 2021, from http://www.fao.org/faostat/en/#data). 
+
+--- Page 50 ---
+ 
+Draft - VM0041, v3.0 
+ 
+49 
+Table 3. Total number of ruminant livestock animals used for dairy and meat products in 2019 
+(FAOSTAT 2021) 
+Type of animal 
+Number of animals 
+Dairy buffalo 
+75 743 127 
+Dairy cattle 
+270 985 026 
+Dairy sheep and goat 
+508 839 234 
+Buffalo for meat production 
+32 154 715 
+Cattle for meat production 
+365 076 041 
+Sheep and goat for meat production 
+1 422 142 701 
+TOTAL 
+2 674 940 844 
+According to the UN FAO,19 grazing animals supply about 30% of global production of beef and about 
+23% of global production of lamb and mutton. For this analysis, it is conservatively assumed that 30% 
+of buffalo and goat meat production also comes from grazing animals. The dispersed nature of 
+livestock for long time periods in grazing conditions limits the ability to regularly administer feed 
+ingredients. In theory, feed ingredients could be administered to some percentage of grazing animals 
+(e.g., through animal mineral blocks). However, grazing animals can be conservatively excluded from 
+the calculation of MAP. Dairy animals are not excluded as they can have daily access to feed in the 
+milking parlor. Therefore, the maximum adoption potential of this activity is limited to MAPy = 
+2 182 878 026. 
+A1.1.2 Observed Adoption of the Project Activity in Year y 
+A few dietary strategies have been proposed to lower methane production in ruminants (Kreuzer 2025; 
+Prado et al. 2025; Toensmeier 2024; FAO 2023; Knapp et al. 2014; Boadi et al. 2004). Most are not 
+commercially available and/or have no impact on enteric fermentation. Currently, only a few products 
+have been observed in the market. Linseed and alfalfa products containing high levels of omega-3 fatty 
+acids can reduce the level of saturated fatty acids. The elevation of dietary fat levels in ruminant diets 
+may be a suitable way of lowering methane production. In 2008, linseed and alfalfa were fed to 
+approximately 50 000 cows.20 By 2018, a different product consisting of a blend of essential oils that 
+ 
+19 Bruinsma, J. (ed.) 2003. World Agriculture: Towards 2015/2030 – An FAO perspective. Earthscan. 
+http://www.fao.org/3/y4252e/y4252e.pdf 
+ 
+20 FeedInfo News Service. 2010. “Interview: France’s Valorex Extracts Value from Overlooked Grains.” Accessed 7 
+September 2025. http://www.pinallet.com/data/FEEEDINFO%20Interviews%20VALOREX%20CEO.pdf 
+
+--- Page 51 ---
+ 
+Draft - VM0041, v3.0 
+ 
+50 
+claims to reduce methane production by cattle had reached approximately one million cattle.21 Neither 
+of these examples report on the reduction in enteric emissions via a reduction in methanogenesis. 
+Conversely, the use of methane inhibitors recently received approval for commercial use in specific 
+geographic areas with restricted uptake (only given to around 250 000 cattle worldwide22). For the 
+purposes of demonstrating additionality, it is assumed that the project activities are the same (i.e., feed 
+ingredients reducing enteric emissions via reduction in methanogenesis). To be conservative, it is 
+assumed that the published reports only capture half of all enteric emission reduction activities, which 
+results in an estimated activity of 2.6 million ruminants. 
+Therefore: 
+𝐴𝑃𝑦= 𝑂𝐴𝑦/𝑀𝐴𝑃𝑦 × 100 
+𝐴𝑃𝑦= 2 600 000 ÷ 2 182 000 000 × 100 
+𝐴𝑃𝑦= 0.119% 
+𝐴𝑃𝑦 < 5%  
+Given the current ruminant population and commercially available feed ingredients, particularly those 
+which have a significant effect on inhibiting or suppressing enteric methane emissions from 
+methanogens in the rumen, the activity penetration level of the project activity is below the 5% 
+threshold and the project activity may be deemed additional. 
+Where the project activity has been commercially available in any area of the applicable geographic 
+scope for less than three years (i.e., it uses a new technology or measure), the project proponent must 
+demonstrate that the project activity faces barriers to its uptake, per VCS Program rules. The proposed 
+project activity is deemed to face technological barriers that prevent its implementation for the 
+following reasons: 
+1) The project activity requires extra effort from farmers to administer the feed ingredient as per 
+feeding instructions provided by the manufacturer. In some cases, this might require appropriately 
+trained farmers to secure the default level of reduction in enteric methane emissions, such as 
+through managing feeding routines and dosage, and to maintain the technology in a way that does 
+not lead to an unacceptably high risk of equipment disrepair and malfunctioning or other 
+underperformance. 
+2) Project activity implementation requires purchase of the feed ingredient, which adds to farmers’ 
+existing variable costs. Farmers make multiple decisions in the agricultural cycle about the 
+adoption of products and practices. Farmers’ decisions about whether and how to adopt new 
+technology are often the result of a comparison of the uncertain benefits of the new invention with 
+ 
+21 Munda, A. 2018. “Swiss Company Develops New Cow Feed to Cause Fewer Farts.” The Green Optimistic. Accessed 15 
+December 2021. https://www.greenoptimistic.com/swiss-company-develops-new-cow-feed-fewer-farts-20181006/#.XF 
+22 TheBullVine. 2024. “Interview: Who Will Foot the Bill for Methane-reducing Feed Additives in Dairy Farming?” 
+Accessed 7 September 2025. https://www.thebullvine.com/management/who-will-foot-the-bill-for-methane-reducing-
+feed-additives-in-dairy-farming/ 
+
+--- Page 52 ---
+ 
+Draft - VM0041, v3.0 
+ 
+51 
+the uncertain costs of adopting it (Loevinsohn et al. 2013). For adoption to occur, farmers need to 
+know that a technology exists, believe that it will improve productivity, and understand how to use it 
+effectively. Given the early stage of development of feed ingredients for reducing enteric methane 
+emissions, and uncertainties with regard to their impacts on growth performance, the lack of 
+willingness of farmers to adopt and continue the activity may increase the risk of technological 
+failure. 
+3) The majority of feed ingredients applicable under this methodology are natural products (plants or 
+algae) that occur during a certain time of year (seasonal crops). Working capital can fluctuate 
+widely, which can lead to an unacceptably high risk to technology availability. Project activity 
+implementation will require management of seasonal effects on working capital. During the 
+seasonal peak, a feed ingredient manufacturer may require higher net investment in short-term 
+(current) assets. 
+ 
+ 
+
+--- Page 53 ---
+ 
+Draft - VM0041, v3.0 
+ 
+52 
+APPENDIX 2: BACKGROUND 
+INFORMATION ON PROJECT ACTIVITY 
+Enteric fermentation is the second largest source of global emissions from livestock supply chains, 
+contributing approximately 40% of total emissions. Cattle emit 77% of all enteric methane (Gerber et al. 
+2013). Ruminants, in particular, release methane due to fermenting feed material in the rumen. These 
+enteric emissions from ruminants are significant contributors to greenhouse gas emissions. 
+Research on various feed management activities has already been conducted to assess their ability to 
+reduce methane production (Eger et al. 2018). Enteric methane is produced from microbial 
+fermentation of feed (Hobson et al. 1981; Whitford et al. 2001). Primary anaerobic microbiomes 
+degrade organic matter into volatile fatty acids. In this process, hydrogen gas and carbon dioxide are 
+produced as by-products. Methanogens metabolize hydrogen and carbon dioxide into methane (Hegarty 
+1999; Moss et al. 2000). Figure 2 illustrates the microbial fermentation of feed polysaccharides and H2 
+reduction pathways to CH4 in the rumen. 
+Reducing enteric fermentation enables livestock producers to reduce the environmental impact of meat 
+and dairy products and provide consumers with sustainable climate-friendly products with a quantified 
+carbon footprint reduction. Production of methane in the rumen can represent a loss of energy of up to 
+12% (Johnson and Johnson 1995). Therefore, potential production increases and energy efficiencies 
+achieved through use of the feed ingredient could be complementary outcomes of reducing enteric 
+methanogenesis. 
+
+--- Page 54 ---
+ 
+Draft - VM0041, v3.0 
+ 
+53 
+Figure 2. Schematic of microbial fermentation of feed polysaccharides and H2 reduction 
+pathways to CH4 in the rumen (Morgavi et al. 2010) 
+ 
+A2.1 Direct Enteric Methane Measurements 
+Direct enteric methane measurements for ruminants may be conducted using state-of-the-art methods, 
+which are well documented in the literature. This includes respiration chambers, an established and 
+widely used technique since 1958. However, some operations require measurements of CH4 emissions 
+of a larger number of animals. Short-term measurement techniques, such as automated head 
+chambers (e.g., the GreenFeed system; Hammond et al. 2016), use spot measurement of gas 
+concentrations in samples of exhaled air at certain time points. A single spot measurement is not 
+sufficient; repeated measurements are required and can be taken whilst the animals are feeding or 
+standing. There are diverse technologies for quantifying enteric methane emission. However, there is no 
+integrated protocol covering all aspects, including data collection, data extraction, data handling, and 
+estimating methane volume from the measured concentration. Experience in animal studies is required 
+to develop a protocol that will generate accurate results. 
+Where the manufacturer of the feed ingredient cannot provide sufficient documentation through peer-
+reviewed publications to support calculation of emission reduction factors, the project proponent must 
+measure enteric methane directly. Baseline enteric CH4 emission may still be set using Options 2 or 3 
+as described in Section 8.1. The chosen measurement technology and measuring procedures must 
+meet the following conditions: 
+
+--- Page 55 ---
+ 
+Draft - VM0041, v3.0 
+ 
+54 
+1) The technology is well-documented in peer-reviewed publications. 
+2) The technology enables measurements for animals that can be applied under conditions 
+relevant to project livestock production. 
+3) The measurement error of the technology and sampling error are reported under project 
+conditions. 
+4) The project proponent or associated partner demonstrates technical skills and experience in 
+directly measuring enteric methane to generate accurate results. 
+5) The recommended measurement protocol determines optimal sample size. Using too few 
+animals may limit ability to detect significant differences that may exist in the population. The 
+following formula may be used to calculate sample size for comparison between baseline and 
+project groups (Charan and Kantharia 2013): 
+Sample size = 2 SD2 (1.96 + 0.842)2 /d2 
+Where: 
+SD 
+= Standard deviation from previous studies or pilot studies to measure variability 
+between animals 
+d 
+= Minimum expected difference between the observed means of two groups 
+(baseline versus project) 
+Detailed information on optimal sample size calculation is given in Charan and Kantharia 
+(2013). 
+6) The recommended measurement protocol determines recording duration. The minimum trial 
+duration is eight weeks. The recording duration depends on the measurement method used. 
+For respiration chambers, three measurement periods (lasting three days each) over three 
+weeks is considered adequate based on the literature. Methane emissions measured using the 
+GreenFeed system must be measured every two to three weeks for at least three measurement 
+periods. During each measurement period, gas emission data should be collected over three 
+days as follows: starting at 0900, 1500, and 2100 (sampling day 1), 0300, 1200, and 1700 
+(sampling day 2), and 0000 and 0500 (sampling day 3) (Hristov et al. 2015). Multiple visits to 
+the measurement device by all individual animals within a group must be confirmed. 
+7) The project proponent must estimate the measurement uncertainty and apply confidence 
+deductions to reduce bias and uncertainties as far as is practical. Methods used for estimating 
+uncertainty must be based on recognized statistical approaches such as those described in the 
+IPCC Good Practice Guidance and Uncertainty Management in National Greenhouse Gas 
+Inventories (Gibbs et al. 2000). Confidence deductions must be applied using conservative 
+
+--- Page 56 ---
+ 
+Draft - VM0041, v3.0 
+ 
+55 
+factors such as those specified in the CDM Meth Panel Guidance on Addressing Uncertainty in 
+the Estimation of Emissions Reductions for CDM Project Activities.23 
+Table 4 describes three examples of different technologies for direct measurement of enteric methane 
+emissions and calculation of emission reductions, following a specific scientific protocol.  
+Table 4. Examples of technologies for measuring enteric methane emissions 
+Type of 
+measurement 
+method/technology 
+Description 
+Respiration chamber 
+Respiration chambers are used to measure CH4 from individual animals under 
+research conditions. The principle of the respiration chamber is to collect exhaled 
+CH4 emissions from the animal from all sources of enteric fermentation (mouth, 
+nostrils, and rectum) and measure the CH4 concentration. The cow must be in the 
+chamber for up to four days. All open-circuit chambers are characterized by an air 
+inlet and exhaust fans. Each chamber is fitted with internal ventilation fans for 
+efficient mixing of expired and incoming gases. The chamber is equipped with 
+sensors for measuring relative humidity, temperature, barometric pressure, and 
+gases (CH4, H2, O2, H2S). 
+Automated head 
+chamber, infra-red 
+method for methane 
+measurements (e.g., 
+GreenFeed – Large 
+Animals) 
+ 
+Short-term CH4 emissions can be measured by automated head chambers (e.g., 
+GreenFeed (GF) system, C-Lock Inc., Rapid City, South Dakota, USA). The GF system 
+is a static short-term measurement device that measures emissions of CH4 (and 
+other gases, including CO2) from individual ruminants by integrating measurements 
+of airflow, gas concentration, and detection of head position during each animal’s 
+visit to the unit (Zimmerman and Zimmerman 2012). 
+SF6 tracer gas 
+technique 
+The SF6 technique utilizes SF6 as a tracer gas – which is continuously released from a 
+permeation tube inserted in the rumen of the animal – collection of a sample of the 
+exhaled gases, and analysis of SF6:CH4 ratio of the gas (Hristov et al. 2015). SF6 is a 
+powerful greenhouse gas and should be used responsibly with reasonable efforts to 
+minimize SF6 losses and waste. Accumulation of SF6 within confined feeding spaces 
+can also reduce the accuracy of the technique. 
+ 
+ 
+ 
+ 
+23 CDM Meth Panel. 2008. Thirty-second Meeting Report, Annex 14. 
+https://cdm.unfccc.int/Panels/meth/meeting/mp_08.html#032 
+
+--- Page 57 ---
+ 
+Draft - VM0041, v3.0 
+ 
+56 
+APPENDIX 3: PERCENTAGE OF GROSS 
+ENERGY IN FEED CONVERTED TO 
+METHANE (YM) IN ANIMAL GROUPS 
+Ym is defined as the percentage of gross energy intake by a ruminant that is converted to methane in 
+the rumen. National environmental agencies or similar government and research institutions may have 
+accurate peer-reviewed studies that provide Ym values. 
+Table 5 provides default values for CH4 conversion rates for different animal categories (from Tables 
+10.12 and 10.13 of Chapter 10, Vol. 4 of the 2019 Refinement to the 2006 IPCC Guidelines for 
+National Greenhouse Gas Inventories) that may be used where values are not available from country-
+specific research. These estimates are based on general feed characteristics and production practices 
+found in developed or developing countries and consider both digestible energy (DE) and neutral 
+detergent fiber (NDF). The lower bounds must be used for good quality food (i.e., high digestibility and 
+energy value). Higher bounds are more appropriate for poorer quality feed. NDF is often considered a 
+good determinant of quality as it measures total cell wall content of plant matter and indicates 
+maturity; the higher the value, the more mature and generally the lower quality the forage. 
+Table 5. Livestock CH4 conversion factors 
+Livestock category 
+Feed quality 
+Ym24  
+(%) 
+Adjusted 
+Ym 
+(%) 
+Digestible energy (%) 
+Neutral detergent fiber (% DMI) 
+Dairy cows and 
+buffalo 
+≥70 
+≥35 
+6.0 
+4.80 
+63–70 
+>37 
+6.3 
+5.04 
+≤62 
+>38 
+6.5 
+5.2 
+Nondairy and multi-
+purpose cattle and 
+buffalo 
+≤62 
+ 
+7.0 
+5.6 
+62–71 
+ 
+6.3 
+5.04 
+≥72 
+ 
+4.0 
+3.20 
+>75 
+ 
+3.0 
+2.40 
+Sheep 
+N/A 
+ 
+6.7  
+5.36 
+Goats 
+N/A 
+ 
+5.5 
+4.40 
+ 
+ 
+24 Unless noted otherwise, uncertainty values are ±20% based on published standard deviations drawn from Niu et al. 
+(2018). 
+
+--- Page 58 ---
+ 
+Draft - VM0041, v3.0 
+ 
+57 
+APPENDIX 4: ENTERIC FERMENTATION 
+EMISSION FACTORS FOR LIVESTOCK 
+Table 6 shows a range of enteric fermentation emission factors for cattle and buffalo based on typical 
+regional conditions and productivity systems. Table 7 shows enteric fermentation emission factors for 
+sheep and goats by production system type.  
+Table 6.  Tier 1 and Tier 1a enteric fermentation emission factors for cattle and buffalo 
+(kg CH4/head/yr) 
+Region 
+Livestock 
+Emission Factor 
+Adjusted Emission 
+Factor* 
+North America 
+Dairy cattle 
+138 
+96.6 
+Other cattle 
+64 
+44.8 
+Western Europe 
+Dairy cattle 
+126 
+88.2 
+Other cattle 
+52 
+36.4 
+Buffalo 
+78 
+54.6 
+Eastern Europe 
+Dairy cattle 
+93 
+65.1 
+Other cattle 
+58 
+40.6 
+Buffalo 
+68 
+47.6 
+Oceania 
+Dairy cattle 
+93 
+65.1 
+Other cattle 
+63 
+44.1 
+Latin America 
+Dairy cattle 
+87 
+60.9 
+High productivity systems 
+103 
+72.1 
+Low productivity systems 
+78 
+54.6 
+Other cattle 
+56 
+39.2 
+High productivity systems 
+55 
+38.5 
+Low productivity systems 
+58 
+40.6 
+Buffalo 
+68 
+47.6 
+Asia 
+Dairy cattle 
+78 
+54.6 
+High productivity systems 
+96 
+67.2 
+Low productivity systems 
+71 
+49.7 
+Other cattle 
+54 
+37.8 
+High productivity systems 
+43 
+30.1 
+Low productivity systems 
+56 
+39.2 
+Buffalo 
+76 
+53.2 
+
+--- Page 59 ---
+ 
+Draft - VM0041, v3.0 
+ 
+58 
+Africa 
+Dairy cattle 
+76 
+53.2 
+High productivity systems 
+86 
+60.2 
+Low productivity systems 
+66 
+46.2 
+Other cattle 
+52 
+36.4 
+High productivity systems 
+60 
+48.0 
+Low productivity systems 
+48 
+38.4 
+Middle East 
+Dairy cattle 
+76 
+60.8 
+High productivity systems 
+94 
+75.2 
+Low productivity systems 
+62 
+49.6 
+Other cattle 
+60 
+42.0 
+High productivity systems 
+61 
+42.7 
+Low productivity systems 
+55 
+38.5 
+Indian subcontinent 
+Dairy cattle 
+73 
+51.1 
+High productivity systems 
+70 
+49.0 
+Low productivity systems 
+74 
+51.8 
+Other cattle 
+46 
+32.2 
+High productivity systems 
+41 
+82.7 
+Low productivity systems 
+47 
+32.9 
+Buffalo 
+85 
+59.5 
+*All estimates have an uncertainty of ±30%. Source: IPCC. 2019. 2019 Refinement to the 2006 IPCC 
+Guidelines for National Greenhouse Gas Inventories, Volume 4, Chapter 10, Table 10.11. 
+ 
+Table 7. Tier 1 enteric fermentation emission factors for sheep and goats (kg CH4/head/yr) 
+Livestock 
+Emission Factor 
+Adjusted Emission Factor 
+High Productivity 
+System 
+Low Productivity 
+System 
+High Productivity 
+System 
+Low Productivity 
+System 
+Sheep 
+9 
+5 
+4.5 
+2.5 
+Goat 
+9 
+5 
+4.5 
+2.5 
+All estimates have an uncertainty of ±30. Source: IPCC. 2019. 2019 Refinement to the 2006 IPCC 
+Guidelines for National Greenhouse Gas Inventories, Volume 4, Chapter 10, Table 10.10. 
+ 
+ 
+
+--- Page 60 ---
+ 
+Draft - VM0041, v3.0 
+ 
+59 
+DOCUMENT HISTORY 
+Version 
+Date 
+Comment 
+v1.0 
+22 Nov 2019 
+Initial version 
+v2.0 
+21 Dec 2021 
+• 
+Expands applicability conditions to include any type of 
+feed additive approved for animal use and with 
+scientifically demonstrated efficacy. 
+• 
+Increases the stringency of procedures by which project 
+proponents establish the enteric methane emission 
+reduction factor. 
+v3.0 
+(draft) 
+8 October 2025 
+• 
+Updates the approach for the additionality assessment: 
+o 
+Updates the positive list based on activity 
+penetration by geographic region 
+o 
+Includes a project method approach for projects 
+located in regions not covered by the positive 
+list 
+o 
+Expands guidance on applicability conditions 
+• 
+Updates the project boundary to include: 
+o 
+nitrous oxide emissions from the production and 
+transportation of nitrate-based feed ingredients 
+o 
+nitrous oxide and methane emissions from 
+manure decomposition 
+• 
+Aligns quantification approaches for baseline and project 
+emissions 
+• 
+Revises default values and criteria for parameters used 
+for calculating enteric methane emission reductions (i.e., 
+enteric emissions per animal group, EFEnteric; average 
+gross energy intake, GEI; conversion factor Ym, average 
+energy density ED of dry matter intake DMI). 
+• 
+Adapts and clarifies monitoring requirements for 
+baseline and project emissions 
+ 
+ 

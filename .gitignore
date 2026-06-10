@@ -1,0 +1,48 @@
+# Dependencies
+node_modules/
+frontend/node_modules/
+backend/node_modules/
+
+# Environment
+.env
+backend/.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Uploads (user data)
+backend/uploads/*.jpeg
+backend/uploads/*.jpg
+backend/uploads/*.png
+backend/uploads/cattle-models/*.glb
+backend/uploads/cattle-models/*.gltf
+
+# IDE
+.vscode/
+.idea/
+
+# Build
+frontend/dist/
+frontend/build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Datasets and Models
+train/
+valid/
+yolov8n.pt
+
+# Test scripts
+test_save.js
+backend/test_api.js
+backend/test_save.js
+
+# Extra Uploads
+backend/uploads/*.webp
+backend/uploads/*.jfif
+backend/uploads/*.png
+backend/uploads/*.jpg
+backend/uploads/*.jpeg

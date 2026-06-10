@@ -1,0 +1,2661 @@
+
+--- Page 1 ---
+Comprehensive Environmental and 
+Social Sustainability  
+Assessment of Bio-CNG as a 
+Vehicular Fuel in India
+
+--- Page 2 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+ii
+© The Energy and Resources Institute, 2023
+Acknowledgement
+It’s our pleasure to present the report ‘Comprehensive Environmental and Social Sustainability Assessment of Bio-CNG 
+as Vehicular Fuel in India’ which quantitatively attempts to assess the environmental and social sustainability benefits of 
+using Bio-CNG as a vehicular fuel in India. The Energy and Resources Institute (TERI) is extremely grateful to all automotive 
+industry partners and experts for their incredible support throughout this project. 
+Authors: 
+Trinayana Kaushik, Research Associate, TERI
+Aparna Sajeev, Project Associate, TERI
+Souvik Bhattacharjya, Senior Fellow and Associate Director, TERI
+Arpita Pandey, Research Associate, TERI
+Mandavi Singh, Research Associate, TERI
+Advisor:
+I V Rao, Distinguished Fellow, TERI
+TERI Publications Team:
+Abhas Mukherjee, Editor, TERI
+Sudeep Pawar, Graphic Designer, TERI
+Administrative Support:
+Liji Joy, Secretary, TERI
+Published by 
+The Energy and Resources Institute, New Delhi, India For more information Project Monitoring Cell The Energy and 
+Resources Institute, Darbari Seth Block, IHC Complex, Lodhi Road, New Delhi 110 003, India | Tel.: +91 11 2468 2100 or 
+2468 2111 | Fax: +91 11 2468 2144 or 2468 2145 Email: pmc@teri.res.in | Web: www.teriin.org
+
+--- Page 3 ---
+From the DG’s desk
+Surge in demand for mobility and the consequent consumption of fossil fuels 
+for powering transport vehicles is massive and is increasing rapidly with time. 
+However, with geopolitical tensions, shrinking crude oil reserves, and negative 
+impacts of vehicular emissions on global and local pollution has influenced 
+scientific community to explore alternative and sustainable fuels for the 
+transport sector. 
+India is at the cusp of mobility revolution. At a time when India’s automotive 
+industry is undergoing substantial transformation, a diverse mobility solution 
+is required, which still lags in terms of access to transportation facilities, and 
+introduction of e-mobility is a challenge in immediate future.
+Bio-CNG has emerged as a potential solution to this sustainable mobility challenge in rural areas. The transition 
+can be accomplished by leveraging nation’s significant availability of animal wastes for using Bio-CNG as a cost-
+effective sustainable alternative for the transport sector.
+The main environmental advantage of biogas as a vehicle fuel is that it can substantially reduce greenhouse 
+gas (GHG) emissions in the transport sector. Further when liquid residues from biogas production are used as 
+organic fertiliser it can avoid methane (CH4) emissions from landfilling or manure storage, resulting in additional 
+GHG savings. 
+Additionally, it will also have a secondary impact on providing easy and affordable access to external markets. 
+This will help in increasing the farmers’ income and provide people with new economic opportunities. Therefore, 
+by enhancing people’s socio-economic conditions, affordable, clean, inclusive, and reliable mobility will assist 
+the country in inching closer to achieving the Sustainable Development Goals.
+The quantified environmental and socio-economic benefits from use of biogas for rural mobility presented 
+in the document is a unique and first of its kind exercise undertaken by TERI. I am sure that the findings will 
+provide valuable insights and perspectives to diverse stakeholders in strengthening biogas development and 
+use as a sustainable and affordable fuels to supporting India’s mobility revolution.
+Dr. Vibha Dhawan (Ph.D) 
+Director General, TERI
+
+--- Page 4 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+iv
+
+--- Page 5 ---
+Preface
+In the pursuit of a sustainable and eco-friendly energy transition for India, the TERI team is pleased to present 
+this document titled “Comprehensive Environmental and Social Sustainability Assessment of Bio-CNG as a 
+Vehicular Fuel in India.” Our motivation stems from a deep-seated belief in the transformative potential of 
+Bio-CNG and its pivotal role in steering India towards a greener future.
+This document presents a meticulous quantitative analysis of the environmental benefits associated with 
+Bio-CNG, emphasizing upstream greenhouse gas (GHG) savings in both production and usage. By examining 
+five distinct feedstocks—Cattle dung, paddy straw, bagasse, MSW, and press mud—we provide a nuanced 
+understanding of their potential impact on carbon footprints. Additionally, we navigate the intricacies of 
+compliance benefits within policies such as Corporate Average Fuel Economy (CAFE) norms. The comparative 
+Well-to-Wheel life cycle analysis, which contrasts GHG emissions of Internal Combustion Engine (ICE) vehicles 
+and Electric Vehicles (EVs) against Bio-CNG options, is presented to assist industry partners, particularly 
+automotive manufacturers, in strategically aligning with evolving regulations.
+In the realm of social sustainability, we venture into the grassroots impact of Bio-CNG production, examining 
+the positive ripple effect at the local (rural) level. Our perception analysis unearths not only the economic 
+advantages for users but also the holistic improvement in the quality of life through cost savings.
+At its core, this document is a testament to the immense potential of Bio-CNG as a sustainable energy source 
+for India. Bio-CNG stands as a beacon, that will not only help India in meeting its international targets but also 
+has promising socio-economic benefits at the village level, utilizing locally available raw materials.
+Through our journey, we have encountered challenges associated with scaling Bio-CNG—a crucial learning that 
+positions this document as a comprehensive guide for industry stakeholders, policymakers, and end-users. We 
+invite you to explore the insights within, recognizing Bio-CNG not just as a fuel but as a catalyst for a greener, 
+economically vibrant, and socially inclusive India.
+With optimism and dedication to a sustainable future,
+TERI team
+
+--- Page 6 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+vi
+
+--- Page 7 ---
+vii
+Table of Contents
+1. Introduction	
+1
+2. Environmental Impact Assessment of Using Biogas In Automotive Sector	
+2
+	
+2.1	
+Introduction	
+2
+	
+2.2	
+Approach	
+2
+	
+2.3	
+Methodology	
+3
+	
+2.4	
+Key Enablers	
+3
+	
+2.5	
+Action Plan	
+9
+3. Well-to-Wheel Analysis of Fuels and Powertrain Components of EVs And ICEVs 	
+	
+    (PETROL, DIESEL, CNG, and Bio-CNG)	
+11
+4. Policies and Initiatives	
+15
+	
+4.1	
+National Policies 	
+15
+	
+4.2	
+International Policies	
+16
+5. Assessing Social Benefits from the use of Bio-CNG In India’s Rural Mobility	
+18
+	
+5.1	
+Introduction	
+18
+	
+5.2	
+Approach	
+18
+	
+5.3	
+Methodology	
+19
+	
+5.4	
+Data	
+21
+	
+5.5	
+Key Findings	
+21
+6. Implication of Affordable Mobility and Selected Sustainable Development Goals	
+27
+7. Conclusion		
+29
+8. References	
+31
+9. Annexures		
+33
+	
+9.1.	
+Annexure 1: Calculations of GHG savings due to biogas production from animal manure as feedstock 	33
+	
+9.2	
+Annexure II: Calculations of GHG savings due to biogas production from agricultural manure  
+	
+	
+as feedstock (paddy straw) 	
+37
+	
+9.3	
+Annexure III: Calculations of GHG savings due to biogas production from industrial feedstock  
+	
+	
+(bagasse) 	
+40
+	
+9.4	
+Annexure IV: Calculations of GHG savings due to biogas production from Municipal Solid Waste	
+42
+	
+9.5	
+Annexure V: Calculations of GHG savings due to biogas production from Press Mud	
+44
+	
+9.6	
+Annexure VI: Table Break-up of MPCE by 20 broad item groups: all-India, 2011-12	
+45
+	
+9.7	
+Annexure VII: Estimation of fuel related monetary savings from complete transition  
+	
+	
+of petrol 4-wheelers to CNG in rural Gujarat and the proportion of savings going into  
+	
+	
+ensuring nutritional security, wellbeing and quality education	
+46
+
+--- Page 8 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+viii
+List of Figures
+Figure 1: 	 Well-to-Wheel emission intensity of vehicle technologies running on different fuel types	
+12
+Figure 2: 	 GWP impact of 4-wheeler ICE (diesel, petrol, CNG, and Bio-CNG) and EV segregated into 3 life  
+	
+cycle stages	
+13
+Figure 3: 	 Breakdown of GWP impact (kg CO2 eq.) of upstream and use phase of 4-wheeler EVs and ICE  
+	
+vehicles (Petrol, Diesel, CNG, and Bio-CNG)	
+14
+Figure 4: 	 Fuel Type of the Previously owned vehicle	
+23
+Figure 5: 	 Reason for switching to CNG	
+23
+Figure 6: 	 Duration of using CNG vehicles	
+24
+Figure 7: 	 Allocation of fuel-related monetary savings	
+24
+
+--- Page 9 ---
+ix
+List of Tables
+Table 1:	
+Formulae used to calculate the avoided emissions of different feedstock	
+6
+Table 2: 	
+GHG savings from different feedstock scenarios	
+7
+Table 3: 	
+Well-to-Wheel (WTW) emission intensity of vehicle technologies running on different fuel types	
+11
+Table 4: 	 Study Methodology of Social Benefit Assessment of Bio-CNG	
+19
+Table 5: 	
+Monthly per-capita consumption expenditure of rural area on various broad food and  
+	
+non-food items	
+26
+Table 6: 	
+Summary of all characteristics of different feedstock	
+30
+Table A1: 	 Monthly per-capita consumption expenditure on various broad food and non-food items.	
+46
+
+--- Page 10 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+x
+
+--- Page 11 ---
+1
+1.	 Introduction
+Bio-CNG is deliberated as a potential green energy alternative amidst India experiencing a mobility revolution 
+driven by the objective of decarbonizing the transport sector in progressing towards accomplishing the 
+country’s overall climate goals. It has emerged as a viable fuel source for providing reliable and affordable 
+transportation services to rural areas particularly in developing countries such as India. The production and 
+use of Bio-CNG from animal and agricultural wastes through anaerobic digestion is a potential way to reduce 
+methane emissions. Globally, methane (CH4) is the second largest source of greenhouse gas (GHG) emissions 
+after carbon dioxide (CO2), accounting for 19% of the total anthropogenic GHG emissions. In 2021, methane 
+emissions in India reached 897 million metric tonnes of carbon dioxide equivalent (MtCO₂e) increasing more 
+than 30% since 1990 with India reporting second-largest emissions worldwide. Bio-CNG as vehicular fuel not 
+only has the potential to mitigate methane emissions, but will also aid India in providing cheap, reliable, and 
+environment-friendly transportation, especially to rural areas. This will lead to improved living standards for the 
+rural population by integrating these remote areas to nearby cities providing easy access to external markets, 
+raising agricultural productivity and income, and creating new economic opportunities. 
+The useable component of biogas is methane (45%–55%) that can be used for generating energy suitable 
+across sectors. Biogas can be further upgraded to 95%–99% methane content enabling its injection into gas 
+grid or its usage for mobility. Researchers have pointed to the dual contribution of bioenergy from waste and 
+agriculture sector—first, elimination of methane emissions from organic sources and second, substituting fossil 
+fuel resources. Methane, as against carbon dioxide, decays automatically after remaining in the atmosphere for 
+about a decade. Thus, targeting methane emissions can effectively reduce its concentration in the atmosphere 
+in medium run (Chugh, 2021). This aside, biogas when used in conjunction can help to stabilize energy supply 
+from intermittent renewable technologies such as solar and wind energy. India will be able to accomplish several 
+targets under the Sustainable Development Goals (SDGs) with the support of accessible, clean, and inclusive 
+mobility through local employment generation, afforestation, and access to clean and low-cost energy, health 
+benefits, and enhanced energy security. 
+In this setting, the report presents a comprehensive understanding of the environmental and social 
+benefits arising from using Bio-CNG as a sustainable vehicular fuel, especially for providing affordable mobility 
+in rural areas.
+The report begins with the environmental impact assessment of Bio-CNG in Section 2, presenting the key 
+enablers. It also attempts to suggest an action plan for usage of Bio-CNG for transportation in India. Section 3 
+presents a well-to-wheel analysis of fuels and powertrain components of EVs and ICEVs (petrol, diesel, CNG, 
+Bio-CNG). Section 4 is a peek into the various existing national policies as well as successful international 
+policies in the field. The social benefit assessment of Bio-CNG undertaken in Section 5 aims to gauge information 
+about the social perception of rural population towards Bio-CNG and estimating the fuel-related monetary 
+savings from switching to Bio-CNG for sustainable and affordable mobility. Section 6 maps the implications 
+of affordable and sustainable mobility for indices under the SDGs. Section 7 summarizes the findings of the 
+analysis carried out in this paper.
+
+--- Page 12 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+2
+2.	 Environmental Impact Assessment of Using 	
+	
+Bio-CNG In Automotive Sector
+2.1	 Introduction
+The environmental impact assessment focuses on quantification of upstream methane avoided upon using 
+different bio-based feedstocks for production of Bio-CNG for vehicular usage. Quantification of carbon saved 
+will enable making a strong case for promotion of Bio-CNG-based vehicles from a policy perspective since 
+India has multiplicity of obligations which requires a crucial balance among meeting its international climate 
+commitments, improving the natural environment as well as meeting the socio-economic aspirations of its 
+population; which is directly correlated with high energy demand. During the COP26, the Hon’ble Prime 
+Minister of India committed to the nation reaching net zero by 2070. At the same event, the Global Methane 
+Pledge (GMP) was launched which called for countries to take voluntary actions for methane reduction by at 
+least 30% by 2030 from their 2020 levels. More than 100 countries are on board with the GMP; however, India 
+is not a party to the same. Targeting methane which is 28 times more potent than CO2 in causing global warming 
+seems to be the most effective alternative for India to achieve its climate goals. Since methane is a combustible 
+gas and India is a large producer of both animal and agricultural waste, production and utilization of Bio-CNG 
+mobility solutions can help the country in meeting the dual target of reducing methane emissions and at the 
+same time decarbonizing the transport sector. 
+The potential of the Bio-CNG sector to make agriculture sustainable is indisputable and can be a game changer 
+in promoting sustainable farming in India. Putting Bio-CNG plants on sustainable farms helps the farmers, 
+the environment, and the community in many ways. Bio-CNG plants help with waste management, reduce 
+energy costs, and improve soil fertility. Cash crops which are not used as food and are not costly can be used 
+as substrates for Bio-CNG plants. This improves crop rotation and enhances biodiversity. Bio-CNG plants can 
+also incentivize growing cover crops. Cover crops, which are generally mulched into the ground can also be 
+harvested and used as feedstock for biogas digesters. 
+2.2	 Approach
+The approach taken for conducting the environmental impact assessment is to determine most suitable bio-
+based feedstocks for Bio-CNG production in terms of their methane avoidance potential for helping potential 
+Bio-CNG generators to make informed decisions. As mentioned earlier, this Policy Paper goes on to identify 
+major enablers and an action plan for usage and uptake of Bio-CNG in vehicular transportation in India. 
+Bio-CNG as vehicular fuel has the potential to reduce emissions via many different pathways, such as reduced 
+tailpipe emissions by replacing fossil fuels, avoided methane slips from manure dumping and open burning 
+as well as methane emissions from straw incorporation and burning of other feedstock, and green fertilizer 
+production as by-product which can replace carbon-intensive chemical fertilizers.
+
+--- Page 13 ---
+3
+2.3	 Methodology
+The methodology followed for the Environmental Impact Assessment is described in the following steps:
+	»
+Desk-based literature review to identify calorific value of different feedstock, feedstock-to-gas conversion 
+ratio and upstream methane release potential of different end of life (EOL) stream of respective feedstock.
+	»
+Desk-based literature review to identify approximate equivalent Bio-CNG plant-based slurry to chemical 
+fertilizer ratio in terms of nutrient content.
+	»
+Calculation of baseline upstream methane avoidance from two different routes (usage of biomass as 
+feedstock for Bio-CNG production and usage of Bio-CNG plant slurry for replacement of chemical fertilizer) 
+(Note: CNG emissions are used as a proxy for Bio-CNG).
+	»
+Calculation of emissions saved per km for benefit in CAFE1 policy.
+	»
+Calculation of plant requirement, feedstock requirement, and savings per plant for complete transition of 
+current CNG fleet to Bio-CNG.
+	»
+Based on all information from literature search and calculations, a proposal for an action plan involving a 
+scheme for seeking CAFE credits, scheme for slurry management, and recommended policy solutions is 
+developed.
+2.4	 Key Enablers
+2.4.1	 Feedstock
+The sustainability benefits of using Bio-CNG as a fuel has been captured based on estimation of upstream 
+avoided GHG emissions of Bio-CNG feedstock. Channelling this vast amount of feedstock into Bio-CNG 
+production will prevent huge amounts of GHG slipping into the environment, particularly methane. It will have 
+additional benefits of solid and liquid waste management in rural India. Four types of feedstocks, relevant for 
+India, are considered which includes cattle dung, paddy straw, bagasse, and municipal solid waste to establish 
+the best route to maximize GHG savings through Bio-CNG production.  Additionally, some other feedstock like 
+press mud has also been briefly explored for future potential.
+Feedstock type 1: Animal waste (Cattle dung) 
+Animal waste is the most used feedstock for Bio-CNG production in India. It is the first category of feedstock 
+considered for calculation of GHG savings from Bio-CNG production and usage. IPCC Guidelines for National 
+Greenhouse Gas Inventory, 2006, gives a robust methodology for calculation of livestock emissions from 
+1	
+CAFE (Corporate Average Fuel Efficiency/Economy) norms aim at lowering fuel consumption (or improving fuel efficiency) of vehicles. 
+CAFE regulations in India came into force from April 1, 2017. Under this, average corporate CO2 emission must be less than 130 gm 
+per km till 2022 and below 113 gm per km thereafter. 
+In other words, it requires cars to be 10% or more fuel efficient between 2017 and 2021, and 30% or more fuel efficient from 2022, in 
+terms of CO2 emission.
+
+--- Page 14 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+4
+different manure management systems. The IPCC gives three levels of calculations to estimate the emission 
+factor by livestock category and manure management system. Tier 1 calculations are the most basic where 
+emission factors are presented based on the country’s average annual temperature.  
+The Tier 2 calculations of the IPCC allows for more robust and representative country-specific calculations. It 
+allows usage of India-specific values for greenhouse gases such as methane, nitrous oxide in different manure 
+management system. Also, the methodology allows the choice of specific livestock category from which manure 
+is obtained. For the livestock derived manure, dung from Indian dairy cows in liquid slurry manure management 
+system has been considered as the baseline in this study. However, the emissions associated with Indian buffalos 
+are also done as a sensitivity case. Along with upstream methane avoidance, the savings of GHG emissions 
+through usage of Bio-CNG plant-based slurry to replace chemical fertilizer is also considered. 
+Using IPCC’s Tier 2 method of calculation it was found that total upstream GHG emission savings from 1-tonne 
+Bio-CNG production is 26,223 kg CO2 eq. and the savings per km run of Bio-CNG usage is 0.982 kg CO2 eq./
+km. Cattle manure’s abundant availability and well-established supply chain renders it the most viable feedstock 
+when contrasted with others that have a more fragmented supply chain.
+The calculations along with other details like Bio-CNG requirement for total replacement of current CNG fleet, 
+plant and feedstock requirement, and slurry production is demonstrated in Annexure 1.
+Feedstock type 2: Agricultural feedstock (Paddy straw) 
+A significant proportion of feedstock for Bio-CNG production in India also comes from agricultural waste 
+like paddy straw. Paddy straw undergoes several straw management practices like complete and partial 
+incorporation of straw into the fields as well as open burning. Complete and partial incorporation of straw 
+with soil eventually causes higher GHG emissions than burning, because the next round of paddy cultivation 
+involves flooding of fields. This leads to anaerobic decomposition of straw under water leading to large amount 
+of methane emissions. Burning of paddy straw involves more CO2 emissions along with air pollutants such 
+as SOx, NOx, and other particulates but methane emissions are not as much as straw incorporation process. 
+We have considered complete incorporation of paddy straw as a baseline management practice to calculate 
+upstream avoided emissions. 
+The feedstock-to-gas conversion ratio for paddy straw is relatively higher than animal manure at 100:29.4 
+(Chandra R. et. al, 2017). Accordingly, the amount of slurry generated as a by-product is also less in the case of 
+paddy straw. However, as less amount of feedstock is required, the upstream avoided savings on using paddy 
+straw is much less at 2,530 kg CO2 eq. for 1 tonne Bio-CNG production and the per km savings is at 0.19 kg 
+CO2 eq. /km. 
+The calculations along with other details like Bio-CNG requirement for total replacement of current CNG fleet, 
+plant and feedstock requirement, and slurry production is demonstrated in Annexure 2. 
+Feedstock type 3: Industrial feedstock (Bagasse) 
+Bagasse is also one of the important feedstocks for Bio-CNG production in India but its high lignin content 
+makes its application limited (Vats N. et. al, 2019). Also, from the perspective of this study, upstream avoided 
+emissions from bagasse are not as significant as animal or agricultural waste. Untreated waste bagasse is mostly 
+disposed of in landfills in India and that does not have significant emissions associated with it.  
+
+--- Page 15 ---
+5
+Various applications of bagasse thus include direct usage as fuel or burning to make sugar cane bagasse ash 
+(SCBA) which is used as a cement substitute to reduce CO2 emissions from cement. In this study, we have 
+not considered burning bagasse for SCBA production because it serves as a raw material for processes with 
+intention to save GHG emissions. Therefore, direct usage of bagasse as a fuel is considered as the baseline 
+bagasse management process in this study. Bagasse has a very high calorific value equivalent to 598 litres of 
+diesel (Sari K E et. al., 2019); accordingly, most processes use small amounts of bagasse to substitute large 
+energy needs. Bagasse burning is mostly associated with large emissions of particulates and air pollutants and 
+very small amount of GHGs. 
+Due to the high calorific value of bagasse, the gas-to-feedstock conversion ratio is positive in this case at 
+100:320. As a result, the amount of bagasse needed is low which makes slurry management relatively more 
+feasible. However, the total upstream emission savings are also extremely low at 6.3 kg CO2 eq. per tonne of 
+Bio-CNG produced which does not give any significant emission reduction on per km run.  The combined effect 
+of positive gas-to-feedstock conversion ratio along with small quantities of GHG emissions on bagasse burning 
+gives very small amount of upstream GHG avoidance in case of bagasse while at the same time making it a good 
+feedstock for Bio-CNG production.
+The calculations along with other details such as Bio-CNG requirement for total replacement of current CNG 
+fleet, plant and feedstock requirement, and slurry production is demonstrated in Annexure 3. 
+Feedstock type 4: Municipal Solid Waste (MSW)
+MSW has high nitrogen and phosphorus content which is great for cell growth production needed for anaerobic 
+digestion during Bio-CNG production. India has huge production of MSW owing to its rapidly increasing urban 
+population and consumerist lifestyle. According to Singh P. et al. (2022), MSW, if harnessed correctly to produce 
+bio-methane can replace 4,053 tonnes of conventional fuel consumption per day.
+In this study, the upstream methane avoidance for Bio-CNG production is calculated considering the methane 
+leakage from 1-tonne MSW dumped in landfills in India. India’s MSW has a relatively low volatile solid constituent 
+of 41.3% (Singhal A. et al., 2021) and accordingly has a poor feedstock-to-gas conversion ratio of 100:2.3. The 
+MSW feedstock is considered to contain a mix of waste including food, fruit, yard waste, and paper waste. The 
+difference between Bio-CNG and methane yield is low for some constituents such as paper and yard waste 
+while high for food and fruit waste. An average of 55% methane yield is considered for the mixed waste.
+Using a similar methodology, it was found that total upstream GHG emission savings from 1 tonne Bio-CNG 
+plant is 40,926 kg CO2 eq. and the savings per km run of Bio-CNG usage is 1.46 kg CO2 eq./km. This also includes 
+benefits of GHG savings on replacement of NPK fertilizer with slurry generated from the Bio-CNG plant.
+The calculations along with other details like Bio-CNG requirement for total replacement of current CNG fleet, 
+plant and feedstock requirement, and slurry production is demonstrated in Annexure 4.
+Feedstock type 5: Press mud
+Press mud is mostly used as soil conditioner, soil fertilizer, and for wax production. Other industrial applications 
+are reported (cement and paint manufacturing, foaming agent, composting aid for bagasse, etc.) and it has been 
+used as human food by resource-poor families. In animal production, it has been used as a feed ingredient, 
+notably for ruminants, because of its sugar and mineral content, and as a compacting agent for ensiling. 
+There is lack of data to calculate the upstream emissions of Press mud, therefore, the calculations focus on only 
+production of Bio-CNG from press mud as feedstock. These are given in Annexure 5.
+
+--- Page 16 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+6
+Table 1 presents the formulae used to calculate the avoided emissions of different feedstock. The detailed 
+calculations are given in Annexures 1 to 5 as already mentioned above.
+Table 1: Formulae used to calculate the avoided emissions of different feedstock
+1.     Methane avoidance during Bio-CNG production (Aa) = EF per tonne of feedstock treatment* amount 
+of feedstock
+(The EF factor for per tonne of feedstock is determined using different methods or through literature review which 
+is detailed out in Annexure)
+2. Methane avoidance from replacement of chemical fertilizer (Ab) = [x* (a/b)]-[y*(a/b)]
+a: Slurry produced from 1 tonne Bio-CNG plant 
+b: Amount of slurry considered equivalent to NPK fertilizer 
+x: Emissions from 1 kg NPK fertilizer 
+y: Emissions from 1 kg slurry
+3. Total methane avoidance (At) = Aa + Ab
+4. Emissions saved per km for CAFE norms (Ec)= (At/30000) + 0.108
+ At/30000= Emission reduction due to usage of 1 tonne Bio-CNG where 30000 is mileage of 1 tonne Bio-CNG 
+0.108= Current EF of CNG in kg CO2 eq./km
+5. Total emissions avoided on replacing entire fleet of CNG to Bio-CNG for per km run= 3000000*Ec
+3000000= Total CNG vehicles on road
+6. Total gas required by entire fleet to run per year (G) =12000/30*3000000
+12000= km travelled by 1 vehicle per year
+30 km = Mileage of CNG
+30000000= Total CNG vehicles on road
+7.     Number of 1TPD plants required for transition of entire fleet of CNG to Bio-CNG for 1 year (P) = 
+G/365000
+365000= Total gas produced from 1 TPD plant for 1 year
+8. Amount of feedstock required for transition of entire fleet of CNG to Bio-CNG for 1 year = P* CR tonnes
+CR= Feedstock-to-gas conversion ratio of individual feedstocks
+9. Amount of slurry generated for transition of entire fleet of CNG to Bio-CNG for 1 year = P* S tonnes
+S= Slurry generated from 1 TPD per day (different for different feedstocks) 
+10. Emission avoided from 1TPD Bio-CNG plant every year= At*365
+365= Number of days in a year
+
+--- Page 17 ---
+7
+While the calculations involve estimating GHG savings on usage of different feedstocks, plants may not always 
+use 100% of a single feedstock. Accordingly, based on relevant calculations (given in Annexures), a few scenarios 
+of combination feedstocks are mentioned below and corresponding GHG savings associated with the same are 
+given in Table 2.
+Table 2: GHG savings from different feedstock scenarios
+Scenario of 
+combination 
+feedstocks
+Type 1
+Type 2
+Type 3
+Type 4
+Type 5
+Type 6
+Composition
+50% cow 
+dung 
++ 50% 
+buffalo 
+dung
+33.3% cow 
+dung + 33.3% 
+buffalo dung + 
+33.3% paddy 
+straw (total 
+incorporation)
+33.3% cow 
+dung + 33.3% 
+buffalo dung 
++ 33.3% 
+paddy straw 
+(burning)
+25% cow 
+dung + 25% 
+buffalo dung 
++ 25% paddy 
+straw (TI) + 
+25% bagasse
+25% cow 
+dung +25% 
+buffalo dung 
++50% MSW
+25% cow 
+dung +25% 
+buffalo dung 
++25% paddy 
+straw (TI) + 
+25% MSW
+GHG savings per 
+tonne of Bio-
+CNG produced 
+(kg CO2 eq./
+tonne)
+24823
+17374.6
+17181
+13045.6
+32874.5
+23275.5
+GHG savings per 
+km (g CO2 eq./
+km)
+827
+579
+573
+435
+1096
+776
+2.4.2	 CAFE Credit Scheme
+Incorporation of benefits of Bio-CNG into CAFE compliance can be a game-changer, as it will encourage 
+vehicle manufacturers to promote more Bio-CNG-based vehicles while contributing towards accelerated 
+decarbonization of the economy. Going a step ahead, the manufacturers who can overachieve their CAFE 
+targets should have the opportunity to generate credits for better performance at compliance. There is no 
+scheme for claiming CAFE credits in India currently. However, there are examples from across the world; where 
+CAFE credits can be transferred across fleets, automobile manufacturers, and even industries. Developing a 
+similar scheme for India would further improve compliance with the law. The increased demand will further 
+streamline production.  Accordingly, we propose the following steps for formulation of a CAFE credit scheme:
+	»
+Step 1: Registration of Bio-CNG plants (new Bio-CNG plants set up for providing Bio-CNG for transportation)
+	
+•
+Type of feedstock
+	
+•
+Source of feedstock
+	
+•
+Capacity
+	
+•
+Usage of by-products
+
+--- Page 18 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+8
+Based on these details, each Bio-CNG plant needs to have a carbon emission rating associated to its product. 
+This carbon emission rating needs to include carbon reduction and removal, which is already the norm in carbon 
+registries.
+	»
+Step 2: Validation and issuance of compliance certification from an established carbon registry that the 
+plant is good to provide Bio-CNG to automobile manufacturers.
+	»
+Step 3: Auto manufacturers who do capital investment into Bio-CNG plants, from such registered 
+plants, can replace their current fleet emissions for CAFE compliance with avoided emissions from the 
+Bio-CNG plant.
+	»
+Step 4: Manufacturers can earn credits for over-compliance above their targets through reduction and 
+removal of GHG emissions. Manufacturers should be able to carry credits for over-compliance up to 5 
+years in future (within the same CAFE term) and make up for shortages up to 3 years in the past (if it was 
+in the same CAFE term), transfer them between fleets or trade them with other manufacturers to resolve 
+shortages. In case a manufacturer has very high number of credits earned through carbon removal, then 
+manufacturer must also be able to sell the credits to other industries through voluntary carbon markets.
+2.4.3	 Bio-CNG Plant Slurry
+Bio-CNG slurry is a secondary product produced by anaerobic fermentation of bio-materials. Bio-CNG slurry is 
+not only an environment-friendly organic fertilizer but also an efficiently utilized waste material. Bio-CNG slurry 
+has two main uses for plant production—it is a bio- fertilizer with significant levels of Nitrogen (N), Phosphorus 
+(P) and Potassium (K) along with other trace minerals and it is also a bio-pesticide with high levels of amino 
+acids, growth hormones, and antibiotics (You L. et al., 2019).
+The use of bio-slurry as a fertilizer has an advantage over using manure as fertilizer as the digestion process 
+converts the nutrients, specially nitrogen, to a readily available form for plants to utilize, even though the 
+content enrichment of P and K is not very high. In comparison with chemical fertilizers, the nutrient content is 
+significantly lower than equivalent amount of Bio-CNG-based slurry but the latter do not contain toxic heavy 
+metals like the former. Several literatures suggest that improved agriculture in terms of better crop yield and 
+soil fertility can be achieved through a combination of chemical and organic fertilizers. While chemical fertilizer 
+improves crop yield drastically over a short period of time, the long-term crop productivity decreases. On 
+the other hand substituting some proportion of chemical fertilizer with slurry can help to sustain long-term 
+agricultural production with good yield. 
+Considering environmental impacts and cost of chemical fertilizer, the best usage of slurry (as emerged from 
+discussion with stakeholders) is application of 10–15 tonnes/ha, 21 to 28 days before planting. Solely based 
+on nutrient content, it is assumed that 1 kg of chemical fertilizer can be replaced by more than 40–250 kg 
+of untreated slurry based on feedstock (Malav L et al., 2015). However, it is neither feasible nor desirable to 
+completely replace chemical fertilizer by slurry, hence only 20% substitution of chemical fertilizer by slurry is 
+recommended per hectare for long-term agricultural productivity of wheat which is also applicable to most 
+other dryland crops in India.
+While Bio-CNG slurry has potential of becoming one of the major financial enablers for Bio-CNG production, it 
+has been highlighted from the field visits in Halol and Chhota Udaipur Bio-CNG plants, that slurry management 
+remains the single biggest challenge for Bio-CNG producers for upscaling production as well as for the non-
+
+--- Page 19 ---
+9
+optimum usage of plant capacity. A 2-TPD Bio-CNG plant using animal manure as feedstock, running at full 
+capacity produces one lakh litres of slurry per day. Without an established processing unit for slurry enrichment 
+and most importantly without a market for slurry or even enriched organic fertilizer, it is very difficult for 
+producers to manage such huge quantities. In such circumstance, the easiest option for producers is to run the 
+plant at 10%–20% of its capacity to reduce slurry production.
+2.5	 Action Plan
+2.5.1	 CAFE Credit Scheme
+As per latest reports from May 2023, the Government of India plans to develop the Indian Carbon Market (ICM) 
+where a national framework will be established with an objective to decarbonize the Indian economy by pricing 
+the GHG emission through trading of Carbon Credit Certificates. The Bureau of Energy Efficiency (BEE), under 
+the Ministry of Power (MoP) along with the Ministry of Environment, Forest, and Climate Change (MoEFCC) 
+has developed draft Carbon Credit Trading Scheme for this purpose. The primary target sectors are energy 
+for which GHG emission intensity benchmark and targets will be developed. Also, a voluntary mechanism will 
+concurrently exist for non-obligatory sector.
+The ICM will create a competitive market that provides incentives to climate actors and Independent Project 
+Proponents (IPP) to adopt low-cost options by attracting technology and finance towards sustainable projects 
+that generate carbon credits. The ICM will mobilize new mitigation opportunities through demand for credits 
+by private and public entities. It will also provide scope to develop new methodology for estimation of carbon 
+emission reduction and removals from various registered projects, followed by their validation, registration, 
+verification and issuance process to operationalize the scheme. Monitoring, Reporting and Verification (MRV) 
+guidelines for emission scheme will also be developed after consultation. A comprehensive institutional and 
+governance structure will be set up for the same including carbon registries as an issuing authority.
+About the carbon registry
+The Network for Certification and Conservation of Forests (NCCF) is a registered society established in 2015 
+that is involved in developing India-specific and globally benchmarked sustainability standards, as its core 
+working area. The NCCF is a member of PEFC (Programme for Endorsement of Forest Certification) Alliance 
+from India, a member of the International Union for Conservation of Nature (IUCN) and has observer status 
+with the United Nations Convention to Combat Desertification (UNCCD). The NCCF started India’s first ever 
+scheme for forest certification, giving it global recognition. This scheme is used by many states currently.
+Subsequently, it also started Outside Forest Certification Scheme which is currently under the process for 
+PEFC endorsement. The NCCF is also simultaneously developing standards for non-wood forest products, 
+ecotourism, biomass and biofuels, and land degradation among other areas. The NCCF has also set up India’s 
+first Carbon Registry (CR-I), which is an endeavour to provide a carbon trading and tracking platform for verified 
+net GHG emissions reduction and removal. 
+Implementation scheme by CR-I
+CR-I also gives standards for design, development, inclusion of projects, new methodologies, and tools along 
+with rules and requirements for operation and monitoring of registered projects and other related activities. The 
+registry lays special emphasis on all round sustainable development from projects and accordingly, registering 
+
+--- Page 20 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+10
+newly developed Bio-CNG plants solely for the purpose of vehicle transportation can have an edge considering 
+the socio-economic benefits that come with usage of Bio-CNG-based vehicles. The registry also allows savings 
+from carbon dioxide, methane and nitrous oxide which makes our project suitable as an entry for their verification.
+The Independent Project Proponent (IPP) will seek CR-I to validate the methodology (as per GHG accounting 
+principles) and subsequently register and issue verification and certification with subsequent issuance of GHG 
+emission reduction or removal units to the newly established Bio-CNG plants. Auto manufacturers, who are 
+using Bio-CNG from such certified plants, must be able to use them for CAFE compliance.
+CR-I appoints third party Validation and Verification Body (VVB) who are usually entities with adequate sectoral 
+competency and human resource to effectively observe, evaluate and report on activities carried out by the IPP.
+Once verified, the IPP must adhere to additional requirements such as certification renewal, and periodic audits 
+for continuation of registration under the scheme. 
+2.5.2	 Scheme for Slurry Management
+National Policy on Organic Farming (NPOF)
+	»
+ A quantitative target should be set for production of indigenous organic fertilizer in the country.  
+	»
+Fertilizer manufacturers must have mandatory targets for procurement of slurry from Bio-CNG plants. 
+Such procurement must be incentivized through subsidy given to these plants. Bio-CNG plants must thus 
+become an important part of the fertilizer supply chain.
+	»
+Bio-CNG plants registered under carbon registry must also be encouraged to develop their own fertilizer 
+processing units to take benefits of avoided carbon from usage of chemical fertilizer into their operation. 
+This can be achieved through easy loan access, more know-how on organic fertilizer by activating 
+Agricultural Extension Services (AES) in villages and through agricultural universities.
+	»
+Existing schemes on organic farming must be expanded or new schemes must be formulated with a target 
+of converting one district in every state into an organic district. 
+	»
+Farmers must be encouraged to substitute 10%–20% of their fertilizer use with organic fertilizer through 
+fertilizer loans or other financial assistance programmes. This can be pilot tested in states such as Punjab, 
+Uttar Pradesh, and Madhya Pradesh where there is a brewing demand for unique soil additives owing to 
+decreasing productivity.
+	»
+Inter-state organic fertilizer trade must be allowed to meet this target within a given period of 4–5 years. 
+It is anticipated that, promotion of production of organic fertilizer primarily from Bio-CNG plant-based slurry can 
+solve multiple issues at one go. Demand creation for slurry can enable Bio-CNG producers to run their plants 
+at optimum capacity. At the same time, Bio-CNG producers themselves will have the incentive to produce 
+enriched organic fertilizers if farmers seek such products. This will give them additional benefit of avoided 
+carbon associated to their plant thereby encouraging auto manufacturers to buy gas from them. Benefits of 
+such avoided carbon to CAFE will ensure that their primary product, i.e., Bio-CNG also has a sustained demand 
+among automakers.
+
+--- Page 21 ---
+11
+3.	 Well-to-Wheel Analysis of Fuels and 	
+	
+	
+	
+Powertrain Components of EVs And ICEVs 	 	
+	
+(PETROL, DIESEL, CNG, and Bio-CNG)
+For the purpose of presenting a comprehensive sustainability assessment of passenger vehicles across various 
+fuel types, it is important to understand emissions linked to upstream production of fuels (well-to-tank) and as 
+well as the emissions during the use phase (tank-to-wheel). Accordingly, a comparative well-to-wheel Global 
+Warming Potential (GWP) analysis of fuels and powertrain components of EVs and ICEVs (petrol, diesel, CNG 
+and Bio-CNG) was undertaken and the key insights are presented below.
+GWP is the most used parameter to assess the climate change potential of emissions. The GWP refers to the 
+amount of energy that 1 tonne of gas will absorb over a given period, relative to 1 tonne carbon dioxide (CO2). 
+Most common greenhouse gases (GHGs) responsible for climate change are carbon dioxide, methane, and 
+nitrous oxide. All these gases are considered in this study but are not marked individually and are represented 
+as CO2 equivalent. 
+Data from 4-wheeler vehicles, which has all the variants of diesel, petrol, CNG and EV is used for calculations. 
+The GWP impact is presented for the entire lifetime of the vehicles which is taken as 160,000 km. From 
+the results of the 4-wheeler category, it is found that Bio-CNG vehicles are best performing when it comes 
+to global warming impact with an emission intensity of -1141 g CO2 eq./km followed by EVs which has an 
+emission intensity of 151 g CO2 eq./km. Diesel, petrol and CNG vehicles have an emission intensity of 170 g 
+CO2 eq./km, 190 g CO2 eq./km and 143 g CO2 eq./km respectively. These figures are represented in Table 3 
+and Figure 1. 
+Table 3: Well-to-Wheel (WTW) emission intensity of vehicle technologies running on different fuel types
+Fuel types  
+Emission intensity of Well-to-Wheel analysis (g CO2 eq./km) 
+ICE Petrol 
+190
+ICE Diesel 
+170
+ICE CNG 
+143
+EV 
+151
+ICE Bio-CNG 
+-1141
+
+--- Page 22 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+12
+190
+170
+143
+151
+-1,141
+-1,200
+-1,000
+-800
+-600
+-400
+-200
+0
+200
+400
+ICE Petrol
+ICE Diesel
+ICE CNG
+EV
+ICE Bio- CNG
+g CO2 eq./km
+Figure 1: Well-to-Wheel emission intensity of vehicle technologies running on different fuel types
+The GWP impacts of vehicles running on different category of fuel segregated into 3 stages are presented in 
+Figure 2. 
+The GWP impact in the upstream phase is influenced by the weight of powertrain components (engine, battery, 
+and motor). The diesel engine is 170 kg while the petrol, CNG and Bio-CNG engines are 87 kg. Composition 
+of all materials considered, makes up to 80%–85% of this weight. The upstream GWP impacts associated with 
+the petrol, diesel, CNG and Bio-CNG vehicles are 6170 kg CO2 eq., 4443 kg CO2 eq., 4433 kg CO2 eq. and 
+-182,412 kg CO2 eq. respectively for entire lifetime of the vehicles. This includes impacts associated with 
+engine manufacturing and Well-to-Tank (WTT) emissions of the fuel. Significant methane savings in the Bio-
+CNG production process has contributed to high negative WTT emissions of Bio-CNG.
+The EV has an upstream GWP impact of 22,384 kg CO2 eq. which is largely contributed by emissions associated 
+with electricity generation which has an emission intensity of 0.79 kg CO2 eq. /kWh. The EV battery has a 
+heavy weight of 210 kg which is significantly composed of large amounts of aluminium and a variety of steel 
+types like chromium and electrical steels, while the EV motor has a weight of 32 kg, which is the lowest among 
+powertrain components. 
+Figure 3 breaks down the emission associated with different upstream components of the chosen vehicle types. 
+Along with the heavy weight, the cathode materials used in batteries are extracted and processed through 
+energy and emission intensive procedures which makes the battery the highest contributor to upstream 
+emissions among powertrain components at 849 kg CO2 eq. However, major contributor to upstream emissions 
+of EV is coal intensive Indian grid at 21,425 kg CO2 eq. 
+The use phase emissions of EVs are associated with electricity losses incurred during charging which amounts 
+to 2,360 kg CO2 eq. While for ICE, the use phase emissions are 24272 kg CO2 eq., 23110 kg CO2 eq., 18754 kg 
+
+--- Page 23 ---
+13
+CO2 eq. and 0 kg CO2 eq. for petrol, diesel, CNG, and Bio-CNG, respectively. We have considered the tailpipe 
+emissions of Bio-CNG vehicle to be zero because these CO2 emissions released on combustion of Bio-CNG 
+produced from cow dung are not considered to contribute to climate change because they are part of the 
+short-term carbon cycle (i.e., the CO2 emitted on combustion was absorbed in the system from the current 
+atmosphere). The emission intensity considered for rest of the ICE vehicles is at 2.667 kg CO2 eq./litre of 
+diesel, 2.311 kg CO2 eq./litre of petrol, and 2.69 kg CO2 eq./kg of CNG. Increased fuel efficiency of the diesel 
+engine gives higher mileage and total amount of diesel required for the vehicle lifetime is 8,665.1 litres while it is 
+higher for petrol at 10,502.9 litres causing higher use phase impact for petrol despite lower emission intensity. A 
+total of 6972 kg of CNG and Bio-CNG is required to run a total of 160,000 km assuming a mileage of 22.95km/
+kg of gas for both CNG and Bio-CNG.
+The Well to Tank (WTT) emissions of ICE Petrol, Diesel, CNG and Bio-CNG are 5834 kg CO2 eq., 4013 kg CO2 
+eq., 4097 kg CO2 eq. and –182076 kg CO2 eq. respectively. Petrol production involves a more intensive refining 
+process leading to higher emissions while it is extremely negative for Bio-CNG due to large amount of upstream 
+methane avoidance during Bio-CNG production from cow dung. 
+30,260
+27,208
+22,995
+24,125
+-1,82,604
+-182
+-345
+-192
+-619
+-192
+24,272
+23,110
+18,754
+2,360
+0
+6,170
+4,443
+4,433
+22,384
+-1,82,412
+-2,00,000
+-1,50,000
+-1,00,000
+-50,000
+0
+50,000
+ICE Petrol
+ICE Diesel
+ICE CNG
+EV
+ICE Bio-CNG
+Upstream
+Use Phase
+EOL
+Total
+kg CO2 eq.
+Figure 2: GWP impact (kg CO2 eq.) of 4-wheeler ICE (diesel, petrol, CNG, and Bio-CNG) and 
+EV segregated into 3 life cycle stages
+
+--- Page 24 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+14
+Figure 3: Breakdown of GWP impact (kg CO2 eq.) of upstream and use phase of 4-wheeler EVs and ICE vehicles 
+(Petrol, Diesel, CNG, and Bio-CNG)
+336
+5,834
+24,272
+430 4,013
+23,110
+336 4,097
+18,754
+849
+110
+21,425
+2,360 336
+-
+1,82,076
+0
+-2,00,000
+-1,50,000
+-1,00,000
+-50,000
+0
+50,000
+Engine
+Well to Tank
+Tank to Wheel
+Engine
+Well to Tank
+Tank to Wheel
+Engine
+Well to Tank
+Tank to Wheel
+Baery
+Motor
+Electricity Generaon
+Charging Losses
+Engine
+Well to Tank
+Tank to Wheel
+Upstream
+Use
+Phase
+Use
+Phase
+Use
+Phase
+Use
+Phase
+Use
+Phase
+Upstream
+Upstream
+Upstream
+Upstream
+ICE Petrol
+ICE Diesel
+ICE CNG
+EV
+ICE Bio-CNG
+Well to Tank
+Engine
+Baery
+Motor
+Tank to Wheel
+Charging Losses
+Electricity Generaon
+kg CO2 eq.
+The End-of-life emissions (EOL) has given higher benefits to EV than ICE vehicles. Virgin materials that go into 
+making EV components have higher resource and energy intensity and hence replacing them with recycled 
+materials is likely to benefit the environment more. 
+For ICE vehicles, the amount of output materials from recycling process which also serve as virgin materials 
+avoided is multiplication of total amount of material recycled with the recycling yield of each material which is 
+assumed to be 95% for all for the sake of simplicity. The recycling yield of most metals like aluminium, steel, cast 
+iron, copper and manganese ranges between 90%-100% in standard recycling processes. 
+Avoided materials = Recycled amount* Recycling yield 
+From the above analysis it is evident that usage of Bio-CNG as an alternative vehicular fuel can be a game 
+changer in mitigating GHG emissions from the transportation sector.
+
+--- Page 25 ---
+15
+4.	 Policies and Initiatives
+Policies play a key role in steering the change in a certain direction, nudging all the stakeholders to act towards 
+a desired outcome. Sometimes policies facilitate such outcome while at other times, they may also become a 
+hindrance. Considering the objective of mainstreaming Bio-CNG-based transportation in India, it is important 
+to understand the existing policies around this in India as well as in other countries who are pioneering in 
+adoption of Bio-CNG for mobility. National and international policies around Bio-CNG generation and use 
+along with organic farming are stated below:
+4.1	 National Policies 
+In view of the potential environmental benefits, the Government of India had announced a number of policies 
+to promote Bio-CNG that can replace fossil-based fuels. Some of the national policies are presented below.
+	»
+National Bio-CNG Manure Management Programme (NBMMP)- Under this programme, financial assistance 
+is provided for setting up family type plants. The NBMMP has been implemented by State Nodal Agencies 
+and Departments in 1981-1982 with the primary objective of providing clean cooking fuel with the aim of 
+ensuring social security and reducing female drudgery, reducing the dependence on conventional fuels like 
+LPG, as well as to reduce the use of chemical fertilizers by supplying organic manure in rural India. 
+	»
+GOBARDhan- Department of Drinking Water and Sanitation (DDWS) launched Galvanizing Organic Bio-
+Agro Resources Dhan (GOBARDhan) scheme in 2018, as an integral part of the Swachh Bharat Mission 
+Grameen (SBM-G). Under Phase-II of the scheme, financial assistance up to Rs 50 lakh is to be provided 
+per district for the period of 2020-21 to 2024-25 for setting up of cluster/community level biogas plants. 
+	»
+SATAT Scheme (Sustainable Alternative Towards Affordable Transportation) – Bio-CNG entrepreneurs and 
+producers are encouraged under the scheme to set up new plants or enhance capacity of existing plants 
+for Bio-CNG production, which is to be sold to Oil Marketing Companies (OMCs) to be used as vehicular 
+or industrial fuel. SATAT also has additional objectives of producing fermented organic manure (FOM) from 
+Bio-CNG plants. Viable projects under SATAT are eligible for loans up to 75% of the project cost. Over 
+the course of last 5 years, 46 plants have been commissioned and over 16,000 tons of BIO-CNG has 
+been sold. 
+	»
+Paramparagat Krishi Vikas Yojana (PKVY)- PKVY strives to encourage organic farming, thereby leading to 
+enhancements in soil health. Under PKVY, a subsidy of Rs. 50,000 per hectare for 3 years is provided to the 
+farmers for major inputs required for establishing bio-fertilizer units, vermicomposting, botanical extracts 
+etc. for the production, procurement, and post-harvest management of crops.
+	»
+National Project on Organic Farming (NPOF) - The scheme focuses on the assembly, promotion & market 
+development of organic farming within the country through the National Centre of Organic Farming. The 
+project includes financial assistance for setting up bio-fertilizer production units such as from fruits and 
+vegetable market waste compost, bio-fertilizers, and bio-pesticides and vermiculture hatcheries. The 
+scheme encourages the human resource development, awareness creation and market development for 
+quality control of organic inputs.
+
+--- Page 26 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+16
+	»
+Market Development Assistance (MDA) Scheme-The MDA scheme has been launched with a robust 
+budget of Rs.1451.82 Crores spanning three years (FY 2023-24 to FY 2025-26) with an emphasis on the 
+“waste-to-wealth” approach. The initiative aims to promote production and take-up of organic fertilizers 
+generated from GOBARdhan plants to promote sustainable and organic agricultural practices. The national 
+government has also issued directives for MDA, offering Rs.1500 per metric ton for fermented organic 
+manure or from compressed biogas (CBG) facilities, marking a significant step in sustainable agriculture.
+	»
+Waste to Energy (WTE) Programme-The Ministry of New and Renewable Energy is implementing Waste 
+to Energy (WTE) Programme under the umbrella of National Bioenergy Programme. The WTE Programme 
+has a budget outlay of Rs 600 crore for the period FY 2021-22 to FY 2025-26. This programme supports 
+setting up of plants for generation of Bio-CNG from urban, industrial, and agricultural waste by providing 
+central financial assistance (CFA).
+	»
+Green Credits Programme- In 2023, the Ministry of Environment, Forest, and Climate Change has 
+launched the Green Credits Programme to boost the ‘Lifestyle for Environment’ Mission announced by the 
+Indian Prime Minister at COP26. ICFRE has been appointed as the nodal authority for administering and 
+monitoring the programme. The Green Credits Programme aims at encouraging environmentally conscious 
+actions by the stakeholders through introduction of a market-based mechanism for incentivizing these 
+climate conscious practices, thus moving towards a circular economy. Tree plantation, water conservation, 
+sustainable agriculture, waste management, air pollution reduction, mangrove conservation and restoration, 
+sustainable building and infrastructure, etc. are the categories included for claiming green credits under 
+the programme. 
+It is evident that barring the SATAT scheme, there is no current policy that encourages large scale 
+Bio-CNG production for vehicular usage. Even after 5 years from the roll out of SATAT, the production of 
+Bio-CNG has not happened at the expected scale owing to several challenges and gaps. The foremost 
+among them is lack of competitive pricing and an assured market for Bio-CNG and other by-products of 
+Bio-CNG plants. As already mentioned, slurry management is a limitation for producer but there is a lack 
+of initiative to streamline the slurry into the value chain of the Bio-CNG business itself. There are isolated 
+schemes in India that promote organic farming at a village or cluster level; however, the effort is limited to 
+only providing minimal subsidy and mostly to provisioning of post-harvest certification through schemes like 
+National Programme on Organic Production (NPOP) and Participatory Guarantee Scheme (PGS) for marketing 
+of produce. The newly launched Green Credit Programme has the potential of incentivizing the production of 
+Bio-CNG for mobility by the inclusion of Bio-CNG as a sub category for claiming Green Credits. There is a need 
+to have a dedicated policy/scheme that solves the issues at each stage of the Bio-CNG value chain, right from 
+its feedstock procurement to marketing of the gas and the byproducts. 
+4.2	 International Policies
+Several efficacious international strategies for enhancing the production and adoption of Bio-CNG and 
+mitigating emissions could serve as instructive paradigms for India. Few such initiatives are mentioned below.
+	»
+Alternative Fuels Infrastructure Regulation (AFIR): In July 2021, the European Commission presented 
+the updated Alternative Fuels Infrastructure Regulation (AFIR). Its major aim is to address the growing 
+emissions in road transportation to support the transition to a nearly zero-emission car fleet by 2050. 
+
+--- Page 27 ---
+17
+	»
+Sweden: Sweden was among the first countries, as early as 1996, to use Bio-CNG generation for mobility. 
+All the country’s city buses have been powered by the fuel since that time. Additionally, it is also the first 
+country in the world to have Bio-CNG-powered train. Sweden has offered financial incentives to encourage 
+the use of Bio-CNG in transportation, including exemptions from energy taxes, cash premiums and tax 
+exemptions that benefit the consumers, and a 2006 law that focused on the infrastructure for renewable 
+transport fuels. Because the cost of distribution infrastructure was far lower in Sweden, the number of 
+ethanol filling stations increased quickly. Additionally, the Swedish government has put in place investment 
+initiatives like Klimp to promote the production, distribution, and use of renewable transportation fuels.
+	»
+Germany: Germany’s Bio-CNG sector expanded in 2000 because of the Renewable Energy Sources Act. To 
+promote the use of conventional agricultural wastes in Bio-CNG digesters, new categories of subsidies and 
+incentives were also established, such as slurry bonus. Berlin, Germany collects its organic waste separately 
+to produce Bio-CNG. This Bio-CNG is used as fuel by the trucks that collect waste. The digestate from the 
+Bio-CNG production is purchased by farmers and applied as organic fertilizer.
+	»
+Brazil: Brazil launched the “RenovaBio” National Biofuel Policy on December 27, 2017, with the following 
+goals in mind: (i) upholding the obligations under the Paris Agreement; (ii) increasing the share of biofuels 
+in country’s total energy mix (iii) fostering a proper relationship between energy efficiency and greenhouse 
+gas emission reduction, and (iv) bringing the element of competition to biofuel market.
+
+--- Page 28 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+18
+5.	 Assessing Social Benefits from the use of  
+	
+Bio-CNG in India’s Rural Mobility
+5.1	 Introduction
+Easy transportation of people and goods across places is crucial for economic development. With unreliable 
+public transportation, people are switching to private vehicles. However, India is already struggling to manage 
+the emissions of existing transportation system in the country, hence, introduction of more vehicles will add to 
+this standing problem. In this regard, Bio-CNG emerges as a sustainable alternative.
+Urban areas have witnessed a rapid advancement in the mobility revolution because of government initiatives 
+nudging stakeholders to swiftly switch over to electronic vehicles. However, for developing countries like India 
+where urbanisation is still underway, majority of the population resides in rural area. While the government 
+aims at rapidly increasing the share of electronic vehicles, a diverse mobility solution is required, especially 
+for rural India which still lags in terms of access to transportation facilities and introduction of e-mobility is a 
+challenge in immediate future.  It is important to focus on renewable vehicular fuel as well to bridge the rural- 
+urban gap. This can be accomplished by leveraging the nation’s significant potential for using Bio-CNG as a 
+cost-effective sustainable alternative for the transport sector, given India’s abundance of organic waste. This 
+will aid the country in meeting its obligations under the international agreements to combat climate change, 
+reducing its growing reliance on energy imports, and meeting the expanding domestic energy demand. It will 
+also have a direct impact on improving the quality of life in rural areas by reducing the time and money spent 
+on transportation. Additionally, it will also have a secondary impact on providing easy and affordable access 
+to external markets. This will help in increasing the farmers’ income and provide people with new economic 
+opportunities. Therefore, by enhancing people’s socio-economic conditions, affordable, clean, inclusive, and 
+reliable mobility will assist the country in inching closer to achieving the Sustainable Development Goals.
+5.2	 Approach
+Rural households manoeuvre around their complex commuting decisions daily with most of them not having 
+permanent workplaces and thus no fixed trip pattern (TERI; SDS, 2017). The lack of efficient and connected 
+public transport systems add to their woes. Thus, sustainable and shared mobility solution needs to be explored 
+which can make commuting easier for the rural population alongside mitigating GHG emissions. Bio-CNG is 
+a potential solution for solving the dual problem of transportation as well as vehicular emissions. However, 
+Bio-CNG market is not fully developed yet. In the absence of Bio-CNG for large scale adoption as a potential 
+replacement for petrol/ diesel, this section looks at CNG as a transition fuel where the attitude of rural population 
+towards adoption of the transition fuel would mimic the perceptions that an individual will have towards Bio-
+CNG. This hypothesis holds under the condition that Bio-CNG is priced equal to or lesser than CNG.
+The introduction and implementation of a new technology needs to take into consideration the perceptions 
+of the people who are impacted by the technology to understand the readiness of the targeted population to 
+adopt the technology when made available. The approach towards the proposed analysis in purview of this 
+
+--- Page 29 ---
+19
+paper has been to capture only the fuel related monetary savings resulting from the adoption of CNG mobility 
+in rural areas instead of Petrol run vehicles. The total monetary savings will be result of two scenarios- first, fuel 
+related monetary savings from existing owners of Petrol vehicles transitioning to CNG vehicles, and second, 
+savings from introduction of CNG vehicles for people with no personal vehicles. In this section, only the first 
+scenario is explored under the ideal hypothetical condition of all existing Petrol vehicles transitioning to CNG 
+along with close availability of CNG fuelling stations, which maximises the savings. However, the actual savings 
+from introduction of CNG transportation for people with no modes of personal conveyance will be over and 
+above the fuel related monetary savings with a component of time and toil cost being saved, which is outside 
+the scope of this paper. The benefits of transition to CNG vehicles in rural areas will also have several direct and 
+indirect impacts on key indicators of SDGs which is mapped in Section 6.
+5.3	 Methodology
+The methodology adopted for studying the social benefits of affordable mobility in rural areas relies on both 
+qualitative and quantitative research. CNG has been taken as transition fuel which is used as a proxy to capture 
+the benefits of Bio-CNG since the market for latter has not been fully established. The views of rural population 
+on CNG is assumed to reflect their inclination towards adopting Bio-CNG when made available, given the 
+assumption that Bio-CNG is set at a price equal to or less than CNG.  The analysis is done for rural areas in 
+Gujarat due to its lucrative car sales and favourable market conditions with large inflow of first time buyers 
+of 4-wheelers from rural areas. Gujarat is also one of the leading states to show interest in Bio-CNG. The 
+objectives and corresponding study methods have been summarized in Table 4.
+Table 4: Study Methodology of Social Benefit Assessment of Bio-CNG
+S. No.
+Objectives
+Methodology
+Assumptions
+1.
+Understanding Consumer’s 
+Perception 
+i) Field survey and one-to-one 
+discussion in villages of Halol, Kalol, 
+and Chota Udaipur in Gujarat. 
+ii) Primary interview of replacement 
+buyers of CNG vehicles in rural areas 
+of Gujarat.
+Attitude of rural population 
+towards CNG is assumed to 
+reflect attitude towards Bio-
+CNG, when available.
+2.
+Capturing social benefit 
+arising from transition of 
+existing Petrol vehicles 
+to CNG vehicles in rural 
+Gujarat.
+Secondary data analysis
+Cost per kilometre comparison of 
+Petrol versus CNG
+Estimation of fuel related monetary 
+savings under the scenario of all 
+Petrol 4-wheelers switching to CNG 
+in rural Gujarat.
+Bio-CNG is assumed to be 
+priced equal to or less than 
+CNG.
+3.
+Understanding the 
+linkage of Affordable and 
+Sustainable mobility with 
+the SDGs
+Mapping the findings as well as 
+indirect impacts to key targets under 
+SDGs.
+
+--- Page 30 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+20
+5.3.1	 Social Perceptual Response Analysis: Field Visit
+A comprehensive understanding of the correlation of affordable rural mobility and the social wellbeing of 
+the locals can be achieved through field surveys that will enable us to first-hand experience their daily lives 
+and complexities. Accordingly, an on-field survey was conducted in the nearby villages of the Halol, Kalol and 
+Chhota Udaipur cites of Gujrat. One-to-one interaction with the villagers was undertaken going from household 
+to household. 
+Nearly 30 households were covered in total. The interaction aimed at understanding the inclination of 
+people towards buying CNG fuelled vehicles instead of Petrol ones. Respondents were also asked about the 
+improvements that they have experienced because of access to transportation and the difficulties faces by 
+them in using CNG vehicles.
+5.3.2	 Social Perceptual Response Analysis
+To gain further insight into the perceptions of rural population regarding CNG vehicles and the difficulties 
+faced by them, an additional primary survey was conducted consisting of in-depth telephonic interviews of 
+replacement buyers of CNG fuelled 4-wheelers from rural areas of Gujarat, with their consent. In total, 30 
+customers responded to all relevant interview questions with each interview lasting not more than 5–7 minutes. 
+The responses for each of the consumers were recorded in individual questionnaire.  
+The questionnaire was prepared with the primary motive of understanding to what extent cost consideration is 
+a primary driver of shifting from Petrol to CNG. This would give an insight into the readiness of people to switch 
+to Bio-CNG when made available and economical. The consumers were inquired about six broad questions 
+pertaining to-
+	»
+The fuel type of the previous four-wheeler owned by them,
+	»
+The purpose for which the vehicle is used, i.e., personal or business,
+	»
+The duration of ownership of CNG vehicle,
+	»
+The reason for switching from petrol or diesel to CNG if they previously owned a vehicle powered by either 
+of the two, or why they chose CNG powered vehicle over others if they have only owned CNG vehicle 
+previously,
+	»
+Whether they can observe any savings from using CNG vehicle. If yes, then the purpose to which the fuel 
+related monetary savings from adopting CNG were diverted,
+	»
+The ease of accessing CNG infrastructure in their locality and other difficulties faced, if any.
+5.3.3	 Secondary Data Analysis
+The secondary data analysis has been done to capture the first scenario discussed earlier with respect to 
+estimating the fuel related monetary savings that will be realized by the existing owners of Petrol vehicles from 
+transitioning to CNG in rural Gujarat under ideal conditions and how this savings is divided across various non- 
+conveyance expenditure heads- nutritional security, health, and education. The complete calculation along with 
+assumptions and sources are produced in Annexure 6 and Annexure 7. 
+
+--- Page 31 ---
+21
+Fuel related monetary savings from transition to CNG is estimated as follows:
+	»
+Observer Research Foundation reports the average distance travelled by an Indian to be 5000 km/ year, 
+i.e., approximately 14 km/day. Therefore, two scenarios of average distance travelled by a car is taken- 15 
+km/day and 30 km/day. 
+	»
+Per kilometre cost is calculated for petrol as well as CNG powered four-wheeler at the average petrol 
+and CNG prices prevailing in Gujarat as in September 2023 and average mileage of petrol and CNG four-
+wheelers.
+	»
+Yearly fuel related monetary savings from transition of one car from Petrol to CNG is calculated.
+	»
+Yearly fuel related monetary savings from transition to CNG under ideal condition of all existing Petrol 
+4-wheelers in rural Gujarat switching to CNG is calculated. 
+	»
+The proportion of the saving going into education, healthcare and nutritional security is produced using 
+the expenditure pattern as per the Household Consumption Expenditure Survey of NSS 68th round 2011-
+2012, MoSPI (See Annexure 6).
+5.4	 Data
+The data used for analysis in this paper has been obtained from the following sources:
+	»
+Data has been collected for perception study through on field interaction in the villages of Halol, Kalol, 
+and Chota Udaipur in Gujarat, and telephonic interview of 30 replacement buyers of CNG vehicles in rural 
+areas of Gujarat from the sales record provided by different OEMs.
+	»
+Monthly per-capita consumption expenditure of rural area on various broad food and non-food items were 
+taken from the Household Consumption Expenditure Survey of NSS 68th round carried out by the Ministry 
+of Statistics and Programme Implementation (MoSPI) for the period from July 2011 to June 2012.2
+	»
+The vehicle population data has been taken from the Commissionerate of Transportation, Government of 
+Gujarat.3 
+	»
+The average size of a household for rural Gujarat has been obtained from National Family Health Survey-5 
+of the Ministry of Health and Family Welfare.4
+5.5	 Key Findings
+5.5.1	 Social Perceptual Response Analysis: Field Visit
+During the visit to Halol, Kalol, and Chota Udaipur villages in Gujarat, the presence of CNG fuel stations and 
+various public transportation options such as buses, three-wheelers, two-wheelers, and few instances of four-
+2	
+https://mospi.gov.in/sites/default/files/publication_reports/Report_no558_rou68_30june14.pdf
+3	
+https://cot.gujarat.gov.in/vehicle-popullation.htm
+4	
+https://ruralindiaonline.org/en/library/resource/national-family-health-survey-nfhs-5-2019-21-gujarat/
+
+--- Page 32 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+22
+wheelers and shared mobility services were observed. The youth were seen to have the option to use personal 
+vehicles as well as public transport for travelling to colleges and women were seen to rely on three-wheelers 
+and other shared mobility services for travelling to markets, work, and for other household activities. Most 
+women in these villages lack driving skills and therefore depended on the men of the household for using 
+personal vehicle.
+CNG stations have introduced the urban concept of door-to-door marketing in the villages as well from 
+vegetable vendors and ready-made garment sellers to jewellery and other fancy items. This has positively 
+impacted consumers’ buying habits and saved time. Additionally, few women engaged in home-based craft 
+works and cooking reported that the availability of vehicles has enabled them to sell their products in the local 
+market, thus empowering them. There was a unanimous acceptance among the respondents that improved 
+mobility enabled them in commuting to nearby towns/cities thereby expanding the scope of their livelihood.
+Affordable mobility depends on the operating cost of the vehicle as well over the cost of ownership. CNG 
+vehicles offer better fuel efficiency at reduced fuel cost as compared to Petrol vehicles and therefore it was 
+found that most vehicles of the surveyed areas were run on CNG. There were respondents whose livelihood 
+depended on vehicles like auto-rickshaw drivers and cab drivers. A trend was observed among them for owning 
+CNG vehicles due to the reduced operating cost. The field survey primarily indicated that the affordability of 
+CNG was the prime reason that led to its higher adoption in these villages. This was seen to be happening even 
+though fuelling stations were considerably far away (within a 50 km radius) in comparison to petrol and diesel 
+fuelling stations. Additionally, it was also found that aspirations to buy CNG vehicles were palpable among the 
+current petrol and diesel vehicle owners. Also, affinity was observed to go for a cheaper fuel like Bio-CNG and 
+willingness to even retro-fit the vehicle if a cheaper fuel is made accessible. 
+5.5.2	 Social Perceptual Response Analysis
+Of the 30 interviewees of primary survey conducted through telephonic interview, 15 reported owning CNG 
+vehicles previously as well, while 15 switched from petrol and diesel to CNG (See Figure 4). Fuel economy 
+emerged as the most important aspect of choosing a vehicle for the rural consumers. Twenty-five interviewees 
+reported that CNG vehicles gave them better mileage and cost savings than petrol or diesel vehicles as they 
+found CNG to be cheaper (See Figure 5).
+Cost savings was stated as the prime reason for preferring CNG powered vehicles over petrol ones, especially 
+by the consumers working as taxi drivers and people who were using the vehicle for business purposes. Few 
+consumers reported the availability of CNG fuelling stations nearby as the reason for transition. While 3% of 
+the interviewees reported ease of owning a CNG vehicle as a reason, nobody reported environmental concerns 
+as a reason for preferring CNG vehicles over Petrol vehicles. However, it needs to be noted that although 
+environmental concerns were not the primary driver of change for rural consumers, reduction in pollution was 
+acknowledged when brought up. Few of the interviewees also reported the limited availability of CNG fuelling 
+stations nearby as one of the major limitations with some reporting it to be as far as 20 km from their locality. 
+This can also be a reason why some of the interviewees were not able to realize significant savings from CNG. 
+Yet, even those who faced infrastructural limitations favoured CNG vehicles due to the mileage it offered.
+Of the consumers surveyed, majority were not able to state with precision the amount of savings and among 
+the interviewees who were able to approximate the monthly savings, the reporting varied. This has to do with 
+the fact that few of them travelled less distance to be able to realize noteworthy savings while few others had 
+fuelling stations far away. Since the saved money was not literally coming to hand in lump sum, the interviewees 
+
+--- Page 33 ---
+23
+could not precisely state what proportion of the savings was going into what expenditure heads. Majority of 
+them specified that the money was spent on meeting daily household expenses. Few of the people whose 
+livelihood depended on cars said they used the money saved in their business and for paying loans.
+0
+2
+3
+4
+6
+8
+10
+12
+12
+14
+16
+15
+Petrol
+Diesel
+CNG
+Number of Responses
+Figure 4: Fuel Type of the Previously owned vehicle
+Figure 5: Reason for switching to CNG
+The perception study conducted using the in-depth telephonic interview confirms cost savings experienced 
+by the consumers by using CNG vehicles has been the primary driver of shift from Petrol to CNG, reiterating 
+the findings form field visit. Although the reporting varied, some of the interviewees were able to overtly state 
+the savings while the others covertly realized it in the form of improved fuel economy. Thus, majority of the 
+consumers perceived CNG to be cost effective. However, limited infrastructural facilities of CNG stations in 
+rural areas considerably drained the potential savings that the consumers could have realized from using CNG 
+under perfect conditions.
+5.5.3 Secondary Data Analysis
+The estimation of approximate fuel related monetary savings from transition of one Petrol car to CNG shows 
+that it reduces transportation expenditure of a household considerably, releasing money to be spent on other 
+necessities. Full calculations with sources are produced in Annexure 7. 
+0
+0
+5
+4
+1
+10
+15
+20
+25
+25
+30
+Cost Savings
+Infrastructure
+Government
+Policies
+Environmental
+Concerns
+Number of Responses
+
+--- Page 34 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+24
+Figure 6: Duration of using CNG vehicles
+Figure 7: Allocation of fuel-related monetary savings
+The yearly fuel related monetary savings from 6,56,409 registered Petrol fuelled 4-wheelers in rural Gujarat (see 
+Annexure 7 for estimation) transitioning to CNG is calculated by comparing the per kilometre cost of Petrol and 
+CNG powered four-wheelers for 2 scenarios- Case 1, where the distance covered is 15 km per day, and Case 2, 
+where the distance covered is 30 km per day. 
+The per kilometre cost incurred on a Petrol-powered car at prevailing average Petrol price in Gujarat is Rs. 5.65 
+and that for a CNG powered car is Rs. 2.92 (See Annexure 7). Thus, the per kilometre fuel related monetary 
+savings from the transition of one 4-wheeler is Rs. 2.727. The fuel related monetary savings realized from 
+complete transition are as follows:
+CASE 1: Average daily distance covered is 15 kilometres
+Hypothetically, if all the 6,56,409 4-wheelers were to transition to CNG, under ideal condition of availability 
+of CNG stations nearby, the estimated yearly savings realized when the car is travelling 15 km a day would be 
+Rs. 9.67 billion. This is the estimated total amount released in Gujarat’s rural economy to be spent on other 
+expenditure heads of the rural household.
+0
+4
+8
+12
+16
+20
+19
+4
+3
+3
+Daily
+Expenses
+Investment
+Health
+Others
+Number of Responses
+0
+2
+4
+4
+7
+5
+1
+13
+6
+8
+10
+12
+14
+1-5
+months
+6-11
+months
+12-18
+months
+18-24
+months
+> 2 years
+Number of Responses
+
+--- Page 35 ---
+25
+Per kilometre cost of one Petrol based 4-wheeler= Rs. 5.647
+Per kilometre cost of one CNG based 4-wheeler= Rs. 2.92
+Per kilometre fuel related monetary savings from one Petrol 4-wheeler transitioning to CNG 
+= Rs. 2.727
+Yearly distance covered= 5,400 kilometres
+Yearly fuel related monetary savings from transition of one 4-wheeler to CNG= 2.727*5400= 
+Rs. 14,725.8
+Therefore, 
+Yearly fuel related monetary savings from 6,56,409 4-wheelers transitioning to CNG in 
+Case 1= Rs. 9.67 billion
+Per kilometre cost of one Petrol based 4-wheeler= Rs. 5.647
+Per kilometre cost of one CNG based 4-wheeler= Rs. 2.92
+Per kilometre fuel related monetary savings from one Petrol 4-wheeler transitioning to  
+CNG = Rs. 2.727
+Yearly distance covered= 10,800 kilometres
+Yearly fuel related monetary savings from transition of one 4-wheeler to CNG= 
+2.727*10,800= Rs. 29,451.6
+Therefore, 
+Yearly fuel related monetary savings from 6,56,409 4-wheelers transitioning to CNG in  
+Case 2= Rs. 19.33 billion
+CASE 2: Average daily distance covered is 30 kilometres
+In the second case where the 4- wheeler is covering 30 km/ day, as the distance doubles the yearly savings in 
+rural Gujarat from complete transition under ideal conditions would also double to Rs. 19.33 billion.
+An insight can be derived on how this savings are divided by rural households among major expenditure heads 
+like nutrition, health, and education using the monthly per-capita consumption expenditure of rural area on 
+various broad food and non-food items taken from the Household Consumption Expenditure Survey of NSS 
+68th round carried out by the Ministry of Statistics and Programme Implementation (MoSPI) for the time period 
+from July 2011 to June 2012 given in Table 4 (See Annexure 6 for detailed table).  
+
+--- Page 36 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+26
+Table 5: Monthly per-capita consumption expenditure of rural area on various broad food and  
+non-food items
+Item Group
+Rural (in Rs.)
+Weightage of Item Groups (in %)
+cereals & cereal substitutes
+154
+10.76
+pulses & their products*
+42
+2.94
+milk & milk products
+115
+8.04
+edible oil
+53
+3.70
+egg, fish & meat
+68
+4.75
+vegetables
+95
+6.64
+fruits
+41
+2.87
+sugar, salt and spices
+76
+5.31
+beverages, refreshments, processed food
+113
+7.90
+pan, tobacco & intoxicants
+46
+3.21
+fuel and light
+114
+7.97
+clothing & footwear
+100
+6.99
+education
+50
+3.49
+medical
+95
+6.64
+conveyance
+60
+4.19
+other consumer services
+57
+3.98
+misc. goods, entertainment
+76
+5.31
+rent
+7
+0.49
+taxes and cesses
+4
+0.28
+durable goods
+65
+4.54
+All items
+1431
+100
+Source: Household Consumption Expenditure Survey of NSS 68th round; MoSPI
+The combined weightage of cereals, pulses, milk, edible oil, egg, fish and meat, vegetable, fruits, spices, and 
+processed food in Table 4 is 52.91% of the total expenditure. The weightage of health expenditure is 6.64% and 
+that of education is 3.49% of total expenditure for a rural household. 
+Thus, in Case 1 where the fuel related monetary savings from transition is Rs. 9.67  billion, assuming the 
+expenditure pattern to remain same as given by Table 4, the proportion of estimated yearly savings that will go 
+into ensuring nutritional security of rural Gujarat is Rs. 5.11 billion. The share of savings that will be additionally 
+spent on health and education in rural Gujarat is Rs. 641.83 million and Rs. 337.35 million, respectively. 
+In case 2, the corresponding share going into ensuring nutritional security, healthcare, and education services 
+for rural Gujarat doubles to Rs. 10.23 billion, Rs. 1.28 billion, and Rs. 674.70 million respectively as the savings 
+double to Rs. 19.33 billion.
+
+--- Page 37 ---
+27
+6.	 Implication of Affordable Mobility and 	 	
+	
+	
+Selected Sustainable Development Goals
+Considerable share of the Indian population resides in remote rural areas which makes it crucial to provide 
+affordable sustainable transportation facilities to integrate these regions into the mainstream. Thus, sustainable 
+rural transport becomes a precondition for accomplishing other Sustainable Development Goals. The findings 
+of this paper demonstrates that introduction of clean and cheap mobility in rural areas help in reducing the 
+expenditure of households on transportation. This has numerous benefits spanning various social indices which 
+are in tandem with the SDGs. A shift to CNG or in fact, to the even better environmentally benign option of Bio-
+CNG will have direct and indirect positive impact across several targets pertaining to poverty, inequality, climate 
+change, employment, nutrition, etc. under the SDGs, given that Bio-CNG is priced equally or lesser than CNG. 
+The direct and indirect linkages of green and affordable mobility with Sustainable Development Goals are 
+explored below:
+Poverty, hunger, healthcare, and education (Goals 1-4): Affordable mobility is not a direct contributor to achieving 
+SDG 1-4. However, it has indirect positive impacts on these in the long term and becomes a vital prerequisite 
+for realising these goals. Affordable mobility that provides better connectivity to nearby cities ensures access to 
+resources and technologies for the rural population (target 1.4). Reliable transportation infrastructure is essential 
+for fostering economic growth in rural areas, which in turn helps in reducing poverty and inching closer to 
+achieving SDG 1 pertaining to eliminating poverty. With improved access to markets, agricultural productivity 
+rises as new technologies become easily available. It also helps in reducing spoilage of agricultural produce due 
+to poor transport facilities (NITI Aayog; BCG, 2018) which increases the income of small food producers (target 
+2.3). This paper estimates sizable savings from switching to Bio-CNG fuelled transportation which is seen to 
+be diverted towards consumption of pulses, milk, and other food items helping in ensuring nutritional security 
+(target 2.3). Availability of transportation facilities connecting remote villages to cities also ensures improved 
+access to healthcare including preventive, curative, maternal and childcare services thus impacting wide range 
+of targets including reducing maternal mortality ratio, ending preventable deaths of new-borns and children 
+under the age of 5, etc. under SDG 3 pertaining to good health and wellbeing. Transition to Bio-CNG will also 
+help in reducing GHG emissions thus decreasing the incidents of death and illness due to air contamination 
+(target 3.9). Reliable transportation also ensures easy access to quality education for the children in rural areas, 
+positively impacting wide ranging targets under SDG 4. 
+Affordable and clean energy (Goal 7):  Rural areas have seen an increase in the purchase of 4-wheelers with many 
+first- time buyers entering the market. While this makes commuting easier for a section of the rural population, 
+it also contributes to increased vehicular emissions, which is a standing problem grappling the country. Thus, a 
+transition to Bio-CNG will keep the commuting difficulties at bay alongside reducing GHG emissions, provided 
+that Bio-CNG is made at least as affordable as CNG. Additionally, introducing Bio-CNG shared mobility solutions 
+in rural areas will together contribute towards increasing the share of renewable energy in the total energy mix 
+(target 7.2).  Green transportation solutions, thus, will have a direct impact on targets under SDG 7.
+Job opportunities, infrastructure, inequality, and sustainable communities (Goal 8-11):  Reliable and affordable 
+transportation facility helps in providing better employment opportunities to the rural population, thus indirectly 
+impacting SDG 8. It helps in reducing the share of youth who are out of employment, education, or training 
+
+--- Page 38 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+28
+by connecting the remote areas to nearby cities providing easy access to education and decent employment 
+prospects (target 8.6). Transport connectivity also helps in making banking and financial services accessible 
+(target 8.10). Bio-CNG will help in providing sustainable transport infrastructure with equitable access and safe 
+commuting which will help in increasing welfare, thus directly impacting SDG 9 and SDG 11 (target 11.2). This 
+will in turn reduce the rural-urban inequality, helping in achieving SDG 10.   
+Climate action (Goal 13): Provision of affordable mobility fuelled by  Bio-CNG will not only help in connecting 
+remote villages to nearby cities but also in methane reduction due to upstream emissions caused by organic 
+waste. Since biofuels are produced from organic waste, the mass deployment of Bio-CNG fuelled transportation 
+will also help in management of waste which will otherwise end up in landfills. This will also help in reducing 
+total greenhouse gas emissions per year (target 13.2).
+Thus, sustainable, and cheap transportation affects wide ranging targets under the Sustainable Development 
+Goals, directly as well as indirectly. These impacts are not independent of each other rather interconnected. 
+Apart from the findings of the survey, there is ample empirical evidence in rural societies, where it is observed 
+that increasing access to affordable mobility has brought in tremendous change in lives of rural people particularly 
+vulnerable sections like women. Two inspiring case studies are mentioned below:
+Project Shakti by Mahindra & Mahindra:
+Project Shakti aimed to improve the mobility and livelihoods of women in rural India. Mahindra 
+& Mahindra, a leading automobile manufacturer, provided affordable three-wheelers to women 
+entrepreneurs in remote villages. These women became local transportation providers, offering 
+safe and reliable transport services to their communities. As a result, not only did it create income-
+generating opportunities for the women, but it also improved access to education, healthcare, and 
+other essential services for the villagers.
+Kutch Mahila Vikas Sangathan (KMVS) and SEWA:
+Kutch Mahila Vikas Sangathan (KMVS) and the Self-Employed Women’s Association (SEWA) 
+collaborated to establish a community-based rural transport service in the Kutch region of Gujarat. 
+They introduced affordable shared auto-rickshaws driven by local women. This initiative empowered 
+women economically, as they became skilled drivers and earned a livelihood. The transportation 
+service facilitated better access to education, healthcare, and markets for the villagers, thereby 
+improving their overall well-being.
+
+--- Page 39 ---
+29
+7.	 Conclusion
+Bio-CNG emerges as the undisputed fore-runner throughout its comparative comprehensive sustainability 
+assessment carried out in this paper. Energy transitions are not achievable in a fortnight, given the gestation 
+period involved in equipping the economy with the pre-requisite infrastructure to aid this transition. Even so, 
+transition to green energy is inevitable, especially for a developing country like India where the social cost of 
+pollution not just increases the share of medical expenses in an average Indian’s expenditure basket, but makes 
+the country pay for it with the lives of its citizen with deaths due to air pollution accounting for 17.8 percentage 
+of the total deaths in 2019. 
+The environment benefit analysis of various feedstocks undertaken in this paper suggests that cow dung can 
+serve as a good feedstock for Bio-CNG production with extremely high upstream methane release. Despite 
+having poor feedstock-to-gas conversion ratio owing to its low calorific value, its easy availability and accessibility 
+in rural areas makes cow dung a competitive feedstock. 
+Municipal Solid Waste (MSW) as a source of feedstock has similar characteristics to cow dung. It has an even 
+lower calorific value leading to very poor feedstock-to-gas conversion ratio but a very high methane avoidance 
+potential. However, transportation of MSW from urban to peri-urban and rural areas for Bio-CNG production 
+needs supplementary logistics, which makes its usage relatively far-fetched in comparison to the easily available 
+cow dung.
+Table 6: Summary of all characteristics of different feedstock
+Characteristic
+Cow dung
+MSW
+Paddy straw
+Bagasse
+Calorific value 
+(kJ/kg)
+6000 (dung cakes 
+which are much 
+drier than feedstock 
+fed into plants)
+2400 (due to low 
+volatile content of 
+India MSW)
+4000-6000
+20000
+Feedstock to 
+Gas conversion 
+ratio
+Very low
+Very low
+Moderate
+Very high
+Upstream 
+methane 
+avoidance
+Very high
+Very high
+Low
+Very low
+Remarks
+Huge quantity of 
+feedstock is required 
+due to low calorific 
+value however its 
+easy availability and 
+robust supply chain 
+makes it a practical 
+feedstock. Methane 
+release per unit 
+feedstock is high 
+because of which 
+upstream methane 
+avoidance is very 
+high.
+Low calorific value 
+has caused very low 
+feedstock-to-gas 
+conversion ratio 
+due to which large 
+amount of feedstock 
+is required. High 
+methane release per 
+unit feedstock has 
+led to high upstream 
+methane avoidance.
+Upstream methane 
+release per unit 
+feedstock is high but 
+because of moderate 
+feedstock-to-gas 
+conversion ratio it 
+does not require 
+huge amount of 
+feedstock causing 
+relatively low 
+methane avoidance.
+High calorific value 
+makes feedstock-to-
+gas conversion ratio 
+small due to which 
+large amount of 
+feedstock is required. 
+Duality of these 
+factors leads to very 
+low upstream methane 
+avoidance.
+
+--- Page 40 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+30
+Paddy straw is also a decent contender as a feedstock with its moderate feedstock-to-gas conversion ratio. 
+However, baseline methane avoidance of paddy straw is not high as the common practice of paddy straw 
+burning leads to release of more air pollutants than greenhouse gases. 
+When it comes to bagasse, its appealing presence from the perspective of slurry management is hard to overlook. 
+Bagasse has a very high calorific value, making it possible to generate large amount of Bio-CNG from very little 
+feedstock. Nevertheless, since typically bagasse is burnt in India, which has been considered as the baseline 
+case; the upstream methane avoidance is extremely low leading to practically no benefits in per-kilometre 
+terms. Also, the low feedstock requirement in this case, only adds to a small value of methane avoidance. 
+The table 6 gives a summary of all the characteristics of different feedstocks. Irrespective of the type of feedstock, 
+in the Well-to-Wheel analysis of various fuels and powertrains conducted in this paper, Bio-CNG emerges as 
+a carbon-negative fuel with an emission intensity of -1141 g CO2 eq./km. Its exemplary performance while 
+considering the Global Warming Potential affirms that usage of Bio-CNG as a vehicular fuel can significantly 
+help in reducing the GHG emissions into the atmosphere. 
+The social benefit assessment of Bio-CNG highlights a rewarding picture under the assumption that Bio-CNG 
+is at least as affordable as CNG. In both, the on-field interaction undertaken in Halol, Kalol, and Chota Nagpur 
+in Gujarat, as well as the in-dept telephonic interview of replacement buyers of CNG from rural Gujarat, cost 
+concerns emerged as the prime driver of people switching to CNG. Better fuel efficiency that CNG provided 
+conditioned people to perceive CNG to be economical, despite CNG fuelling stations being far away. While the 
+proximity of CNG fuelling stations did not pull down its demand amongst the target population, it negatively 
+impacted their potential to overtly realise any savings from the transition. Respondents who did not have CNG 
+pumps nearby were unable to visibly experience any cost savings, as compared to the respondents who were 
+located closer to the fuelling stations, since the distance fed on the margins. 
+The calculation of savings from switching over to CNG in best case scenario under the stated hypothesis and 
+assumptions of the paper shows an impressive amount being released into the rural Gujarat’s economy to be 
+spent on other vital expenditure heads of a rural household, ensuring nutritional security, and access to quality 
+education and healthcare. Cost concerns emerging as the primary driver of transitioning to CNG also indicates 
+the readiness of the rural population to adopt Bio-CNG when made available, provided Bio-CNG is at least as 
+affordable as CNG. 
+Thus, Bio-CNG, being carbon-negative, has the potential of becoming the pivotal turning point that India needs 
+today to anchor its transition to green energy, especially in the automotive sector. Given its commendable 
+performance when it comes to Global warming Potential and its economic viability, Bio-CNG will serve the 
+dual purpose of making the transport sector environmentally sustainable while simultaneously aiding in India’s 
+climate change mitigation efforts. Over and above the monetary savings experienced by the rural households, 
+affordable and sustainable transportation is seen to positively impact majority of the targets under the Sustainable 
+Development Goals. Cheap and reliable transportation is seen to have direct impact on connecting remote 
+villages to major cities and other modes of transportation, enabling movement of goods and people across the 
+country, thus stimulating economic growth. Clean mobility solutions using Bio-CNG also increases the share 
+of renewable energy in the nation’s total energy mix. It also indirectly improves agricultural productivity and 
+farmers’ income, makes access to resources, economic opportunities, education, and healthcare easier for the 
+rural population, thus bringing overall progress for a sustainable posterity.
+
+--- Page 41 ---
+31
+8.	 References
+•	
+Bhattacharjya S, et. al. 2023. Comparative Analysis of Electric Vehicles and Internal Combustion Engine 
+Vehicles from Resource Efficiency Perspective. The Energy and Resources Institute.
+•	
+Chandra, Ram; Trivedi, Abhinav; Jha, Bhaskar; Ranjan, Amit, and Vijay, Virendra Kumar. (2017). Energy 
+Generation from Paddy Straw An Analysis of Bioenergy Models. Resource Efficiency Perspective Akshay Urja. 
+10. 22-27.
+•	
+Chugh, Gurpreet. 2021. The ‘Green Fossil.’ The Next Stop- Natural Gas and India;s Journey to a Clean 
+Energy Future. HarperCollins Publishers India
+•	
+Commissionerate of Transport, Government of Gujarat https://cot.gujarat.gov.in/vehicle-popullation.htm
+•	
+IRENA (2018), Biogas for road vehicles: Technology brief, International Renewable Energy Agency, Abu 
+Dhabi
+•	
+Malav, Lalchand; Malav, Mahesh; Khan, Shakeel & Kumar, Sandeep. (2015). Biogas Slurry: Source of 
+Nutrients for Eco-friendly Agriculture. International Journal of Extensive Research. 2. 42-46.
+•	
+Mathur, Ajay; Bhattacharjya, Souvik; Mangotra, Karan; Bajpai, Nitin. 2021. Decarbonization: Models for 
+Sharpening the trajectory. The Next Stop-Natural Gas and India’s journey to a clean energy future. Harper 
+Collins Publishers India
+•	
+Ministry of Health and family Welfare. 2020. National Family Health Survey (NFHS-5) https://
+ruralindiaonline.org/en/library/resource/national-family-health-survey-nfhs-5-2019-21-gujarat/
+•	
+Ministry of Statistics and Programme Implementation. 2012. Household Consumption Expenditure 
+Survey of NSS 68th round. 
+•	
+Ministry of Petroleum and Natural Gas. 2019-2020. Energizing India’s Progress.
+•	
+NITI Aayog & the Boston Consulting Group. 2018. Transforming India’s Mobility: A perspective.
+•	
+NITI Aayog and Rocky Mountain Institute (RMI). 2019. India’s Electric Mobility Transformation: Progress to 
+date and future opportunities. 
+•	
+Reserve Bank of India. https://dbie.rbi.org.in/BOE/OpenDocument/1608101727/OpenDocument/
+opendoc/openDocument.faces?logonSuccessful=true&shareId=1
+•	
+Sari, Kartika & Meidiana, Christia. (2019). The use of sugar-cane waste (Bagasse) energy as substitution of fossil-
+fuel energy in Krebet Sugar Factory, East Java, Indonesia. IOP Conference Series: Earth and Environmental 
+Science. 314. 012028. 10.1088/1755-1315/314/1/012028
+•	
+Singh, Prakash & Kalamdhad, Ajay. (2022). Biomethane plants based on municipal solid waste and wastewater 
+and its impact on vehicle sector in India – An Environmental-economic-resource assessment. Environmental 
+Technology & Innovation. 26. 102330. 10.1016/j.eti.2022.102330.
+•	
+The Energy and Resource Institute and Society for Development Studies. 2019. Faster adoption of electric 
+vehicles in India: Perspective of consumers and industry 
+•	
+Times of India newspaper reports
+
+--- Page 42 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+32
+•	
+https://timesofindia.indiatimes.com/city/ahmedabad/rural-gujarat-revs-past-cities-in-car-sales/
+articleshow/96467748.cms
+•	
+https://timesofindia.indiatimes.com/india/dependency-on-imports-for-energy-needs-sees-a-rise/
+articleshow/99279917.cms
+•	
+https://timesofindia.indiatimes.com/city/ahmedabad/31-jump-in-vehicle-density-24-in-vehicle-
+numbers-in-5-years/articleshow/81499911.cms
+•	
+The Print news report 
+•	
+https://theprint.in/economy/cng-set-to-be-2nd-most-popular-fuel-for-passenger-vehicles-in-india-by-
+2027-says-icra-report/1523565/
+•	
+United Nations; Economic and Social Commission for Asia and The Pacific. 2017. United Nations 
+Publications. Transport and Sustainable Development Goals
+•	
+Vats, Neelam & Khan, Abid & Ahmad, Kafeel. (2019). Effect of substrate ratio on biogas yield for anaerobic 
+co-digestion of fruit vegetable waste & sugarcane bagasse. Environmental Technology & Innovation. 13. 
+10.1016/j.eti.2019.01.003.
+•	
+You L, Yu S, Liu H, Wang C, Zhou Z, Zhang L, et al. (2019) Effects of biogas slurry fertilization on fruit 
+economic traits and soil nutrients of  Camellia oleifera  Abel. PLoS ONE 14(5): e0208289. https://doi.
+org/10.1371/journal.pone.0208289
+
+--- Page 43 ---
+33
+9.	 ANNEXURES
+9.1.	 Annexure 1: Calculations of GHG savings due to  
+	
+Bio-CNG production from animal manure as feedstock 
+Total livestock-based emissions= (EF*N) 
+Where, EF=Emission factor 
+	
+N= No. of animals in a particular livestock category 
+However, we need the emissions to account for savings associated with usage of the feedstock for biogas 
+production instead of annual emissions of the country from total livestock category population. 
+1.	
+Calculation of livestock emission factor using IPCC methodology 
+EF= (VS*365)*(Bo*0.67*(MCF*MS) 
+Where, 
+VS= Volatile solids (2.6) (kg/animal/day) 
+365= No. of days per year 
+Bo= Maximum methane production capacity for manure produced by livestock category (0.13) m3 CH4/kg VS 
+0.67= Conversion factor of m3 CH4 to kg CH4 (kg/m3) 
+MCF=Methane Conversion Factor of Liquid slurry (0.8) 
+MS= Fraction of manure handled in a particular manure management system (1) 
+EF= (2.6*365)*(0.13*0.67)*0.8*1 
+     = 66.13 kg CH4/animal/year 
+     = 0.18 kg CH4/animal/day 
+Let us say, one animal produces 10 kg of manure per day 
+Then, CH4 emissions per 10 kg manure is =0.18 kg CH4/10 kg manure 
+Therefore, methane emissions per kg of manure = 0.018 kg CH4/kg of manure
+                                                                              = 18 g CH4/kg of manure 
+Considering a feedstock-to-gas conversion ratio of 100:3, a 1ton biogas plant requires 33.3 tons of manure. 
+Therefore, methane emissions associated with 1 ton Bio-CNG plant = (0.018*33333) kg of CH4 
+ 	
+	
+	
+	
+	
+	
+	
+	
+= 599.994 g CH4 
+    	
+	
+	
+	
+	
+	
+	
+	
+= (599.994*28) kg CO2 eq. 
+    	
+	
+	
+	
+	
+	
+	
+             = 16799.8 kg CO2 eq. 
+
+--- Page 44 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+34
+Methane emissions associated with 1 ton of Bio-CNG produced from a biogas plant using cow dung as feedstock 
+= 25199.7 kg CO2 eq.
+(Assumption is that 1-ton Bio-CNG with 90% methane concentration can be achieved from methane content 
+of 1.5-ton biogas)
+Sensitivity 1a: Livestock category: Indian Buffalos 
+Now, considering Indian buffalos as a livestock category, we get a value of 60.65 kg CH4/animal/year using 
+IPCC Tier 2 calculations. 
+Going forward with similar calculations, 16 g CH4 is emitted per kg of manure. 
+Therefore, methane emissions associated with 1 ton biogas plant = (0.016*33333) kg CH4 
+    	
+	
+	
+	
+	
+	
+	
+              = 533.328 kg CH4 
+    	
+	
+	
+	
+	
+	
+	
+              = (533.328*28) kg CO2 eq 
+	
+    	
+	
+	
+	
+	
+                           = 14933.2 kg CCO2 eq 
+Methane emissions associated with 1 ton of Bio-CNG produced from a biogas plant using buffalo dung as 
+feedstock = 22400 kg CO2 eq.
+(Assumption is that 1-ton Bio-CNG with 90% methane concentration can be achieved from methane content 
+of 1.5-ton biogas)
+2.	
+Calculation of avoided emissions from replacement of chemical fertilizer 
+Now, upstream methane avoidance is also considered from replacement of chemical fertilizer using biogas 
+plant-based slurry: 
+Amount of slurry produced from a 1-ton biogas plant = 50000 liters 
+Amount of slurry for production of 1.5-ton biogas = 750000 liters
+Amount of slurry that can be considered equivalent to 1 kg of NPK fertilizer as per the nutritional composition 
+= 75.7 liters 
+Therefore, amount of NPK fertilizer that can be replaced using slurry for 1 ton plant =990.7 kg 
+Emissions from 1 kg slurry= 0.024 kg CO2 eq. 
+Emissions from 1 kg NPK fertilizer = 2.85 kg CO2 eq. 
+Emissions saved by replacing NPK fertilizer with slurry = (2.85*990.7) - (0.024*75000)
+	
+	
+	
+	
+	
+	
+            = 2823.5-1800
+          	 	
+	
+	
+                                      = 1023.5 kg CO2 eq. 
+Total emissions saved from 1 ton biogas plant using Indian dairy cow manure 
+= (25199.7+1023.5) kg CO2 eq. 
+= 26223 kg CO2 eq. 
+
+--- Page 45 ---
+35
+3.	
+Calculation of total emission saved per km for CAFE 
+Now, mileage of CNG vehicle = 30km/kg 
+Therefore, km run per 1 ton of gas =30000 kms 
+Now, emission factor of Bio-CNG = -26223/30000 
+ 	
+	
+	
+         = - 0.874 kg CO2 eq/km 
+Now, emission factor of CNG = 0.108 kg CO2/km 
+Also, upstream emissions of CNG = 0.02559 kg/km 
+Total life cycle emissions of CNG = 0.130 kg CO2 eq./km 
+      	
+	
+	
+                =130 g CO2 eq./km 
+But the current emission associated on running a CNG vehicle =108 g CO2/km (We have considered only 
+tailpipe emissions based on current CAFE norms) 
+On replacing the CNG fleet with Bio-CNG, the emission will be = -874 g CO2/km 
+That is on running 1 km using Bio-CNG, the GHG avoidance is 874 g CO2/km while the reduction is GHG 
+emitted from current emission is (108+874) g CO2 eq/km= 982 g CO2/km 
+Sensitivity 3a: Switching from petrol to Bio-CNG
+The current emission associated on running a petrol vehicle = 112 g CO2/km
+On replacing the petrol fleet with Bio-CNG, the emission avoided will be = -874 g CO2/km
+That is on running 1 km using Bio-CNG, the GHG avoidance is 874 g CO2/km while reduction is GHG emitted 
+on replacement of the petrol fleet = (112+874) g CO2 eq/km = 986 g CO2/km
+4.	
+Calculation of plants requirement for complete transition of current CNG fleet to Bio-CNG for 1 year 
+Total CNG vehicles on road= 3000000 vehicles  
+For per km run per vehicle 
+Total km run by entire CNG fleet per year= 3000000 
+Total emissions of the fleet per km run per vehicle = (3000000*0.108) kg CO2 eq. 
+                             	
+	
+	
+	
+   =324000 kg CO2 eq./km 
+On replacing the entire fleet by Bio-CNG through independent dispensing stations, emissions that can be 
+avoided per km = 3000000*0.982 kg CO2 eq./km = 2946000 kg CO2 eq./km 
+Now, to replace the entire fleet by Bio-CNG and run the fleet for 1 year: 
+Let us say km travel by one vehicle per year =12000 km
+Total gas required by one vehicle per year = 12000/30  
+                  	
+	
+	
+   =400 kg of Bio-CNG 
+
+--- Page 46 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+36
+Total gas required by the entire fleet to run per year =400*3000000  
+                            = 1200000000 kg of Bio-CNG 
+Capacity of 1TPD plant per year = 365000 kg of Bio-CNG 
+No. of 1TPD plants required to run the current CNG fleet for entire year with Bio-CNG               	
+	
+	
+	
+    	
+              =1200000000/365000 
+	
+	
+              = 3290 plants 
+5.	
+Calculation of feedstock requirement for complete transition of current CNG fleet to Bio-CNG  
+	for 1 year 
+Amount of feedstock needed per day to run 3290 1TPD plants = 3290*33.3 tons 
+             		
+	
+	
+	
+	
+                       = 109557 tons of cow dung/day 
+Amount of slurry that will be produced while running 3290 1TPD plants 
+= 3290*50000 liter/day 
+= 164500000 liters/day 
+Amount of slurry that will be produced for production 1-ton Bio-CNG through production of 1.5-ton biogas = 
+3290*75000 liter/day
+           = 246750000 liter/day
+6.	
+Calculations of savings from setting up 1TPD Bio-CNG plant 
+Now, it has already been calculated that the savings associated with 1-ton Bio-CNG production
+=25199.7 kg CO2 eq 
+Therefore, savings associated with production of 1.5 tons of biogas (1-ton Bio-CNG) 
+= (25199.7*365) kg CO2 eq. 	
+	
+	
+	
+	
+	
+	
+ 
+= 9197890.5 kg CO2 eq. 
+Therefore, production of 1 Bio-CNG using biogas plants can bring savings of 9197890.5 kg CO2 eq. to Bio-CNG 
+producer. 
+
+--- Page 47 ---
+37
+9.2	 Annexure II: Calculations of GHG savings due to 		
+	
+	
+biogas production from agricultural manure as 		
+	
+	
+feedstock (paddy straw) 
+Yield of rice in India = 2.8 tons/ha 
+Rice: Straw ratio (per hectare) =1:2 
+Straw produced per season =5.6 tons/ha (kharif) 
+1.	
+Calculations of GHG avoidance from straw management system 
+GHG emissions of different straw management systems: 
+Straw management system 
+Wet season (kg CO2 eq/ha) 
+Dry season (kg CO2 eq/ha) 
+Complete straw incorporation 
+4132 
+3086 
+Partial straw incorporation 
+2641 
+1890 
+Open burning 
+3891 
+1827 
+Now, the dry season emissions are only 75% of the wet season emissions of Complete Straw incorporation 
+management system.  
+Therefore, we consider the total straw produced in the wet season to be 5.6 tons while we assume the amount 
+of straw produced in the dry season to be 4.2 tons. 
+Emissions per ton of straw in wet season = 4132/5.6 kg CO2 eq/ton =737.85 kg CO2 eq. /ton 
+Emissions per ton of straw in dry season = 3086/4.2 kg CO2 eq/ton= 734.76 kg CO2 eq. /ton 
+Average emissions per ton annually= 736.3 kg CO2 eq. /ton 
+Now, for 1 ton total solid as input biogas yield is = 400 m3 
+	
+	
+	
+	
+	
+             = (400*0.67) kg of biogas 
+	
+	
+	
+	
+	
+             = 294.8 kg biogas 
+•	
+Therefore, to produce 1 ton biogas amount of paddy straw required =3.39 tons 
+Therefore, amount of GHG emissions avoided = (3.39*736.3) kg CO2 eq. 
+        	
+	
+	
+                                   = 2496.1 kg CO2 eq.  
+2.	
+Calculation of avoided emission from replacement of chemical fertilizer by slurry 
+Also, 70-75% of feedstock comes out as slurry 
+Therefore, we assume that amount of slurry produced on producing 1-ton Bio-CNG from paddy straw 
+= (0.725*3.39) tons of slurry 
+= 2.5 tons of slurry 
+
+--- Page 48 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+38
+Now, NPK fertilizer to slurry replacement ratio is 75.7: 1 
+Therefore, amount of NPK fertilizer that can be replaced = 2500/75.7= 33 kg of NPK fertilizer 
+Emission saved from such replacement = (2.85*33) - (0.024*2500) 
+                                                                = 34.05 kg CO2 eq. 
+Therefore, emissions saved on production of 1-ton Bio-CNG from paddy straw 
+= (2496.1+34) kg CO2 eq. 
+=2530.1 kg CO2 eq. 
+3.	
+Calculation of total emission saved per km for CAFE 
+Therefore, emission saved per km on using paddy straw as feedstock  
+	
+	
+	
+	
+	
+	
+= (-2530.1/30000) kg CO2 eq. 
+         	
+	
+	
+	
+	
+             	= -0.084 kg CO2 eq. /km  
+Total emission reduction per km from current emissions = (84+108) g CO2 eq./km 
+                                                                                     = 192 g CO2 eq. /km 
+  	
+	
+	
+	
+	
+             =0.192 kg CO2 eq./km 
+4.	
+Calculation of plant requirement for complete transition of current CNG fleet to Bio-CNG for 1 year 
+Total CNG vehicles on road= 3000000 vehicles  
+For per km run per vehicle, 
+Total km run by entire CNG fleet per year= 3000000 
+Total emissions of the fleet per km run per vehicle = (3000000*0.108) kg CO2 eq. 
+                            		
+	
+	
+   =324000 kg CO2 eq./km 
+On replacing the entire fleet by Bio-CNG through independent dispensing stations, emissions that can be 
+avoided per km = 3000000*0.192 kg CO2 eq./km = 576000 kg CO2 eq./km 
+Now, to replace the entire fleet by Bio-CNG and run the fleet for 1 year: 
+Let us say km travel by one vehicle per year =12000 km 
+Total gas required by one vehicle per year= 12000/30  
+                                                      =400 kg of Bio-CNG 
+
+--- Page 49 ---
+39
+Total gas required by the entire fleet to run per year =400*3000000  
+                                                     = 1200000000 kg of Bio-CNG 
+Capacity of 1TPD plant per year = 365000 kg of Bio-CNG 
+No. of 1TPD plants required to run the current CNG fleet for entire year with Bio-CNG=1200000000/365000  
+= 3290 plants 
+5	
+Calculation of feedstock requirement for complete transition of current CNG fleet to Bio-CNG  
+for 1 year 
+Amount of feedstock needed per day to run 3290 1TPD plants = 3290*3.39 tons 
+      	
+	
+	
+	
+	
+	
+                      = 11153 tons of paddy straw/day 
+Amount of slurry that will be produced while running 3290 1TPD plants = 3290*2.5 tons/day	
+	
+	
+	
+	
+	
+	
+	
+                          = 8225 tons/day 
+
+--- Page 50 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+40
+9.3	 Annexure III: Calculations of GHG savings due 
+	
+to biogas production from industrial feedstock 		
+	
+	
+(bagasse) 
+1.	
+Calculation of upstream GHG avoidance 
+Methane emission per kg of bagasse burning =0.3 g 
+Nitrous oxide emission per kg of bagasse burning = 0.04 g 
+Total GHG per kg of bagasse burning = 20.32 g CO2 eq. 
+Bagasse being a cellulosic material has high volatile solids content of 96%. 
+Max biogas yield =4.98 m3/kg VS =3.33 kg/kg VS =3.33 kg/ 1.04 kg of bagasse 
+Therefore, for 1 ton biogas production, amount of bagasse required =312.3 kg  
+Therefore, emissions avoided for production of 1 ton biogas = (312.3*20.32) g CO2 eq. 
+       	
+	
+	
+	
+	
+	
+                   = 6345.9 g CO2 eq 
+    	
+	
+	
+	
+	
+	
+                   =6.3 kg CO2 eq. 
+2.	
+Calculation of total emission saved per km for CAFE 
+Emission saved per km on using bagasse as feedstock = (-6.3/30000) kg CO2 eq. 
+  	
+	
+	
+	
+	
+	
+          = -0.00021 kg CO2 eq. /km  
+Total emission reduction per km from current emissions = (0.21+108) g CO2 eq./km 
+                                                          	
+	
+	
+= 108.21 g CO2 eq. /km  
+3.	
+Calculation of plant requirement for complete transition of current CNG fleet to Bio-CNG for 1 year 
+Total CNG vehicles on road= 3000000 vehicles  
+For per km run per vehicle 
+Total km run by entire CNG fleet per year= 3000000 
+Total emissions of the fleet per km run per vehicle = (3000000*0.108) kg CO2 eq. 
+                             	
+	
+                             =324000 kg CO2 eq./km 
+On replacing the entire fleet by Bio-CNG through independent dispensing stations, emissions that can be 
+avoided per km = 3000000*0.00021 kg CO2 eq./km 
+                          = 630 kg CO2 eq./km 
+Now, to replace the entire fleet by Bio-CNG and run the fleet for 1 year: 
+Let us say km travel by one vehicle per year =12000 km 
+Total gas required by one vehicle per year = 12000/30 = 400 kg of Bio-CNG 
+
+--- Page 51 ---
+41
+Total gas required by the entire fleet to run per year =400*3000000 
+                  	
+	
+	
+                  = 1200000000 kg of Bio-CNG 
+Capacity of 1TPD plant per year = 365000 kg of Bio-CNG 
+No. of 1TPD plants required to run the current CNG fleet for entire year with Bio-CNG 
+= 1200000000/365000 
+= 3290 plants 
+4.	
+Calculation of feedstock requirement for complete transition of current CNG fleet to Bio-CNG  
+for 1 year 
+Amount of feedstock needed per day to run 3290 1TPD plants= 3290*0.312 tons 
+                   	
+	
+	
+	
+	
+	
+          = 1026 tons of bagasse/day 
+
+--- Page 52 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+42
+9.4	 Annexure IV: Calculations of GHG savings due to 	
+	
+	
+biogas production from Municipal Solid Waste
+1.	
+Calculation of upstream GHG avoidance 
+Methane emission per ton of MSW in dump yard =50 m3 CH4 /yr 
+	
+	
+	
+	
+	
+              = 33.5 kg CH4 /yr
+	
+	
+	
+	
+	
+              = 938 kg CO2 eq. /yr
+Amount of biogas yield from MSW in tropical climate =0.08 m3 CH4/kg of VS
+Total VS of MSW = 41.3%
+Therefore, total VS in 1-ton MSW= (0.413*1000) kg of VS
+	
+	
+	
+	
+  = 413 kg of VS
+Total biogas yield from 1-ton MSW = (0.08*413) m3/ton of MSW
+	
+	
+	
+	
+      = 34.1 m3 CH4/ ton of MSW
+	
+	
+	
+	
+      = 22.8 kg CH4/ ton of MSW
+Therefore, 23 kg of biogas can be produced from 1-ton MSW
+Therefore, to produce 1 ton of biogas, amount of MSW needed = 43.4 tons of MSW
+Therefore, emissions avoided for production of 1 ton biogas = (43.3*938) kg CO2 eq.
+	
+	
+	
+	
+	
+	
+         	
+     = 40782.6 kg CO2 eq.
+2.	
+Calculation of avoided emission from replacement of chemical fertilizer by slurry 
+1m3 of biogas production produces = 7.1 kg of slurry
+Therefore 1000 kg (1492 m3) of biogas produces = (1492*7.1) kg of slurry
+	
+	
+	
+	
+	
+               = 10593 kg of slurry
+Now, NPK fertilizer to slurry replacement ratio is 75.7: 1 
+Therefore, amount of NPK fertilizer that can be replaced = 10593/75.7 
+             		
+	
+	
+	
+	
+= 139.9 kg of NPK fertilizer 
+Emission saved from such replacement = (2.85*140) - (0.024*10593) 
+                                                                	
+	
+= 144.8 kg CO2 eq.
+Therefore, emissions saved on production of 1 ton Bio-CNG from MSW
+	
+	
+	
+	
+	
+	
+     = (40782.6+144.8) kg CO2 eq. 
+	
+	
+	
+	
+	
+	
+     = 40926.8 kg CO2 eq.
+
+--- Page 53 ---
+43
+3.	
+Calculation of total emission saved per km for CAFE
+Emission saved per km on using bagasse as feedstock = (-40963/30000) kg CO2 eq. 
+ 	
+ 	
+	
+	
+	
+	
+          = -1.36 kg CO2 eq. /km  
+Total emission reduction per km from current emissions = (1360+108) g CO2 eq./km 
+                                                          	
+	
+           = 1468 g CO2 eq. /km 
+4.	
+Calculation of plant requirement for complete transition of current CNG fleet to Bio-CNG for 1 year 
+Total CNG vehicles on road= 3000000 vehicles  
+For per km run per vehicle, 
+Total km run by entire CNG fleet per year= 3000000 
+Total emissions of the fleet per km run per vehicle = (3000000*0.108) kg CO2 eq. 
+                             	
+	
+	
+                =324000 kg CO2 eq./km 
+On replacing the entire fleet to Bio-CNG through independent dispensing stations, emissions that can be 
+avoided per km = 3000000*1.4 kg CO2 eq./km 
+                          = 42000000 kg CO2 eq./km 
+Now, to replace the entire fleet by Bio-CNG and run the fleet for 1 year: 
+Let us say km travel by one vehicle per year =12000 km
+Total gas required by one vehicle per year = 12000/30  
+                                                                    =400 kg of Bio-CNG 
+Total gas required by the entire fleet to run per year =400*3000000 
+                  	
+	
+	
+           = 1200000000 kg of Bio-CNG 
+Capacity of 1TPD plant per year = 365000 kg of Bio-CNG 
+No. of 1TPD plants required to run the current CNG fleet for entire year with Bio-CNG 
+=1200000000/365000 
+= 3290 plants 
+5.	
+Calculation of feedstock requirement for complete transition of current CNG fleet to Bio-CNG  
+	for 1 year 
+Amount of feedstock needed per day to run 3290 1TPD plants= 3290*43.4
+                   	
+	
+	
+	
+	
+	
+          = 142786 tons of MSW/day 
+Amount of slurry that will be produced while running 3290 1TPD plants 
+= 3290*10.5 tons/day 
+= 34545 tons/day 
+
+--- Page 54 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+44
+9.5	 Annexure V: Calculations of GHG savings due to 		
+	
+	
+biogas production from Press Mud
+1.	
+Calculation of plant requirement for complete transition of current CNG fleet to Bio-CNG for 1 year 
+Total CNG vehicles on road= 3000000 vehicles  
+For per km run per vehicle, 
+Total km run by entire CNG fleet per year= 3000000 
+Total emissions of the fleet per km run per vehicle = (3000000*0.108) kg CO2 eq. 
+                             	
+	
+	
+                =324000 kg CO2 eq./km 
+On replacing the entire fleet by Bio-CNG through independent dispensing stations, emissions that can be 
+avoided per km = 3000000*1.4 kg CO2 eq./km 
+                          = 42000000 kg CO2 eq./km 
+Now, to replace the entire fleet by Bio-CNG and run the fleet for 1 year: 
+Let us say km travel by one vehicle per year =12000 km 
+Total gas required by one vehicle per year = 12000/30= 400 kg of Bio-CNG 
+Total gas required by the entire fleet to run per year =400*3000000 = 1200000000 kg of Bio-CNG 
+Capacity of 1TPD plant per year = 365000 kg of Bio-CNG 
+No. of 1TPD plants required to run the current CNG fleet for entire year with Bio-CNG 
+=1200000000/365000 
+= 3290 plants 
+2.	
+Calculation of feedstock requirement for complete transition of current CNG fleet to Bio-CNG  
+for 1 year 
+Amount of feedstock needed per day to run 3290 1TPD plants= 3290*21.9 tons of press mud
+                   	
+	
+	
+	
+	
+	
+           =72051 tons of press mud per day
+Amount of slurry that will be produced while running 3290 1TPD plants
+= 3290*5.85 tons/day
+= 19247 tons/day 
+
+--- Page 55 ---
+45
+9.6	 Annexure VI: Table Break-up of MPCE by 20 broad 	
+	
+	
+item groups: all-India, 2011-12
+Table A1: Monthly per-capita consumption expenditure on various broad food and non-food items.
+2011-2012 (NSSO)
+Item Group
+Rural (in Rs)
+Urban (in Rs)
+Cereals & cereal substitutes
+154
+175
+Pulses & their products*
+42
+54
+Milk & milk products
+115
+184
+Edible oil
+53
+70
+Egg, fish & meat
+68
+96
+Vegetables
+95
+122
+fruits
+41
+90
+sugar, salt and spices
+76
+94
+beverages, refreshments, processed food
+113
+236
+pan, tobacco & intoxicants
+46
+42
+fuel and light
+114
+176
+clothing & footwear$
+100
+167
+education
+50
+182
+medical
+95
+146
+conveyance
+60
+171
+Other consumer services
+57
+147
+misc. goods, entertainment
+76
+152
+rent
+7
+164
+Taxes and cesses
+4
+22
+Durable goods
+65
+139
+All items
+1430
+2630
+Source: Household Consumption Expenditure survey of NSS 68th round Ministry of Statistics and Programme Implementation
+
+--- Page 56 ---
+Comprehensive Environmental and Social Sustainability  
+Assessment of Bio-CNG as a Vehicular Fuel in India
+46
+9.7	 Annexure VII: Estimation of fuel related monetary 	 	
+	
+savings from complete transition of petrol 		
+	
+	
+	
+4-wheelers to CNG in rural Gujarat and the 		
+	
+	
+	
+proportion of savings going into ensuring nutritional 	
+	
+security, wellbeing and quality education
+1.	
+Estimation of fuel related monetary savings from complete transition of petrol 4-wheelers to CNG  in 
+rural Gujarat
+Average price of petrol in Gujarat= Rs. 96/litre
+Average price of CNG in Gujarat= Rs. 73/kg
+Approximate mileage of a car fuelled by petrol= 17 km/litre
+Approximate mileage of a car fuelled by CNG= 25 km/kg
+(Source: Tata Capital, Tata Group)
+Savings are calculated for 2 cases-
+A car travelling 15km/day and a car travelling 30 km/day.
+Case 1: Savings from transition of a car travelling 15 km/day
+Monthly distance travelled by a car= 450 km
+Per kilometre cost incurred on petrol powered car= Rs. 96/17= Rs. 5.647
+Per kilometre cost incurred on CNG powered car= Rs. 73/25= Rs. 2.92
+Therefore, per kilometre savings from switching to CNG= Rs. 5.647- Rs. 2.92= Rs. 2.727
+Monthly savings from switching to CNG= Rs. 2.727*450
+       = Rs. 1,227.15
+Yearly savings from one car transitioning to CNG= Rs. 2.727*450*12
+         = Rs.14,725.8
+Total registered 4-wheelers in Gujarat= 32,06,687
+(Source: Commissionerate of Transportation, Government of Gujarat)
+As per NSS 68th round; 2011-2012,
+Household reporting ownership of car per 1000 population in rural Gujarat= 20
+Household reporting ownership of car per 1000 population in urban Gujarat= 69
+If the ownership pattern remains same, taking this as a proxy for rural- urban share of total registered 4- 
+wheelers;  approximately 23% of total 4 wheelers in Gujarat can be registered in rural Gujarat.
+Therefore, rural share of total registered 4-wheelers= 23% of 32, 06,687= 7, 37, 538
+
+--- Page 57 ---
+47
+CNG powertrain penetration in India= 11%. 
+(Source: ICRA, Business Standard)
+Taking this as a proxy for share of CNG 4-wheelers in rural Gujarat,
+Share of 4-wheelers fuelled by Petrol= 7, 37, 538- 11% of 7, 37, 538= 6, 56,409
+Yearly savings from 6,56,409 Petrol 4-wheelers transitioning to CNG
+= 6, 56,409 * 14, 725.8= Rs. 9,66,61,47,652.2 
+Case 2: Savings from transition of a car travelling 30 km/day
+Monthly distance travelled by a car= 900 km
+Per kilometre cost incurred on petrol powered car= Rs. 96/17= Rs. 5.647
+Per kilometre cost incurred on CNG powered car= Rs. 73/25= Rs. 2.92
+Therefore, per kilometre savings from switching to CNG= Rs. 2.727
+Monthly savings from switching to CNG= Rs. 2.727*900
+       = Rs. 2454.3
+Yearly savings from one car transitioning to CNG= Rs. 2.727*900*12
+        = Rs.29,451.6
+Yearly savings from 6,56,409 Petrol 4-wheelers transitioning to CNG
+= 6, 56,409 * 29,451.6= Rs. 19,33,22,95,304.4
+2.	
+Estimation of increase in spending on nutrition, health, and education because of savings realized from 
+transition to CNG
+According to the Household Consumption Expenditure Survey of NSS 68th round 2011-2012, combined 
+weightage of cereals, pulses, milk, edible oil, egg, fish and meat, vegetable, fruits, spices, and processed food is 
+52.91% of the total expenditure. The weightage of health expenditure is 6.64% and that of education is 3.49% 
+of total expenditure for a rural household. Assuming the expenditure pattern to remain same;
+Case 1: Yearly savings from transitioning to CNG= Rs. 9,66,61,47,652.2 
+The proportion of estimated yearly savings going into-
+Food expenditure= Rs. 5,11,43,58,722.77
+Health expenditure= Rs. 64,18,32,204.1
+Education expenditure= Rs. 33,73,48,553
+Case 2: Yearly savings from transitioning to CNG is Rs. 19,33,22,95,304.4
+•	
+The proportion of estimated yearly savings going into-
+Food expenditure= Rs. 10,22,87,17,445.56
+Health expenditure= Rs. 1,28,36,64,408.21
+Education expenditure= Rs. 67,46,97,106.12
+
+--- Page 58 ---
+
+--- Page 59 ---
+
+--- Page 60 ---
