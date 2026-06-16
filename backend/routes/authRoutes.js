@@ -10,8 +10,9 @@ const JWT_SECRET = process.env.JWT_SECRET || 'your_super_secret_key';
 // Register
 router.post('/register', async (req, res) => {
   try {
-    const { username, email, password, role } = req.body;
+    const { username, email, phone, password, role } = req.body;
     const cleanUsername = typeof username === 'string' ? username.trim() : '';
+    const cleanPhone = typeof phone === 'string' ? phone.trim() : '';
     const cleanEmail = typeof email === 'string' ? email.trim().toLowerCase() : '';
     const cleanPassword = typeof password === 'string' ? password : '';
     const cleanRole = typeof role === 'string' ? role.trim().toLowerCase() : 'customer';
@@ -47,6 +48,7 @@ router.post('/register', async (req, res) => {
     const customer = new Customer({
       username: cleanUsername,
       email: cleanEmail,
+      phone: cleanPhone,
       password: cleanPassword,
     });
 

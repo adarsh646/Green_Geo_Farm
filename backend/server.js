@@ -12,6 +12,27 @@ const UPLOADS_DIR = path.join(__dirname, 'uploads');
 
 fs.mkdirSync(UPLOADS_DIR, { recursive: true });
 
+const { createProxyMiddleware } = require('http-proxy-middleware');
+const { authenticateToken } = require('./middleware/auth');
+
+// Proxies (Must be placed before express.json() so streams are preserved)
+app.use('/api/camera-stream', createProxyMiddleware({
+  target: process.env.CAMERA_SERVICE_URL || 'http://127.0.0.1:8001',
+  changeOrigin: true,
+  ws: true, // enable websocket proxy
+  pathRewrite: {
+    '^/api/camera-stream': '', // remove the proxy base path
+  },
+}));
+
+app.post('/api/cattle/predict', authenticateToken, createProxyMiddleware({
+  target: process.env.BREED_PREDICTION_SERVICE_URL || 'http://127.0.0.1:8000',
+  changeOrigin: true,
+  pathRewrite: {
+    '^/api/cattle/predict': '/predict', 
+  },
+}));
+
 // Middleware
 app.use(cors());
 app.use(express.json());

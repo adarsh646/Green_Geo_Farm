@@ -80,6 +80,7 @@ const removeFileByUrl = async (fileUrl) => {
   }
 };
 
+
 // Get all cattle (supports optional pagination and search)
 router.get('/', async (req, res) => {
   try {

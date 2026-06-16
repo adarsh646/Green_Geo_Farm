@@ -46,3 +46,4 @@ backend/uploads/*.jfif
 backend/uploads/*.png
 backend/uploads/*.jpg
 backend/uploads/*.jpeg
+.venv/
