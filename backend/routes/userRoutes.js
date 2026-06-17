@@ -1,6 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const User = require('../models/User');
+const Customer = require('../models/Customer');
 
 const sanitizeUserPayload = (payload = {}) => {
   const { username, email, password, workerType, monthlySalary, wagePerDay } = payload;
@@ -156,6 +157,15 @@ router.delete('/shopkeepers/:id', async (req, res) => {
     res.json({ message: 'Shopkeeper deleted successfully' });
   } catch (err) {
     res.status(500).json({ message: err.message });
+  }
+});
+
+router.get('/customers', async (req, res) => {
+  try {
+    const customers = await Customer.find({}).select('-password').sort({ createdAt: -1 });
+    res.json(customers);
+  } catch (err) {
+    res.status(500).json({ message: 'Failed to fetch customers' });
   }
 });
 
