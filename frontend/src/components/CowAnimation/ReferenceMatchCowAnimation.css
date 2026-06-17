@@ -1,0 +1,565 @@
+.reference-page {
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+  padding: 20px;
+}
+
+.reference-toolbar {
+  max-width: 1180px;
+  margin: 0 auto 16px;
+  padding: 14px 16px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  border-radius: 10px;
+}
+
+.reference-toolbar h2 {
+  margin: 0;
+  font-size: clamp(18px, 2vw, 24px);
+}
+
+.reference-toolbar p {
+  margin: 8px 0 12px;
+  font-size: 14px;
+  color: #c9d3dc;
+}
+
+.reference-demo-toggle {
+  padding: 8px 14px;
+  border: 1px solid rgba(94, 201, 255, 0.55);
+  border-radius: 6px;
+  background: rgba(18, 104, 164, 0.35);
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.reference-demo-toggle:hover {
+  transform: translateY(-1px);
+  background: rgba(24, 124, 195, 0.45);
+}
+
+.reference-canvas-shell {
+  max-width: 1180px;
+  margin: 0 auto;
+  display: flex;
+  align-items: stretch;
+  gap: 14px;
+}
+
+.reference-canvas {
+  position: relative;
+  flex: 0 0 800px;
+  width: 800px;
+  height: 600px;
+  overflow: hidden;
+  background: #000;
+  border-radius: 10px;
+}
+
+.reference-image {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.reference-overlay {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.water-main-flow {
+  fill: none;
+  stroke: url(#waterGradient);
+  stroke-width: 10;
+  stroke-linecap: round;
+  stroke-dasharray: 22 12;
+  animation: waterFlow 2.1s linear infinite;
+  filter: url(#waterGlow);
+}
+
+.water-internal-track {
+  fill: none;
+  stroke: rgba(122, 225, 255, 0.32);
+  stroke-width: 24;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  animation: waterInternalTrack 1.9s ease-in-out infinite;
+}
+
+.water-secondary-flow {
+  fill: none;
+  stroke: #8be7ff;
+  stroke-opacity: 0.45;
+  stroke-width: 4;
+  stroke-linecap: round;
+  stroke-dasharray: 8 12;
+  animation: waterFlowSecondary 2.6s linear infinite;
+}
+
+.water-particle {
+  fill: #8de8ff;
+  filter: url(#waterGlow);
+  animation: pulseParticle 1.2s ease-in-out infinite;
+}
+
+.water-mouth-entry {
+  fill: rgba(123, 230, 255, 0.2);
+  stroke: rgba(143, 237, 255, 0.95);
+  stroke-width: 2;
+  animation: waterMouthPulse 1.2s ease-in-out infinite;
+}
+
+.water-stomach-arrival {
+  fill: rgba(88, 201, 255, 0.16);
+  stroke: rgba(122, 222, 255, 0.88);
+  stroke-width: 3;
+  animation: waterArrivalPulse 1.35s ease-in-out infinite;
+}
+
+.feed-spray-dot {
+  fill: #58d254;
+  filter: drop-shadow(0 0 8px rgba(89, 223, 82, 0.85));
+  animation: flickerFeed 1.1s ease-in-out infinite;
+}
+
+.feed-internal-track {
+  fill: none;
+  stroke: rgba(96, 221, 98, 0.25);
+  stroke-width: 20;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  animation: feedInternalTrack 2.2s ease-in-out infinite;
+}
+
+.feed-main-flow {
+  fill: none;
+  stroke: rgba(121, 245, 123, 0.95);
+  stroke-width: 6;
+  stroke-linecap: round;
+  stroke-dasharray: 14 10;
+  animation: feedFlow 1.9s linear infinite;
+}
+
+.feed-flow-particle {
+  fill: #8df97a;
+  filter: drop-shadow(0 0 8px rgba(126, 250, 123, 0.88));
+  animation: flickerFeed 1s ease-in-out infinite;
+}
+
+.feed-mouth-halo {
+  fill: rgba(92, 219, 84, 0.16);
+  stroke: rgba(95, 227, 87, 0.7);
+  stroke-width: 2;
+  animation: breatheHalo 1.8s ease-in-out infinite;
+}
+
+.feed-mouth-entry {
+  fill: rgba(102, 233, 104, 0.16);
+  stroke: rgba(132, 248, 133, 0.9);
+  stroke-width: 2;
+  animation: feedMouthPulse 1.2s ease-in-out infinite;
+}
+
+.feed-stomach-arrival {
+  fill: rgba(86, 218, 88, 0.14);
+  stroke: rgba(140, 250, 139, 0.82);
+  stroke-width: 3;
+  animation: feedArrivalPulse 1.5s ease-in-out infinite;
+}
+
+.feed-stomach-chamber {
+  fill: rgba(99, 230, 102, 0.16);
+  stroke: rgba(142, 248, 139, 0.7);
+  stroke-width: 2;
+  animation: feedChamberPulse 1.4s ease-in-out infinite;
+}
+
+.dehydration-dome {
+  fill: url(#dehydrationFill);
+  stroke: rgba(156, 219, 255, 0.75);
+  stroke-width: 3;
+  animation: domePulse 3s ease-in-out infinite;
+}
+
+.dehydration-inner-ring {
+  fill: none;
+  stroke: rgba(162, 224, 255, 0.55);
+  stroke-width: 2;
+  animation: domePulse 3s ease-in-out infinite;
+}
+
+.injection-ring {
+  fill: none;
+  stroke: rgba(66, 175, 255, 0.85);
+  stroke-width: 3;
+  animation: injectWave 1.4s ease-out infinite;
+}
+
+.injection-core {
+  fill: url(#injPulseFill);
+  animation: injectCoreBlink 1.25s ease-in-out infinite;
+}
+
+.injection-center-dot {
+  fill: #d8f7ff;
+  filter: drop-shadow(0 0 12px rgba(170, 231, 255, 0.9));
+  animation: centerBlink 1s ease-in-out infinite;
+}
+
+.syringe-group {
+  transform-origin: center;
+}
+
+.syringe-body {
+  fill: rgba(200, 228, 244, 0.65);
+  stroke: rgba(194, 228, 255, 0.85);
+  stroke-width: 1;
+}
+
+.syringe-fluid {
+  fill: rgba(117, 214, 255, 0.82);
+}
+
+.syringe-needle,
+.syringe-tip {
+  fill: #d7dbe0;
+}
+
+.syringe-plunger {
+  fill: #95b5cc;
+}
+
+.feeding-problem-ring {
+  fill: rgba(255, 62, 62, 0.18);
+  stroke: rgba(255, 78, 78, 0.95);
+  stroke-width: 4;
+  animation: warningBeat 1.5s ease-in-out infinite;
+}
+
+.problem-dot,
+.low-dot {
+  fill: #8bea70;
+  filter: drop-shadow(0 0 8px rgba(146, 245, 108, 0.9));
+  animation: flickerFeed 1.15s ease-in-out infinite;
+}
+
+.low-feeding-ring {
+  fill: rgba(255, 184, 16, 0.16);
+  stroke: rgba(255, 205, 51, 0.96);
+  stroke-width: 4;
+  animation: lowPulse 2.2s ease-in-out infinite;
+}
+
+.reference-status-chip {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  z-index: 3;
+  background: rgba(8, 15, 22, 0.78);
+  border: 1px solid rgba(130, 176, 210, 0.5);
+  border-radius: 999px;
+  padding: 8px 14px;
+  font-size: 13px;
+}
+
+.reference-status-chip.draggable {
+  cursor: move;
+  user-select: none;
+  border-color: rgba(88, 191, 255, 0.9);
+  box-shadow: 0 0 12px rgba(72, 176, 255, 0.35);
+}
+
+.reference-controls {
+  flex: 0 0 270px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: flex-start;
+  background: rgba(6, 12, 17, 0.82);
+  border: 1px solid rgba(131, 168, 195, 0.45);
+  border-radius: 12px;
+  padding: 10px;
+}
+
+.reference-control-btn {
+  width: 100%;
+  padding: 7px 11px;
+  border: 1px solid rgba(173, 202, 224, 0.45);
+  border-radius: 6px;
+  color: #f4fbff;
+  background: rgba(147, 172, 192, 0.18);
+  cursor: pointer;
+  font-size: 12px;
+  transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.reference-control-btn:hover {
+  transform: translateY(-1px);
+  border-color: rgba(201, 226, 243, 0.75);
+}
+
+.reference-control-btn.active {
+  border-color: rgba(88, 191, 255, 0.9);
+  background: rgba(28, 143, 210, 0.45);
+  box-shadow: 0 0 12px rgba(72, 176, 255, 0.4);
+}
+
+@keyframes waterFlow {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -68;
+  }
+}
+
+@keyframes waterFlowSecondary {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -40;
+  }
+}
+
+@keyframes waterInternalTrack {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 0.68;
+  }
+}
+
+@keyframes pulseParticle {
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes waterMouthPulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.65;
+  }
+  50% {
+    transform: scale(1.2);
+    opacity: 1;
+  }
+}
+
+@keyframes waterArrivalPulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.58;
+  }
+  50% {
+    transform: scale(1.16);
+    opacity: 0.96;
+  }
+}
+
+@keyframes feedFlow {
+  from {
+    stroke-dashoffset: 0;
+  }
+  to {
+    stroke-dashoffset: -48;
+  }
+}
+
+@keyframes feedInternalTrack {
+  0%,
+  100% {
+    opacity: 0.32;
+  }
+  50% {
+    opacity: 0.62;
+  }
+}
+
+@keyframes flickerFeed {
+  0%,
+  100% {
+    opacity: 0.65;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.16);
+  }
+}
+
+@keyframes feedMouthPulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.62;
+  }
+  50% {
+    transform: scale(1.15);
+    opacity: 0.96;
+  }
+}
+
+@keyframes feedArrivalPulse {
+  0%,
+  100% {
+    transform: scale(1);
+    opacity: 0.58;
+  }
+  50% {
+    transform: scale(1.13);
+    opacity: 0.93;
+  }
+}
+
+@keyframes feedChamberPulse {
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.9;
+    transform: scale(1.14);
+  }
+}
+
+@keyframes breatheHalo {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.95;
+    transform: scale(1.1);
+  }
+}
+
+@keyframes domePulse {
+  0%,
+  100% {
+    opacity: 0.55;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.92;
+    transform: scale(1.08);
+  }
+}
+
+@keyframes injectWave {
+  0% {
+    transform: scale(0.6);
+    opacity: 0.85;
+  }
+  100% {
+    transform: scale(1.8);
+    opacity: 0;
+  }
+}
+
+@keyframes injectCoreBlink {
+  0%,
+  100% {
+    opacity: 0.32;
+  }
+  50% {
+    opacity: 0.96;
+  }
+}
+
+@keyframes centerBlink {
+  0%,
+  100% {
+    opacity: 0.75;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes syringeFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+@keyframes warningBeat {
+  0%,
+  100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 0.95;
+  }
+}
+
+@keyframes lowPulse {
+  0%,
+  100% {
+    opacity: 0.62;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.96;
+    transform: scale(1.07);
+  }
+}
+
+@media (max-width: 880px) {
+  .reference-page {
+    padding: 12px;
+  }
+
+  .reference-canvas-shell {
+    flex-direction: column;
+  }
+
+  .reference-canvas {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+    aspect-ratio: 4 / 3;
+  }
+
+  .reference-status-chip {
+    font-size: 12px;
+    padding: 7px 11px;
+  }
+
+  .reference-controls {
+    flex: 1 1 100%;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6px;
+    padding: 8px;
+  }
+
+  .reference-control-btn {
+    width: auto;
+    font-size: 11px;
+    padding: 6px 9px;
+  }
+}

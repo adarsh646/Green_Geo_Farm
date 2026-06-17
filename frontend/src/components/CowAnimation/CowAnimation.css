@@ -1,0 +1,454 @@
+/* Cow Animation Styles */
+.cow-animation-container {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  background: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.cow-image {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+
+.animation-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+/* Water Drinking Animation - Blue Wave/Line with Pan Effect */
+.water-drinking {
+  position: absolute;
+  width: 4px;
+  height: 140px;
+  background: linear-gradient(180deg, 
+    transparent 0%, 
+    rgba(0, 149, 255, 0.3) 20%,
+    rgba(0, 149, 255, 0.8) 50%,
+    rgba(0, 149, 255, 0.3) 80%,
+    transparent 100%);
+  border-radius: 2px;
+  left: 310px;
+  top: 150px;
+  transform: rotate(15deg);
+  transform-origin: top center;
+  overflow: hidden;
+  animation: waterInsidePulse 1.8s ease-in-out infinite;
+}
+
+.water-drinking::before {
+  content: '';
+  position: absolute;
+  width: 220%;
+  height: 100%;
+  left: -60%;
+  background: linear-gradient(180deg,
+    transparent 0%,
+    rgba(0, 195, 255, 0.6) 30%,
+    rgba(0, 195, 255, 1) 50%,
+    rgba(0, 195, 255, 0.6) 70%,
+    transparent 100%);
+  animation: waveFlowInside 1.2s linear infinite;
+}
+
+@keyframes waveFlowInside {
+  0%, 100% {
+    transform: translateY(-20%) scaleY(0.95);
+    opacity: 0.6;
+  }
+  50% {
+    transform: translateY(18%) scaleY(1.12);
+    opacity: 1;
+  }
+}
+
+@keyframes waterInsidePulse {
+  0%, 100% {
+    opacity: 0.75;
+    box-shadow: 0 0 5px rgba(0, 149, 255, 0.4);
+  }
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 10px rgba(0, 195, 255, 0.75);
+  }
+}
+
+.water-label-internal {
+  position: absolute;
+  color: #2d98ff;
+  font-weight: 700;
+  font-size: 24px;
+  text-shadow: 0 0 10px rgba(45, 152, 255, 0.45);
+  pointer-events: none;
+  animation: waterLabelPulse 1.8s ease-in-out infinite;
+}
+
+@keyframes waterLabelPulse {
+  0%, 100% {
+    opacity: 0.8;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+/* Dehydration Risk - Light Blue Circle with Pop Effect */
+.dehydration-risk {
+  position: absolute;
+  width: 200px;
+  height: 160px;
+  background: radial-gradient(circle, 
+    rgba(173, 216, 230, 0.4) 0%, 
+    rgba(173, 216, 230, 0.2) 50%,
+    rgba(173, 216, 230, 0.1) 100%);
+  border-radius: 50%;
+  left: 270px;
+  top: 240px;
+  animation: popBlink 3s ease-in-out infinite;
+}
+
+@keyframes popBlink {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.3;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.8;
+  }
+}
+
+/* Medicine Injection - Blue Circle with Pulse Effect */
+.medicine-injection {
+  position: absolute;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: visible;
+  background: radial-gradient(circle, 
+    rgba(0, 123, 255, 0.8) 0%, 
+    rgba(0, 123, 255, 0.4) 50%,
+    rgba(0, 123, 255, 0.1) 100%);
+  border-radius: 50%;
+  left: 480px;
+  top: 260px;
+  animation: medicineBlink 1.25s ease-in-out infinite;
+}
+
+.medicine-injection::before {
+  display: none;
+}
+
+.medicine-syringe-symbol {
+  position: absolute;
+  width: 44px;
+  height: 14px;
+  transform: rotate(-30deg);
+  z-index: 1;
+  pointer-events: none;
+  filter: drop-shadow(0 0 6px rgba(152, 220, 255, 0.8));
+}
+
+.medicine-syringe-body {
+  position: absolute;
+  left: 10px;
+  top: 2px;
+  width: 18px;
+  height: 9px;
+  border-radius: 2px;
+  border: 1px solid rgba(190, 226, 249, 0.9);
+  background: rgba(216, 232, 245, 0.8);
+}
+
+.medicine-syringe-fluid {
+  position: absolute;
+  left: 12px;
+  top: 5px;
+  width: 11px;
+  height: 3px;
+  border-radius: 2px;
+  background: rgba(114, 218, 255, 0.95);
+}
+
+.medicine-syringe-needle {
+  position: absolute;
+  left: 28px;
+  top: 6px;
+  width: 9px;
+  height: 2px;
+  border-radius: 2px;
+  background: #d6dde6;
+}
+
+.medicine-syringe-tip {
+  position: absolute;
+  left: 37px;
+  top: 5px;
+  width: 0;
+  height: 0;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+  border-left: 5px solid #d6dde6;
+}
+
+.medicine-syringe-plunger {
+  position: absolute;
+  left: 4px;
+  top: 3px;
+  width: 6px;
+  height: 7px;
+  border-radius: 1px;
+  background: #9ab5ca;
+}
+
+@keyframes medicineBlink {
+  0%, 100% {
+    opacity: 0.34;
+  }
+  50% {
+    opacity: 0.98;
+  }
+}
+
+@keyframes pulseRing {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(2);
+    opacity: 0;
+  }
+}
+
+/* Active Feeding - Green Particles with Rise Effect */
+.active-feeding {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.feeding-tract-line {
+  position: absolute;
+  width: 8px;
+  height: 220px;
+  background: linear-gradient(
+    180deg,
+    rgba(72, 210, 83, 0.2) 0%,
+    rgba(92, 236, 104, 0.92) 48%,
+    rgba(72, 210, 83, 0.2) 100%
+  );
+  border-radius: 4px;
+  transform-origin: top center;
+  animation: feedTractPulse 1.8s ease-in-out infinite;
+}
+
+.feeding-particle {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: radial-gradient(circle, 
+    rgba(76, 175, 80, 1) 0%, 
+    rgba(76, 175, 80, 0.6) 50%,
+    rgba(76, 175, 80, 0.2) 100%);
+  border-radius: 50%;
+  animation: riseUp 3s ease-out infinite;
+}
+
+.mouth-particle {
+  left: 270px;
+  top: 130px;
+  animation-delay: 0s;
+}
+
+.stomach-particle-1 {
+  left: 310px;
+  top: 310px;
+  animation-delay: 0.5s;
+}
+
+.stomach-particle-2 {
+  left: 330px;
+  top: 330px;
+  animation-delay: 1s;
+}
+
+.stomach-particle-3 {
+  left: 350px;
+  top: 320px;
+  animation-delay: 1.5s;
+}
+
+.stomach-particle-4 {
+  left: 370px;
+  top: 340px;
+  animation-delay: 2s;
+}
+
+@keyframes riseUp {
+  0% {
+    transform: translateY(0) scale(0.5);
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(-20px) scale(1);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(-80px) scale(1.2);
+  }
+  100% {
+    transform: translateY(-120px) scale(0.8);
+    opacity: 0;
+  }
+}
+
+@keyframes feedTractPulse {
+  0%,
+  100% {
+    opacity: 0.62;
+    box-shadow: 0 0 4px rgba(88, 234, 102, 0.45);
+  }
+  50% {
+    opacity: 1;
+    box-shadow: 0 0 12px rgba(109, 245, 116, 0.9);
+  }
+}
+
+/* Feeding Problem - Red Circle with Pop Effect */
+.feeding-problem {
+  position: absolute;
+  width: 90px;
+  height: 90px;
+  background: radial-gradient(circle, 
+    rgba(244, 67, 54, 0.6) 0%, 
+    rgba(244, 67, 54, 0.3) 50%,
+    rgba(244, 67, 54, 0.1) 100%);
+  border-radius: 50%;
+  left: 290px;
+  top: 300px;
+  animation: popAlert 2s ease-in-out infinite;
+}
+
+@keyframes popAlert {
+  0%, 100% {
+    opacity: 0.38;
+  }
+  50% {
+    opacity: 0.9;
+  }
+}
+
+/* Low Feeding - Yellow Circle with Pulse Effect */
+.low-feeding {
+  position: absolute;
+  width: 75px;
+  height: 75px;
+  background: radial-gradient(circle, 
+    rgba(255, 193, 7, 0.6) 0%, 
+    rgba(255, 193, 7, 0.3) 50%,
+    rgba(255, 193, 7, 0.1) 100%);
+  border-radius: 50%;
+  left: 370px;
+  top: 320px;
+  animation: pulseWarning 3s ease-in-out infinite;
+}
+
+.low-feeding::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, 
+    rgba(255, 235, 59, 0.4) 0%, 
+    transparent 70%);
+  border-radius: 50%;
+  animation: pulseRingWarning 3s ease-in-out infinite;
+}
+
+@keyframes pulseWarning {
+  0%, 100% {
+    transform: scale(1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+}
+
+@keyframes pulseRingWarning {
+  0% {
+    transform: scale(1);
+    opacity: 0.8;
+  }
+  100% {
+    transform: scale(1.5);
+    opacity: 0;
+  }
+}
+
+/* Control Panel Styles */
+.control-panel {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: rgba(0, 0, 0, 0.8);
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 10;
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+  max-width: 600px;
+  justify-content: center;
+}
+
+.control-button {
+  padding: 8px 12px;
+  margin: 5px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  transition: all 0.3s ease;
+}
+
+.control-button:hover {
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateY(-2px);
+}
+
+.control-button.active {
+  background: rgba(0, 149, 255, 0.5);
+  border-color: rgba(0, 149, 255, 0.8);
+}
+
+.status-indicator {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 20px;
+  z-index: 10;
+  font-size: 14px;
+  text-align: left;
+}

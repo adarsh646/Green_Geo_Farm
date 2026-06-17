@@ -1,0 +1,298 @@
+/* Common layout styles for monitors */
+.live-monitor-wide-container,
+.live-monitor-zoom-container {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  overflow: hidden;
+}
+
+.live-monitor-zoom-container {
+  gap: 0;
+  height: 100%;
+}
+
+.live-monitor-zoom-container .video-stream-container {
+  height: 100%;
+  aspect-ratio: unset;
+  border-radius: 0;
+}
+
+.live-monitor-header h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  color: #1e293b;
+  font-weight: 600;
+}
+
+.video-stream-container {
+  position: relative;
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+  background-color: #0f172a;
+  aspect-ratio: 16/9; /* Maintain standard video aspect ratio */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.live-video-feed {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.stream-health-badge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  z-index: 3;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  border-radius: 999px;
+  padding: 5px 10px;
+  border: 1px solid transparent;
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
+}
+
+.stream-health-badge.state-live {
+  color: #bbf7d0;
+  background: rgba(22, 163, 74, 0.25);
+  border-color: rgba(134, 239, 172, 0.55);
+}
+
+.stream-health-badge.state-reconnecting {
+  color: #fde68a;
+  background: rgba(202, 138, 4, 0.26);
+  border-color: rgba(252, 211, 77, 0.55);
+}
+
+.stream-no-signal-overlay {
+  position: absolute;
+  inset: 0;
+  z-index: 2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  color: #f8fafc;
+  background: rgba(2, 6, 23, 0.55);
+  text-align: center;
+  padding: 16px;
+}
+
+.stream-no-signal-overlay strong {
+  font-size: 0.95rem;
+}
+
+.stream-no-signal-overlay span {
+  font-size: 0.8rem;
+  opacity: 0.92;
+}
+
+/* Glassmorphism Styles */
+.glassmorphism-card {
+  background: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 12px;
+  color: white;
+}
+
+/* Wide Monitor Overlay */
+.telemetry-overlay-container {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  right: 10px;
+  bottom: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-content: flex-start;
+  pointer-events: none;
+}
+
+.telemetry-overlay-container > * {
+  pointer-events: auto;
+}
+
+.cow-telemetry-card {
+  padding: 8px 12px;
+  min-width: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  transition: all 0.2s ease;
+}
+
+.cow-telemetry-card.clickable:hover {
+  background: rgba(255, 255, 255, 0.3);
+  transform: translateY(-2px);
+  border-color: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 12px 40px 0 rgba(0, 0, 0, 0.25);
+}
+
+.telemetry-cow-header strong {
+  font-size: 0.9rem;
+  letter-spacing: 0.5px;
+}
+
+.telemetry-cow-stats {
+  display: flex;
+  gap: 6px;
+}
+
+.telemetry-pill {
+  font-size: 0.75rem;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-weight: 600;
+}
+
+.pill-success {
+  background-color: rgba(34, 197, 94, 0.8);
+}
+.pill-danger {
+  background-color: rgba(239, 68, 68, 0.8);
+}
+.pill-neutral {
+  background-color: rgba(59, 130, 246, 0.8);
+}
+
+/* Zoom Monitor Overlay */
+.zoom-telemetry-overlay {
+  position: absolute;
+  bottom: 15px;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 12px 20px;
+  width: 85%;
+  max-width: 400px;
+}
+
+.telemetry-stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+  text-align: center;
+}
+
+.t-stat {
+  display: flex;
+  flex-direction: column;
+}
+
+.t-stat span {
+  font-size: 0.75rem;
+  opacity: 0.8;
+  margin-bottom: 2px;
+}
+
+.t-stat strong {
+  font-size: 1rem;
+}
+
+.color-success {
+  color: #4ade80;
+}
+.color-danger {
+  color: #f87171;
+}
+
+/* ── Wide Monitor container wrapper ───────────────────────────────────────── */
+.cattle-model-plain {
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.cattle-model-plain .live-monitor-header h3 {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #1e293b;
+  letter-spacing: -0.2px;
+  margin-bottom: 12px;
+}
+
+/* ── Compact telemetry pill grid (below wide video) ──────────────────────── */
+.telemetry-compact-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.telemetry-compact-grid .telemetry-pill {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 6px 14px 6px 10px;
+  border-radius: 999px;
+  border: 1px solid #e2e8f0;
+  background: #f8fafc;
+  cursor: pointer;
+  transition: background 0.15s ease, border-color 0.15s ease, transform 0.12s ease;
+  font-size: 0;          /* hide default text */
+}
+
+.telemetry-compact-grid .telemetry-pill:hover {
+  background: #f1f5f9;
+  border-color: #cbd5e1;
+  transform: translateY(-1px);
+}
+
+/* active pill (telemetry data found for this cow) */
+.telemetry-compact-grid .telemetry-pill.active {
+  background: #f0fdf4;
+  border-color: #86efac;
+}
+
+.telemetry-compact-grid .telemetry-pill.active:hover {
+  background: #dcfce7;
+}
+
+.pill-tag {
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: #1e293b;
+  letter-spacing: 0.3px;
+}
+
+.pill-status {
+  font-size: 0.7rem;
+  font-weight: 600;
+  color: #64748b;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+}
+
+.telemetry-compact-grid .telemetry-pill.active .pill-status {
+  color: #16a34a;
+}
+
+/* small red alert dot for WARNING cattle */
+.pill-alert-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #ef4444;
+  flex-shrink: 0;
+  box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.22);
+  animation: pill-pulse 1.6s ease-in-out infinite;
+}
+
+@keyframes pill-pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50%       { opacity: 0.65; transform: scale(1.25); }
+}

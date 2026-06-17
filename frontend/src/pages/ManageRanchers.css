@@ -1,0 +1,331 @@
+/* Worker Matrix isolated styles to avoid affecting cattle details */
+
+.manage-ranchers-layout {
+  display: flex;
+  min-height: 100vh;
+  background: #f8fafc;
+  font-family: 'Inter', sans-serif;
+  color: #1e293b;
+}
+
+.manage-sidebar {
+  width: 260px;
+  background: #fff;
+  border-right: 1px solid #e2e8f0;
+  padding: 32px 0;
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  height: 100vh;
+  z-index: 100;
+}
+
+.manage-sidebar-logo {
+  padding: 0 24px;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 48px;
+}
+
+.manage-logo-img {
+  width: 42px;
+  height: 42px;
+  background: #1e1e1e;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #22c55e;
+}
+
+.manage-logo-text {
+  font-weight: 800;
+  line-height: 1.1;
+  font-size: 14px;
+}
+
+.manage-logo-text span {
+  display: block;
+  font-size: 10px;
+  color: #94a3b8;
+  font-weight: 500;
+}
+
+.manage-sidebar-nav {
+  flex: 1;
+  padding: 0 16px;
+}
+
+.manage-sidebar-footer {
+  padding: 0 16px;
+  margin-top: auto;
+}
+
+.manage-main-content {
+  flex: 1;
+  margin-left: 260px;
+  padding: 32px 48px;
+}
+
+.manage-navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 32px;
+}
+
+.manage-nav-title {
+  font-size: 24px;
+  font-weight: 800;
+  color: #1a1a1a;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.manage-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.manage-search {
+  background: #f1f5f9;
+  border-radius: 8px;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.manage-search input {
+  background: transparent;
+  border: none;
+  outline: none;
+  font-size: 13px;
+  color: #1e293b;
+  width: 180px;
+}
+
+.nav-group-label {
+  font-size: 11px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #94a3b8;
+  padding: 0 8px;
+  margin-bottom: 12px;
+}
+
+.cd-nav-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 12px 16px;
+  border-radius: 12px;
+  color: #64748b;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 14px;
+  transition: all 0.2s ease;
+  cursor: pointer;
+  margin-bottom: 4px;
+}
+
+.cd-nav-item:hover {
+  background: #f1f5f9;
+  color: #1e293b;
+}
+
+.cd-nav-item.active {
+  background: #eefdf5;
+  color: #2d5a3f;
+}
+
+.manage-ranchers-main {
+  padding-top: 0;
+}
+
+.create-rancher-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f7fbf8 100%);
+  border: 1px solid #dbe8df;
+  border-radius: 20px;
+  padding: 20px;
+  box-shadow: 0 8px 24px rgba(19, 33, 23, 0.08);
+}
+
+.create-rancher-card h2 {
+  margin: 0 0 16px 0;
+  font-size: 20px;
+  color: #1f3a2b;
+}
+
+.create-rancher-form {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.credential-input {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  border: 1px solid #dbe3e8;
+  border-radius: 12px;
+  padding: 0 12px;
+  color: #64748b;
+  min-height: 44px;
+}
+
+.credential-input input,
+.credential-input select {
+  width: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  padding: 12px 0;
+  font-size: 14px;
+  color: #0f172a;
+}
+
+.credential-actions {
+  grid-column: 1 / -1;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.btn-generate-password,
+.btn-add-rancher,
+.btn-mini {
+  border: none;
+  border-radius: 10px;
+  padding: 10px 14px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-generate-password {
+  background: #e2e8f0;
+  color: #334155;
+}
+
+.btn-generate-password:hover { background: #cbd5e1; }
+
+.btn-add-rancher {
+  background: #2d5a3f;
+  color: #ffffff;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn-add-rancher:hover { background: #1f432e; }
+
+.btn-add-rancher:disabled { opacity: 0.7; cursor: not-allowed; }
+
+.ranchers-list-main { padding: 18px 0 0; }
+
+.ranchers-grid.compact-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+  background: transparent;
+  box-shadow: none;
+  overflow: visible;
+}
+
+.rancher-row-card.compact-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 16px;
+  border: 1px solid #e2e8f0;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0 4px 14px rgba(15, 23, 42, 0.05);
+  gap: 14px;
+  cursor: pointer;
+  min-height: 92px;
+}
+
+.rancher-row-card.compact-card:hover {
+  border-color: #2d5a3f;
+  box-shadow: 0 8px 22px rgba(45, 90, 63, 0.12);
+  transform: translateY(-1px);
+}
+
+.compact-details { flex: 1; }
+
+.rancher-details h3 {
+  font-size: 15px;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin: 0 0 4px 0;
+}
+
+.rancher-meta {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  color: #64748b;
+  font-size: 13px;
+}
+
+.worker-badges {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 8px;
+}
+
+.worker-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 4px 8px;
+  border-radius: 999px;
+  background: #2d5a3f;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+}
+
+.worker-badge.subtle { background: #f1f5f9; color: #334155; }
+
+.compact-actions { display: flex; gap: 8px; flex-shrink: 0; }
+.btn-mini { width: 34px; height: 34px; display: inline-flex; align-items: center; justify-content: center; padding: 0; }
+.btn-edit { background: #eff6ff; color: #2563eb; }
+.btn-edit:hover { background: #dbeafe; }
+.btn-delete { background: #fef2f2; color: #ef4444; }
+.btn-delete:hover { background: #fee2e2; }
+.loading, .no-data { text-align: center; padding: 40px; color: #94a3b8; }
+
+.worker-modal-backdrop { position: fixed; inset: 0; background: rgba(15, 23, 42, 0.55); display: flex; align-items: center; justify-content: center; padding: 20px; z-index: 1000; }
+.worker-modal { width: min(760px, 100%); background: #fff; border-radius: 20px; padding: 24px; box-shadow: 0 24px 80px rgba(15, 23, 42, 0.25); }
+.worker-modal-header { display: flex; align-items: flex-start; justify-content: space-between; gap: 16px; margin-bottom: 20px; }
+.worker-modal-kicker { display: inline-flex; align-items: center; gap: 6px; color: #2d5a3f; font-size: 12px; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; }
+.worker-modal-header h3 { margin: 8px 0 0; font-size: 24px; color: #0f172a; }
+.worker-modal-close { width: 38px; height: 38px; border: 1px solid #e2e8f0; background: #fff; border-radius: 12px; cursor: pointer; }
+.worker-modal-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 14px; }
+.worker-modal-grid label { display: block; font-size: 11px; color: #64748b; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 6px; font-weight: 700; }
+.worker-modal-grid p { margin: 0; color: #0f172a; font-weight: 600; }
+
+@media (max-width: 1200px) {
+  .ranchers-grid.compact-grid { grid-template-columns: 1fr; }
+  .create-rancher-form { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 700px) {
+  .create-rancher-form, .worker-modal-grid { grid-template-columns: 1fr; }
+  .credential-actions { flex-direction: column; }
+  .btn-generate-password, .btn-add-rancher { width: 100%; }
+  .rancher-row-card.compact-card { flex-direction: column; align-items: flex-start; }
+  .compact-actions { width: 100%; justify-content: flex-end; }
+  .manage-main-content { margin-left: 80px; padding: 24px; }
+  .manage-sidebar { width: 80px; }
+  .manage-sidebar span, .nav-group-label, .manage-logo-text { display: none; }
+}

@@ -1,0 +1,130 @@
+@import url("../Dashboard.css");
+
+.attendance-sheet-main {
+  padding-top: 32px;
+}
+
+.sheet-card {
+  background: #fff;
+  border: 1px solid #e2e8f0;
+  border-radius: 18px;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05);
+}
+
+.sheet-scroll {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
+  scrollbar-gutter: stable both-edges;
+  scrollbar-width: thin;
+  scrollbar-color: #94a3b8 #e2e8f0;
+}
+
+.sheet-table {
+  border-collapse: collapse;
+  width: max-content;
+  min-width: 2200px;
+}
+
+.sheet-table th,
+.sheet-table td {
+  border-bottom: 1px solid #e5e7eb;
+  border-right: 1px solid #f1f5f9;
+  padding: 8px 8px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.sheet-table thead th {
+  background: #f8fafc;
+  font-size: 12px;
+  font-weight: 800;
+  color: #0f172a;
+}
+
+.sticky-name {
+  position: sticky;
+  left: 0;
+  z-index: 2;
+  background: #fff;
+  text-align: left !important;
+  min-width: 180px;
+  max-width: 180px;
+}
+
+.sheet-table thead .sticky-name {
+  background: #f8fafc;
+  z-index: 3;
+}
+
+.worker-name-cell {
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.day-group {
+  min-width: 52px;
+}
+
+.mini-col {
+  min-width: 28px;
+}
+
+.sheet-mark {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  border-radius: 999px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.sheet-mark.present {
+  background: #dcfce7;
+  color: #16a34a;
+}
+
+.sheet-mark.absent {
+  background: #fee2e2;
+  color: #dc2626;
+}
+
+.sheet-loading {
+  padding: 32px;
+  text-align: center;
+  color: #64748b;
+}
+
+.sheet-scroll::-webkit-scrollbar {
+  height: 12px;
+  width: 12px;
+}
+
+.sheet-scroll::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 999px;
+}
+
+.sheet-scroll::-webkit-scrollbar-track {
+  background: #e2e8f0;
+  border-radius: 999px;
+}
+
+.future-day {
+  background: #f8fafc;
+  color: #cbd5e1;
+}
+
+.sheet-mark.blank {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+}
